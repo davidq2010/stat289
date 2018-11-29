@@ -1,0 +1,2924 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title charset="utf-8">Programming Languages</title>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"> </script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+  <link href="../css/custom.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <nav class="navbar navbar-default navbar-darkbg-dark navbar-fixed-top">
+   <div class="container">
+    <div class="navbar-header">
+     <a class="navbar-brand" href="../index.html">Programming Languages</a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-docs">
+       <a class="nav-link" href="../docs.html">Docs</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-clusters">
+       <a class="nav-link" href="../clusters.html">Clusters</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-viz">
+       <a class="nav-link" href="../viz.html">Viz</a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <div class="container" style="padding-top: 30px;">
+   <div class="row">
+    <div class="col-sm-4">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Ken_Thompson_and_Dennis_Ritchie.jpg/220px-Ken_Thompson_and_Dennis_Ritchie.jpg" style="max-width: 300px"/>
+    </div>
+    <div class="col-sm-8">
+     <h1>C (programming language)</h1>
+     <p>
+      <b>C</b>
+       (
+      <span class="nowrap">
+       <span class="IPA nopopups noexcerpt">
+        <a href="#" title="Help:IPA/English">
+         /
+         <span style="border-bottom:1px dotted">
+          <span title="'s' in 'sigh'">s</span>
+          <span title="/iː/: 'ee' in 'fleece'">iː</span>
+         </span>
+         /
+        </a>
+       </span>
+      </span>
+      , as in the 
+      <a href="#" title="C">
+       letter 
+       <i>c</i>
+      </a>
+      ) is a 
+      <a href="#" title="General-purpose language">general-purpose</a>
+      , 
+      <a href="#" title="Imperative programming">imperative</a>
+       computer 
+      <a href="#" title="Programming language">programming language</a>
+      , supporting 
+      <a href="#" title="Structured programming">structured programming</a>
+      , 
+      <a class="mw-redirect" href="#" title="Lexical variable scope">lexical variable scope</a>
+       and 
+      <a href="#" title="Recursion (computer science)">recursion</a>
+      , while a 
+      <a class="mw-redirect" href="#" title="Static type system">static type system</a>
+       prevents many unintended operations. By design, C provides constructs that map efficiently to typical 
+      <a href="#" title="Machine code">machine instructions</a>
+      , and therefore it has found lasting use in applications that had formerly been coded in 
+      <a href="#" title="Assembly language">assembly language</a>
+      , including 
+      <a href="#" title="Operating system">operating systems</a>
+      , as well as various 
+      <a href="#" title="Application software">application software</a>
+       for computers ranging from 
+      <a href="#" title="Supercomputer">supercomputers</a>
+       to 
+      <a href="#" title="Embedded system">embedded systems</a>
+      .
+
+     </p>
+    </div>
+   </div>
+   <h3 style="padding-top: 15px">Page Revisions</h3>
+   <table style="text-align: left; margin: 0px auto">
+    <tr>
+     <td>
+      <b>Year</b>
+     </td>
+     <td>
+      <b>Metadata</b>
+     </td>
+     <td>
+      <b>Sections</b>
+     </td>
+     <td>
+      <b>Top Words</b>
+     </td>
+     <td>
+      <b>First Paragraph</b>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912" target="_blank">2018</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">219651 characters</p>
+      <p style="padding: 0px; margin: 0px; ">31 sections</p>
+      <p style="padding: 0px; margin: 0px; ">115 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">18 images</p>
+      <p style="padding: 0px; margin: 0px; ">509 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">49 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#Overview" target="_blank">1. Overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#Syntax" target="_blank">3. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#&quot;Hello,_world&quot;_example" target="_blank">4. &quot;Hello, world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#Data_types" target="_blank">5. Data types</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#Memory_management" target="_blank">6. Memory management</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#Libraries" target="_blank">7. Libraries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#Language_tools" target="_blank">8. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#Uses" target="_blank">9. Uses</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#Related_languages" target="_blank">10. Related languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#See_also" target="_blank">11. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#Notes" target="_blank">12. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#References" target="_blank">13. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#Sources" target="_blank">14. Sources</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#Further_reading" target="_blank">15. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=870922912#External_links" target="_blank">16. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.251</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.220</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.213</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sizeof
+       <span style="color: #bababa; font-size: 12px">0.211</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.160</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unix
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       address
+       <span style="color: #bababa; font-size: 12px">0.138</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       standard
+       <span style="color: #bababa; font-size: 12px">0.116</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c11
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c89
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lint
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bounds
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>C</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/iː/: 'ee' in 'fleece'">iː</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+       , as in the 
+       <a href="#" title="C">
+        letter 
+        <i>c</i>
+       </a>
+       ) is a 
+       <a href="#" title="General-purpose language">general-purpose</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        computer 
+       <a href="#" title="Programming language">programming language</a>
+       , supporting 
+       <a href="#" title="Structured programming">structured programming</a>
+       , 
+       <a class="mw-redirect" href="#" title="Lexical variable scope">lexical variable scope</a>
+        and 
+       <a href="#" title="Recursion (computer science)">recursion</a>
+       , while a 
+       <a class="mw-redirect" href="#" title="Static type system">static type system</a>
+        prevents many unintended operations. By design, C provides constructs that map efficiently to typical 
+       <a href="#" title="Machine code">machine instructions</a>
+       , and therefore it has found lasting use in applications that had formerly been coded in 
+       <a href="#" title="Assembly language">assembly language</a>
+       , including 
+       <a href="#" title="Operating system">operating systems</a>
+       , as well as various 
+       <a href="#" title="Application software">application software</a>
+        for computers ranging from 
+       <a href="#" title="Supercomputer">supercomputers</a>
+        to 
+       <a href="#" title="Embedded system">embedded systems</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018" target="_blank">2017</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">214086 characters</p>
+      <p style="padding: 0px; margin: 0px; ">29 sections</p>
+      <p style="padding: 0px; margin: 0px; ">113 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">19 images</p>
+      <p style="padding: 0px; margin: 0px; ">501 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">46 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#Overview" target="_blank">1. Overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#Syntax" target="_blank">3. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#&quot;Hello,_world&quot;_example" target="_blank">4. &quot;Hello, world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#Data_types" target="_blank">5. Data types</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#Memory_management" target="_blank">6. Memory management</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#Libraries" target="_blank">7. Libraries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#Language_tools" target="_blank">8. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#Uses" target="_blank">9. Uses</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#Related_languages" target="_blank">10. Related languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#See_also" target="_blank">11. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#Notes" target="_blank">12. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#References" target="_blank">13. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#Sources" target="_blank">14. Sources</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#Further_reading" target="_blank">15. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=816966018#External_links" target="_blank">16. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.255</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.224</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.217</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sizeof
+       <span style="color: #bababa; font-size: 12px">0.214</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.163</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unix
+       <span style="color: #bababa; font-size: 12px">0.147</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       address
+       <span style="color: #bababa; font-size: 12px">0.140</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.129</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.110</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c89
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lint
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       standard
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bounds
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       printf
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>C</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/iː/: 'ee' in 'fleece'">iː</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+       , as in the 
+       <a href="#" title="C">
+        letter 
+        <i>c</i>
+       </a>
+       ) is a 
+       <a href="#" title="General-purpose language">general-purpose</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        computer 
+       <a href="#" title="Programming language">programming language</a>
+       , supporting 
+       <a href="#" title="Structured programming">structured programming</a>
+       , 
+       <a class="mw-redirect" href="#" title="Lexical variable scope">lexical variable scope</a>
+        and 
+       <a href="#" title="Recursion (computer science)">recursion</a>
+       , while a 
+       <a class="mw-redirect" href="#" title="Static type system">static type system</a>
+        prevents many unintended operations. By design, C provides constructs that map efficiently to typical 
+       <a class="mw-redirect" href="#" title="Machine instruction">machine instructions</a>
+       , and therefore it has found lasting use in applications that had formerly been coded in 
+       <a href="#" title="Assembly language">assembly language</a>
+       , including 
+       <a href="#" title="Operating system">operating systems</a>
+       , as well as various 
+       <a href="#" title="Application software">application software</a>
+        for computers ranging from 
+       <a href="#" title="Supercomputer">supercomputers</a>
+        to 
+       <a href="#" title="Embedded system">embedded systems</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715" target="_blank">2016</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">211944 characters</p>
+      <p style="padding: 0px; margin: 0px; ">30 sections</p>
+      <p style="padding: 0px; margin: 0px; ">112 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">19 images</p>
+      <p style="padding: 0px; margin: 0px; ">492 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">38 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#Design" target="_blank">1. Design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#Overview" target="_blank">2. Overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#History" target="_blank">3. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#Syntax" target="_blank">4. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#&quot;Hello,_world&quot;_example" target="_blank">5. &quot;Hello, world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#Data_types" target="_blank">6. Data types</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#Memory_management" target="_blank">7. Memory management</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#Libraries" target="_blank">8. Libraries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#Language_tools" target="_blank">9. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#Uses" target="_blank">10. Uses</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#Related_languages" target="_blank">11. Related languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#See_also" target="_blank">12. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#Notes" target="_blank">13. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#References" target="_blank">14. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#Sources" target="_blank">15. Sources</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#Further_reading" target="_blank">16. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=757187715#External_links" target="_blank">17. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.255</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.224</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.217</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sizeof
+       <span style="color: #bababa; font-size: 12px">0.214</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.163</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unix
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       address
+       <span style="color: #bababa; font-size: 12px">0.140</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.129</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.110</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c89
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lint
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       standard
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bounds
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       printf
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>C</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/iː/: 'ee' in 'fleece'">iː</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+       , as in 
+       <a href="#" title="C">
+        the letter 
+        <i>c</i>
+       </a>
+       ) is a 
+       <a href="#" title="General-purpose language">general-purpose</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        computer 
+       <a href="#" title="Programming language">programming language</a>
+       , supporting 
+       <a href="#" title="Structured programming">structured programming</a>
+       , 
+       <a class="mw-redirect" href="#" title="Lexical variable scope">lexical variable scope</a>
+        and 
+       <a href="#" title="Recursion (computer science)">recursion</a>
+       , while a 
+       <a class="mw-redirect" href="#" title="Static type system">static type system</a>
+        prevents many unintended operations. By design, C provides constructs that map efficiently to typical 
+       <a class="mw-redirect" href="#" title="Machine instruction">machine instructions</a>
+       , and therefore it has found lasting use in applications that had formerly been coded in 
+       <a href="#" title="Assembly language">assembly language</a>
+       , including 
+       <a href="#" title="Operating system">operating systems</a>
+       , as well as various 
+       <a href="#" title="Application software">application software</a>
+        for computers ranging from 
+       <a href="#" title="Supercomputer">supercomputers</a>
+        to 
+       <a href="#" title="Embedded system">embedded systems</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057" target="_blank">2015</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">191294 characters</p>
+      <p style="padding: 0px; margin: 0px; ">29 sections</p>
+      <p style="padding: 0px; margin: 0px; ">112 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">18 images</p>
+      <p style="padding: 0px; margin: 0px; ">423 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">40 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#Design" target="_blank">1. Design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#Overview" target="_blank">2. Overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#History" target="_blank">3. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#Syntax" target="_blank">4. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#&quot;Hello,_world&quot;_example" target="_blank">5. &quot;Hello, world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#Data_types" target="_blank">6. Data types</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#Memory_management" target="_blank">7. Memory management</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#Libraries" target="_blank">8. Libraries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#Language_tools" target="_blank">9. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#Uses" target="_blank">10. Uses</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#Related_languages" target="_blank">11. Related languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#See_also" target="_blank">12. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#Notes" target="_blank">13. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#References" target="_blank">14. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#Further_reading" target="_blank">15. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=697309057#External_links" target="_blank">16. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.259</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.227</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.220</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sizeof
+       <span style="color: #bababa; font-size: 12px">0.217</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.165</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unix
+       <span style="color: #bababa; font-size: 12px">0.150</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       address
+       <span style="color: #bababa; font-size: 12px">0.142</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.112</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c89
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       standard
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bounds
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       printf
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       int
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>C</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/iː/: 'ee' in 'fleece'">iː</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+       , as in 
+       <a href="#" title="C">
+        the letter 
+        <i>c</i>
+       </a>
+       ) is a 
+       <a href="#" title="General-purpose language">general-purpose</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        computer 
+       <a href="#" title="Programming language">programming language</a>
+       , supporting 
+       <a href="#" title="Structured programming">structured programming</a>
+       , 
+       <a class="mw-redirect" href="#" title="Lexical variable scope">lexical variable scope</a>
+        and 
+       <a href="#" title="Recursion (computer science)">recursion</a>
+       , while a 
+       <a class="mw-redirect" href="#" title="Static type system">static type system</a>
+        prevents many unintended operations. By design, C provides constructs that map efficiently to typical 
+       <a class="mw-redirect" href="#" title="Machine instruction">machine instructions</a>
+       , and therefore it has found lasting use in applications that had formerly been coded in 
+       <a href="#" title="Assembly language">assembly language</a>
+       , including 
+       <a href="#" title="Operating system">operating systems</a>
+       , as well as various 
+       <a href="#" title="Application software">application software</a>
+        for computers ranging from 
+       <a href="#" title="Supercomputer">supercomputers</a>
+        to 
+       <a href="#" title="Embedded system">embedded systems</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754" target="_blank">2014</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">192160 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">112 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">17 images</p>
+      <p style="padding: 0px; margin: 0px; ">427 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">43 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#Design" target="_blank">1. Design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#Characteristics" target="_blank">2. Characteristics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#History" target="_blank">3. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#Syntax" target="_blank">4. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#&quot;Hello,_world&quot;_example" target="_blank">5. &quot;Hello, world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#Data_types" target="_blank">6. Data types</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#Memory_management" target="_blank">7. Memory management</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#Libraries" target="_blank">8. Libraries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#Language_tools" target="_blank">9. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#Uses" target="_blank">10. Uses</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#Related_languages" target="_blank">11. Related languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#See_also" target="_blank">12. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#Notes" target="_blank">13. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#References" target="_blank">14. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#Further_reading" target="_blank">15. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=640161754#External_links" target="_blank">16. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.270</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.222</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.215</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sizeof
+       <span style="color: #bababa; font-size: 12px">0.212</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.170</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.161</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       address
+       <span style="color: #bababa; font-size: 12px">0.139</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unix
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c89
+       <span style="color: #bababa; font-size: 12px">0.127</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       standard
+       <span style="color: #bababa; font-size: 12px">0.117</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bounds
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       printf
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       int
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       character
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       In 
+       <a href="#" title="Computing">computing</a>
+       , 
+       <b>C</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/iː/: 'ee' in 'fleece'">iː</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+       , as in 
+       <a href="#" title="C">the letter C</a>
+       ) is a general-purpose 
+       <a href="#" title="Programming language">programming language</a>
+        initially developed by 
+       <a href="#" title="Dennis Ritchie">Dennis Ritchie</a>
+        between 1969 and 1973 at 
+       <a class="mw-redirect" href="#" title="AT&amp;T Bell Labs">AT&amp;T Bell Labs</a>
+       .
+       <sup class="reference" id="cite_ref-chistory_5-0">
+        <a href="#">[5]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-ie_6-0">
+        <a href="#">[6]</a>
+       </sup>
+        Like most 
+       <a class="mw-redirect" href="#" title="Imperative language">imperative languages</a>
+        in the 
+       <a href="#" title="ALGOL">ALGOL</a>
+        tradition, C has facilities for 
+       <a href="#" title="Structured programming">structured programming</a>
+        and allows 
+       <a class="mw-redirect" href="#" title="Lexical scope">lexical variable scope</a>
+        and 
+       <a href="#" title="Recursion (computer science)">recursion</a>
+       , while a 
+       <a class="mw-redirect" href="#" title="Static type system">static type system</a>
+        prevents many unintended operations. Its design provides constructs that map efficiently to typical 
+       <a class="mw-redirect" href="#" title="Machine instruction">machine instructions</a>
+       , and therefore it has found lasting use in applications that had formerly been coded in 
+       <a href="#" title="Assembly language">assembly language</a>
+       , most notably 
+       <a href="#" title="System software">system software</a>
+        like the 
+       <a href="#" title="Unix">Unix</a>
+        computer 
+       <a href="#" title="Operating system">operating system</a>
+       .
+       <sup class="reference" id="cite_ref-AutoTX-1_7-0">
+        <a href="#">[7]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661" target="_blank">2013</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">178754 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">112 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">15 images</p>
+      <p style="padding: 0px; margin: 0px; ">384 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">30 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#Design" target="_blank">1. Design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#Characteristics" target="_blank">2. Characteristics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#History" target="_blank">3. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#Syntax" target="_blank">4. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#&quot;Hello,_world&quot;_example" target="_blank">5. &quot;Hello, world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#Data_types" target="_blank">6. Data types</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#Memory_management" target="_blank">7. Memory management</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#Libraries" target="_blank">8. Libraries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#Language_tools" target="_blank">9. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#Uses" target="_blank">10. Uses</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#Related_languages" target="_blank">11. Related languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#See_also" target="_blank">12. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#Notes" target="_blank">13. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#References" target="_blank">14. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#Further_reading" target="_blank">15. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=587928661#External_links" target="_blank">16. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.271</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.223</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.216</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sizeof
+       <span style="color: #bababa; font-size: 12px">0.213</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.171</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.162</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       address
+       <span style="color: #bababa; font-size: 12px">0.140</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unix
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c89
+       <span style="color: #bababa; font-size: 12px">0.128</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       standard
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bounds
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       printf
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       int
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       character
+       <span style="color: #bababa; font-size: 12px">0.098</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       In 
+       <a href="#" title="Computing">computing</a>
+       , 
+       <b>C</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/iː/: 'ee' in 'fleece'">iː</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+       , as in 
+       <a href="#" title="C">the letter C</a>
+       ) is a general-purpose 
+       <a href="#" title="Programming language">programming language</a>
+        initially developed by 
+       <a href="#" title="Dennis Ritchie">Dennis Ritchie</a>
+        between 1969 and 1973 at 
+       <a class="mw-redirect" href="#" title="AT&amp;T Bell Labs">AT&amp;T Bell Labs</a>
+       .
+       <sup class="reference" id="cite_ref-ie_4-0">
+        <a href="#">[4]</a>
+       </sup>
+        Like most 
+       <a class="mw-redirect" href="#" title="Imperative language">imperative languages</a>
+        in the 
+       <a href="#" title="ALGOL">ALGOL</a>
+        tradition, C has facilities for 
+       <a href="#" title="Structured programming">structured programming</a>
+        and allows 
+       <a class="mw-redirect" href="#" title="Lexical scope">lexical variable scope</a>
+        and 
+       <a href="#" title="Recursion (computer science)">recursion</a>
+       , while a 
+       <a class="mw-redirect" href="#" title="Static type system">static type system</a>
+        prevents many unintended operations. Its design provides constructs that map efficiently to typical 
+       <a class="mw-redirect" href="#" title="Machine instruction">machine instructions</a>
+       , and therefore it has found lasting use in applications that had formerly been coded in 
+       <a href="#" title="Assembly language">assembly language</a>
+       , most notably 
+       <a href="#" title="System software">system software</a>
+        like the 
+       <a href="#" title="Unix">Unix</a>
+        computer 
+       <a href="#" title="Operating system">operating system</a>
+       .
+       <sup class="reference" id="cite_ref-AutoTX-1_5-0">
+        <a href="#">[5]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445" target="_blank">2012</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">157457 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">112 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">8 images</p>
+      <p style="padding: 0px; margin: 0px; ">360 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">23 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#Design" target="_blank">1. Design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#Characteristics" target="_blank">2. Characteristics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#History" target="_blank">3. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#Syntax" target="_blank">4. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#&quot;Hello,_world&quot;_example" target="_blank">5. &quot;Hello, world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#Data_types" target="_blank">6. Data types</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#Memory_management" target="_blank">7. Memory management</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#Libraries" target="_blank">8. Libraries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#Language_tools" target="_blank">9. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#Uses" target="_blank">10. Uses</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#Related_languages" target="_blank">11. Related languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#See_also" target="_blank">12. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#Notes" target="_blank">13. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#References" target="_blank">14. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#Further_reading" target="_blank">15. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=530334445#External_links" target="_blank">16. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.269</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.221</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.212</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.203</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sizeof
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unix
+       <span style="color: #bababa; font-size: 12px">0.129</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       address
+       <span style="color: #bababa; font-size: 12px">0.127</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       standard
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c11
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c89
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bounds
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       printf
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       standards
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       In 
+       <a href="#" title="Computing">computing</a>
+       , 
+       <b>C</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/iː/: 'ee' in 'fleece'">iː</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+       , like 
+       <a href="#" title="C">the letter C</a>
+       ) is a general-purpose 
+       <a href="#" title="Programming language">programming language</a>
+        initially developed by 
+       <a href="#" title="Dennis Ritchie">Dennis Ritchie</a>
+        between 1969 and 1973 at 
+       <a class="mw-redirect" href="#" title="AT&amp;T Bell Labs">AT&amp;T Bell Labs</a>
+       .
+       <sup class="reference" id="cite_ref-ie_3-0">
+        <a href="#">[3]</a>
+       </sup>
+        Its design provides constructs that map efficiently to typical machine instructions, and therefore it found lasting use in applications that had formerly been coded in 
+       <a href="#" title="Assembly language">assembly language</a>
+       , most notably 
+       <a href="#" title="System software">system software</a>
+        like the 
+       <a href="#" title="Unix">Unix</a>
+        computer 
+       <a href="#" title="Operating system">operating system</a>
+       .
+       <sup class="reference" id="cite_ref-AutoTX-1_4-0">
+        <a href="#">[4]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882" target="_blank">2011</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">142342 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">100 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">6 images</p>
+      <p style="padding: 0px; margin: 0px; ">347 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">18 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#Design" target="_blank">1. Design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#Characteristics" target="_blank">2. Characteristics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#History" target="_blank">3. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#Uses" target="_blank">4. Uses</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#Syntax" target="_blank">5. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#&quot;Hello,_world&quot;_example" target="_blank">6. &quot;Hello, world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#Data_types" target="_blank">7. Data types</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#Memory_management" target="_blank">8. Memory management</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#Libraries" target="_blank">9. Libraries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#Language_tools" target="_blank">10. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#Related_languages" target="_blank">11. Related languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#See_also" target="_blank">12. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#Notes" target="_blank">13. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#References" target="_blank">14. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#Further_reading" target="_blank">15. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=468128882#External_links" target="_blank">16. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.260</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.247</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.211</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.172</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sizeof
+       <span style="color: #bababa; font-size: 12px">0.151</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       address
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.129</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       printf
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointed
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       int
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       points
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       standard
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocate
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c89
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>C</b>
+        (pronounced like 
+       <a href="#" title="C">the letter C</a>
+       ) is a general-purpose computer 
+       <a href="#" title="Programming language">programming language</a>
+        developed between 1969 and 1973 by 
+       <a href="#" title="Dennis Ritchie">Dennis Ritchie</a>
+        at the 
+       <a class="mw-redirect" href="#" title="Bell Telephone Laboratories">Bell Telephone Laboratories</a>
+        for use with the 
+       <a href="#" title="Unix">Unix</a>
+        
+       <a href="#" title="Operating system">operating system</a>
+       .
+       <sup class="reference" id="cite_ref-ie_3-0">
+        <a href="#">[3]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966" target="_blank">2010</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">125030 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">96 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">4 images</p>
+      <p style="padding: 0px; margin: 0px; ">327 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">19 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#Design" target="_blank">1. Design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#Characteristics" target="_blank">2. Characteristics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#History" target="_blank">3. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#Uses" target="_blank">4. Uses</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#Syntax" target="_blank">5. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#&quot;Hello,_world&quot;_example" target="_blank">6. &quot;Hello, world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#Data_types" target="_blank">7. Data types</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#Memory_management" target="_blank">8. Memory management</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#Libraries" target="_blank">9. Libraries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#Language_tools" target="_blank">10. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#Related_languages" target="_blank">11. Related languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#See_also" target="_blank">12. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#References" target="_blank">13. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#Further_reading" target="_blank">14. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=404939966#External_links" target="_blank">15. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.221</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.200</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.198</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.193</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bounds
+       <span style="color: #bababa; font-size: 12px">0.161</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sizeof
+       <span style="color: #bababa; font-size: 12px">0.152</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.127</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       printf
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointed
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       address
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compilers
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       array
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       int
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       points
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>C</b>
+        (
+       <small>pronounced </small>
+       <span class="nowrap">
+        <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+         <a href="#" title="Help:IPA/English">/ˈsiː/</a>
+        </span>
+       </span>
+       <i>
+        <small>
+         <sup> (deprecated template)</sup>
+        </small>
+       </i>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">see</i>
+       </a>
+       ) is a general-purpose computer 
+       <a href="#" title="Programming language">programming language</a>
+        developed in 1972 by 
+       <a href="#" title="Dennis Ritchie">Dennis Ritchie</a>
+        at the 
+       <a class="mw-redirect" href="#" title="Bell Telephone Laboratories">Bell Telephone Laboratories</a>
+        for use with the 
+       <a href="#" title="Unix">Unix</a>
+        
+       <a href="#" title="Operating system">operating system</a>
+       .
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875" target="_blank">2009</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">124172 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">107 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">4 images</p>
+      <p style="padding: 0px; margin: 0px; ">349 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">19 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#Design" target="_blank">1. Design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#Characteristics" target="_blank">2. Characteristics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#History" target="_blank">3. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#Uses" target="_blank">4. Uses</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#Syntax" target="_blank">5. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#&quot;Hello,_world&quot;_example" target="_blank">6. &quot;Hello, world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#Data_structures" target="_blank">7. Data structures</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#Memory_management" target="_blank">8. Memory management</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#Libraries" target="_blank">9. Libraries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#Language_tools" target="_blank">10. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#Related_languages" target="_blank">11. Related languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#See_also" target="_blank">12. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#Footnotes" target="_blank">13. Footnotes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#References" target="_blank">14. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=335084875#External_links" target="_blank">15. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.203</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.184</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.182</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.171</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bounds
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sizeof
+       <span style="color: #bababa; font-size: 12px">0.140</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       undefined
+       <span style="color: #bababa; font-size: 12px">0.134</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       integer
+       <span style="color: #bababa; font-size: 12px">0.125</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compilers
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       address
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.116</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       printf
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       float
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointed
+       <span style="color: #bababa; font-size: 12px">0.110</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>C</b>
+        is a general-purpose computer 
+       <a href="#" title="Programming language">programming language</a>
+        developed in 1972 by 
+       <a href="#" title="Dennis Ritchie">Dennis Ritchie</a>
+        at the 
+       <a class="mw-redirect" href="#" title="Bell Telephone Laboratories">Bell Telephone Laboratories</a>
+        for use with the 
+       <a href="#" title="Unix">Unix</a>
+        
+       <a href="#" title="Operating system">operating system</a>
+       .
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[2]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186" target="_blank">2008</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">116714 characters</p>
+      <p style="padding: 0px; margin: 0px; ">26 sections</p>
+      <p style="padding: 0px; margin: 0px; ">98 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">330 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">14 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#Philosophy" target="_blank">1. Philosophy</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#Characteristics" target="_blank">2. Characteristics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#History" target="_blank">3. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#Uses" target="_blank">4. Uses</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#Syntax" target="_blank">5. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#&quot;Hello,_world&quot;_example" target="_blank">6. &quot;Hello, world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#Data_structures" target="_blank">7. Data structures</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#Memory_management" target="_blank">8. Memory management</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#Libraries" target="_blank">9. Libraries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#Minimalism" target="_blank">10. Minimalism</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#Language_tools" target="_blank">11. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#Related_languages" target="_blank">12. Related languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#See_also" target="_blank">13. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#Footnotes" target="_blank">14. Footnotes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#References" target="_blank">15. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=260577186#External_links" target="_blank">16. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.214</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.191</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.186</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.179</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bounds
+       <span style="color: #bababa; font-size: 12px">0.155</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.147</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sizeof
+       <span style="color: #bababa; font-size: 12px">0.147</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       undefined
+       <span style="color: #bababa; font-size: 12px">0.128</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       address
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.125</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compilers
+       <span style="color: #bababa; font-size: 12px">0.117</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       printf
+       <span style="color: #bababa; font-size: 12px">0.116</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointed
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       behavior
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       array
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       In 
+       <a href="#" title="Computing">computing</a>
+       , 
+       <b>C</b>
+        is a general-purpose computer 
+       <a href="#" title="Programming language">programming language</a>
+        originally developed in 1972 by 
+       <a href="#" title="Dennis Ritchie">Dennis Ritchie</a>
+        at the 
+       <a class="mw-redirect" href="#" title="Bell Telephone Laboratories">Bell Telephone Laboratories</a>
+        for use with the 
+       <a href="#" title="Unix">Unix</a>
+        
+       <a href="#" title="Operating system">operating system</a>
+       .
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[2]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180" target="_blank">2007</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">109390 characters</p>
+      <p style="padding: 0px; margin: 0px; ">36 sections</p>
+      <p style="padding: 0px; margin: 0px; ">83 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">5 images</p>
+      <p style="padding: 0px; margin: 0px; ">284 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">23 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#Philosophy" target="_blank">1. Philosophy</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#Characteristics" target="_blank">2. Characteristics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#History" target="_blank">3. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#Uses" target="_blank">4. Uses</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#Syntax" target="_blank">5. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#C_Operators" target="_blank">6. C Operators</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#&quot;Hello,_world&quot;_example" target="_blank">7. &quot;Hello, world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#Data_structures" target="_blank">8. Data structures</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#Memory_management" target="_blank">9. Memory management</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#Libraries" target="_blank">10. Libraries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#Criticism" target="_blank">11. Criticism</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#Tools_for_mitigating_issues_with_C" target="_blank">12. Tools for mitigating issues with C</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#Related_languages" target="_blank">13. Related languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#See_also" target="_blank">14. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#Notes" target="_blank">15. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#References" target="_blank">16. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=180814180#External_links" target="_blank">17. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.286</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.166</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c89
+       <span style="color: #bababa; font-size: 12px">0.166</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c90
+       <span style="color: #bababa; font-size: 12px">0.166</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sizeof
+       <span style="color: #bababa; font-size: 12px">0.166</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.159</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.152</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       printf
+       <span style="color: #bababa; font-size: 12px">0.132</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointed
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compilers
+       <span style="color: #bababa; font-size: 12px">0.112</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lint
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stdio
+       <span style="color: #bababa; font-size: 12px">0.110</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unix
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>C</b>
+        is a general-purpose, 
+       <a class="mw-redirect" href="#" title="Statement block"> block structured</a>
+       , 
+       <a href="#" title="Procedural programming">procedural</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        computer 
+       <a href="#" title="Programming language">programming language</a>
+        developed in 1972 by 
+       <a href="#" title="Dennis Ritchie">Dennis Ritchie</a>
+        at the 
+       <a class="mw-redirect" href="#" title="Bell Telephone Laboratories">Bell Telephone Laboratories</a>
+        for use with the 
+       <a href="#" title="Unix">Unix</a>
+        
+       <a href="#" title="Operating system">operating system</a>
+       .
+       <sup class="reference" id="cite_ref-1">
+        <a href="#">[1]</a>
+       </sup>
+        It has since spread to many other platforms. Although C was designed as a 
+       <a href="#" title="System software">system implementation language</a>
+       ,
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[2]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+       
+it is also widely used for 
+       <a href="#" title="Application software">applications</a>
+       . C has also greatly influenced many other popular languages,
+       <sup class="reference" id="cite_ref-4">
+        <a href="#">[4]</a>
+       </sup>
+        especially 
+       <a href="#" title="C++">C++</a>
+       , which was originally designed as an extension to C.
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=97595049" target="_blank">2006</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">96064 characters</p>
+      <p style="padding: 0px; margin: 0px; ">31 sections</p>
+      <p style="padding: 0px; margin: 0px; ">82 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">5 images</p>
+      <p style="padding: 0px; margin: 0px; ">240 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">29 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=97595049#Philosophy" target="_blank">1. Philosophy</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=97595049#Characteristics" target="_blank">2. Characteristics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=97595049#History" target="_blank">3. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=97595049#Usage" target="_blank">4. Usage</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=97595049#Syntax" target="_blank">5. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=97595049#Libraries" target="_blank">6. Libraries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=97595049#Criticism" target="_blank">7. Criticism</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=97595049#Tools_for_mitigating_issues_with_C" target="_blank">8. Tools for mitigating issues with C</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=97595049#Related_languages" target="_blank">9. Related languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=97595049#Notes" target="_blank">10. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=97595049#References" target="_blank">11. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=97595049#See_also" target="_blank">12. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=97595049#External_links" target="_blank">13. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.283</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.226</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sizeof
+       <span style="color: #bababa; font-size: 12px">0.178</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.171</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.156</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c89
+       <span style="color: #bababa; font-size: 12px">0.149</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c90
+       <span style="color: #bababa; font-size: 12px">0.149</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointed
+       <span style="color: #bababa; font-size: 12px">0.140</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.139</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.139</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compilers
+       <span style="color: #bababa; font-size: 12px">0.128</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lint
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       printf
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       address
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       array
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>C</b>
+        is a general-purpose, 
+       <a href="#" title="Procedural programming">procedural</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        
+       <a href="#" title="Computer programming">computer</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        developed in 1972 by 
+       <a href="#" title="Dennis Ritchie">Dennis Ritchie</a>
+        at the Bell Telephone Laboratories for use with the 
+       <a href="#" title="Unix">Unix</a>
+        
+       <a href="#" title="Operating system">operating system</a>
+       .
+       <sup class="reference" id="cite_ref-1">
+        <a href="#">[1]</a>
+       </sup>
+        It has since spread to many other operating systems, and is now one of the most widely used programming languages. C has also greatly influenced many other popular languages,
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[2]</a>
+       </sup>
+        especially 
+       <a href="#" title="C++">C++</a>
+       , which was originally designed as an enhancement to C. It is the most commonly used programming language for writing 
+       <a href="#" title="System software">system software</a>
+       ,
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-4">
+        <a href="#">[4]</a>
+       </sup>
+       
+though it is also widely used for writing 
+       <a href="#" title="Application software">applications</a>
+       .
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=33372851" target="_blank">2005</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">78430 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">74 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">173 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">22 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=33372851#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=33372851#Criticism" target="_blank">2. Criticism</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=33372851#History" target="_blank">3. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=33372851#Relation_to_C++" target="_blank">4. Relation to C++</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=33372851#Intermediate_language" target="_blank">5. Intermediate language</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=33372851#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=33372851#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=33372851#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.267</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.243</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.203</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unpredictable
+       <span style="color: #bababa; font-size: 12px">0.183</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.176</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.175</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       printf
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       variadic
+       <span style="color: #bababa; font-size: 12px">0.144</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compilers
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       __stdc__
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bounds
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bjarne
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stdio
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stroustrup
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>C programming language</b>
+        is a standardized 
+       <a href="#" title="Imperative programming">imperative</a>
+        
+       <a href="#" title="Computer programming">computer</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        developed in the early 1970s by 
+       <a href="#" title="Dennis Ritchie">Dennis Ritchie</a>
+        for use on the 
+       <a href="#" title="Unix">Unix</a>
+        
+       <a href="#" title="Operating system">operating system</a>
+       . It has since spread to many other operating systems, and is one of the most widely used programming languages. C is prized for its efficiency, and is the most popular programming language for writing 
+       <a href="#" title="System software">system software</a>
+       , though it is also used for writing 
+       <a href="#" title="Application software">applications</a>
+       . It is also commonly used in 
+       <a href="#" title="Computer science">computer science</a>
+        
+       <a href="#" title="Education">education</a>
+       , despite not being designed for novices.
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=9035899" target="_blank">2004</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">78493 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">65 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">1 images</p>
+      <p style="padding: 0px; margin: 0px; ">205 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">28 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=9035899#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=9035899#Problems_with_C" target="_blank">2. Problems with C</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=9035899#History" target="_blank">3. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=9035899#Relation_to_C++" target="_blank">4. Relation to C++</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=9035899#Common_practices" target="_blank">5. Common practices</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=9035899#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=9035899#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=9035899#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.247</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.228</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unpredictable
+       <span style="color: #bababa; font-size: 12px">0.228</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       allocation
+       <span style="color: #bababa; font-size: 12px">0.204</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.181</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       printf
+       <span style="color: #bababa; font-size: 12px">0.181</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointers
+       <span style="color: #bababa; font-size: 12px">0.154</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       variadic
+       <span style="color: #bababa; font-size: 12px">0.132</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructors
+       <span style="color: #bababa; font-size: 12px">0.129</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       address
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assembly
+       <span style="color: #bababa; font-size: 12px">0.110</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dimensional
+       <span style="color: #bababa; font-size: 12px">0.110</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dangling
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       header
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       memory
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>C programming language</b>
+        is a low-level standardized 
+       <a href="#" title="Programming language">programming language</a>
+        developed in the early 
+       <a href="#" title="1970s">1970s</a>
+        by 
+       <a href="#" title="Ken Thompson">Ken Thompson</a>
+        and 
+       <a href="#" title="Dennis Ritchie">Dennis Ritchie</a>
+        for use on the 
+       <a href="#" title="Unix">UNIX</a>
+        
+       <a href="#" title="Operating system">operating system</a>
+       . It has since spread to many other operating systems, and is one of the most widely used programming languages. C is prized for its efficiency, and is the most popular programming language for writing 
+       <a href="#" title="System software">system software</a>
+       , though it is also used for writing 
+       <a href="#" title="Application software">applications</a>
+       . It is also commonly used in 
+       <a href="#" title="Computer science">computer science</a>
+        
+       <a href="#" title="Education">education</a>
+       , despite not being designed for novices.
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=2068525" target="_blank">2003</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">56518 characters</p>
+      <p style="padding: 0px; margin: 0px; ">26 sections</p>
+      <p style="padding: 0px; margin: 0px; ">75 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">1 images</p>
+      <p style="padding: 0px; margin: 0px; ">218 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">6 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=2068525#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=2068525#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=2068525#Versions_of_C" target="_blank">3. Versions of C</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=2068525#&quot;Hello,_World!&quot;_in_C" target="_blank">4. &quot;Hello, World!&quot; in C</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=2068525#Anatomy_of_a_C_Program" target="_blank">5. Anatomy of a C Program</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=2068525#The_C_Library" target="_blank">6. The C Library</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=2068525#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=2068525#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.331</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       statement
+       <span style="color: #bababa; font-size: 12px">0.243</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.177</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.176</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       switch
+       <span style="color: #bababa; font-size: 12px">0.168</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expression
+       <span style="color: #bababa; font-size: 12px">0.151</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iso
+       <span style="color: #bababa; font-size: 12px">0.150</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       9899
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compound
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       statements
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       label
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bcpl
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iteration
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       break
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <br/>
+       
+
+       <b>C</b>
+        is a 
+       <a href="#" title="Free-form language">free-form</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        developed by 
+       <a href="#" title="Dennis Ritchie">Dennis Ritchie</a>
+       , in the early 
+       <a href="#" title="1970s">1970s</a>
+       , from 
+       <a href="#" title="BCPL">BCPL</a>
+       ; for use on the 
+       <a class="mw-redirect" href="#" title="UNIX">UNIX</a>
+        
+       <a href="#" title="Operating system">operating system</a>
+       . C is the most widely used 
+       <a href="#" title="Language">language</a>
+        for writing 
+       <a href="#" title="System software">system software</a>
+       ; it is also used for writing 
+       <a class="mw-disambig" href="#" title="Application">applications</a>
+       . C is one of the most frequently used programming languages in 
+       <a href="#" title="Computer science">computer science</a>
+        
+       <a href="#" title="Education">education</a>
+       . 
+       <a class="mw-redirect" href="#" title="C Plus Plus">C++</a>
+        was developed from C.
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=557944" target="_blank">2002</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">32540 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">67 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">1 images</p>
+      <p style="padding: 0px; margin: 0px; ">65 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">1 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=557944#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=557944#Versions_of_C" target="_blank">2. Versions of C</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=557944#&quot;Hello,_World!&quot;_in_C" target="_blank">3. &quot;Hello, World!&quot; in C</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=557944#Anatomy_of_a_C_Program" target="_blank">4. Anatomy of a C Program</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=557944#References" target="_blank">5. References</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.346</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       statement
+       <span style="color: #bababa; font-size: 12px">0.251</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.247</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       switch
+       <span style="color: #bababa; font-size: 12px">0.167</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       c99
+       <span style="color: #bababa; font-size: 12px">0.157</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expression
+       <span style="color: #bababa; font-size: 12px">0.155</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       9899
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compound
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bell
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       label
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iso
+       <span style="color: #bababa; font-size: 12px">0.125</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       kernighan
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iteration
+       <span style="color: #bababa; font-size: 12px">0.116</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       declaration
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       labs
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>C</b>
+        is a 
+       <a href="#" title="Programming language">programming language</a>
+        that was designed by 
+       <a href="#" title="Dennis Ritchie">Dennis Ritchie</a>
+        during the early 
+       <a href="#" title="1970s">1970s</a>
+        to be used for 
+       <a href="#" title="Operating system">operating system</a>
+        implementation and other low-level programming tasks.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=242760" target="_blank">2001</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">7063 characters</p>
+      <p style="padding: 0px; margin: 0px; ">5 sections</p>
+      <p style="padding: 0px; margin: 0px; ">19 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">30 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">1 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=242760#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=242760#Name" target="_blank">2. Name</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=242760#Standards" target="_blank">3. Standards</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=242760#&quot;Hello,_World!&quot;_in_C" target="_blank">4. &quot;Hello, World!&quot; in C</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=C_(programming_language)&amp;oldid=242760#Sources" target="_blank">5. Sources</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       9899
+       <span style="color: #bababa; font-size: 12px">0.363</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ritchie
+       <span style="color: #bababa; font-size: 12px">0.363</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iso
+       <span style="color: #bababa; font-size: 12px">0.256</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bell
+       <span style="color: #bababa; font-size: 12px">0.245</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       1990
+       <span style="color: #bababa; font-size: 12px">0.192</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bcpl
+       <span style="color: #bababa; font-size: 12px">0.192</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dennis
+       <span style="color: #bababa; font-size: 12px">0.192</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       labs
+       <span style="color: #bababa; font-size: 12px">0.190</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       1973
+       <span style="color: #bababa; font-size: 12px">0.142</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       edition
+       <span style="color: #bababa; font-size: 12px">0.139</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dominant
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       159
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       modification
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       microcomputer
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       talk
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>C</b>
+        is a 
+       <a href="#" title="Programming language">programming language</a>
+        that was designed by 
+       <a href="#" title="Dennis Ritchie">Dennis Ritchie</a>
+        during the early 
+       <a href="#" title="1970s">1970s</a>
+        to be used for 
+       <a href="#" title="Operating system">operating system</a>
+        implementation and other low-level programming tasks.
+
+      </p>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>

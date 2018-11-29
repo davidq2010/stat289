@@ -1,0 +1,1705 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title charset="utf-8">Programming Languages</title>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"> </script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+  <link href="../css/custom.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <nav class="navbar navbar-default navbar-darkbg-dark navbar-fixed-top">
+   <div class="container">
+    <div class="navbar-header">
+     <a class="navbar-brand" href="../index.html">Programming Languages</a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-docs">
+       <a class="nav-link" href="../docs.html">Docs</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-clusters">
+       <a class="nav-link" href="../clusters.html">Clusters</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-viz">
+       <a class="nav-link" href="../viz.html">Viz</a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <div class="container" style="padding-top: 30px;">
+   <div class="row">
+    <div class="col-sm-4">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Go_Logo_Aqua.svg/220px-Go_Logo_Aqua.svg.png" style="max-width: 300px"/>
+    </div>
+    <div class="col-sm-8">
+     <h1>Go (programming language)</h1>
+     <p>
+      <b>Go</b>
+       (often referred to as 
+      <b>Golang</b>
+      <sup class="reference" id="cite_ref-13">
+       <a href="#">[13]</a>
+      </sup>
+      ) is a 
+      <a href="#" title="Programming language">programming language</a>
+       designed by 
+      <a href="#" title="Google">Google</a>
+      <sup class="reference" id="cite_ref-techcrunch_14-0">
+       <a href="#">[14]</a>
+      </sup>
+       engineers Robert Griesemer, 
+      <a href="#" title="Rob Pike">Rob Pike</a>
+      , and 
+      <a href="#" title="Ken Thompson">Ken Thompson</a>
+      .
+      <sup class="reference" id="cite_ref-langfaq_11-1">
+       <a href="#">[11]</a>
+      </sup>
+       Go is 
+      <a class="mw-redirect" href="#" title="Static typing">statically typed</a>
+      , 
+      <a href="#" title="Compiled language">compiled</a>
+      , and 
+      <a href="#" title="Syntax (programming languages)">syntactically</a>
+       similar to 
+      <a href="#" title="C (programming language)">C</a>
+      , with the added benefits of 
+      <a href="#" title="Memory safety">memory safety</a>
+      , 
+      <a href="#" title="Garbage collection (computer science)">garbage collection</a>
+      , 
+      <a href="#" title="Structural type system">structural typing</a>
+      ,
+      <sup class="reference" id="cite_ref-structural_typing_5-1">
+       <a href="#">[5]</a>
+      </sup>
+       and 
+      <a href="#" title="Communicating sequential processes">CSP</a>
+      -style 
+      <a href="#" title="Concurrency (computer science)">concurrency</a>
+      .
+      <sup class="reference" id="cite_ref-boldly_15-0">
+       <a href="#">[15]</a>
+      </sup>
+       The 
+      <a href="#" title="Compiler">compiler</a>
+      , tools, and source code are all 
+      <a href="#" title="Free software">free</a>
+       and 
+      <a href="#" title="Open-source software">open source</a>
+      .
+      <sup class="reference" id="cite_ref-16">
+       <a href="#">[16]</a>
+      </sup>
+      
+
+     </p>
+     
+
+    </div>
+   </div>
+   <h3 style="padding-top: 15px">Page Revisions</h3>
+   <table style="text-align: left; margin: 0px auto">
+    <tr>
+     <td>
+      <b>Year</b>
+     </td>
+     <td>
+      <b>Metadata</b>
+     </td>
+     <td>
+      <b>Sections</b>
+     </td>
+     <td>
+      <b>Top Words</b>
+     </td>
+     <td>
+      <b>First Paragraph</b>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=870168566" target="_blank">2018</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">288047 characters</p>
+      <p style="padding: 0px; margin: 0px; ">26 sections</p>
+      <p style="padding: 0px; margin: 0px; ">71 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">10 images</p>
+      <p style="padding: 0px; margin: 0px; ">623 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">146 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=870168566#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=870168566#Implementations" target="_blank">2. Implementations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=870168566#Language_design" target="_blank">3. Language design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=870168566#Conventions_and_code_style" target="_blank">4. Conventions and code style</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=870168566#Tools" target="_blank">5. Tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=870168566#Examples" target="_blank">6. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=870168566#Projects" target="_blank">7. Projects</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=870168566#Reception" target="_blank">8. Reception</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=870168566#Naming_dispute" target="_blank">9. Naming dispute</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=870168566#See_also" target="_blank">10. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=870168566#Notes" target="_blank">11. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=870168566#References" target="_blank">12. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=870168566#External_links" target="_blank">13. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       goroutines
+       <span style="color: #bababa; font-size: 12px">0.373</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       channels
+       <span style="color: #bababa; font-size: 12px">0.251</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       goroutine
+       <span style="color: #bababa; font-size: 12px">0.230</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       google
+       <span style="color: #bababa; font-size: 12px">0.169</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrency
+       <span style="color: #bababa; font-size: 12px">0.152</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrent
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       type
+       <span style="color: #bababa; font-size: 12px">0.132</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       channel
+       <span style="color: #bababa; font-size: 12px">0.116</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expert
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nominal
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       race
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       slices
+       <span style="color: #bababa; font-size: 12px">0.091</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assertion
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bzip2
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ipv4addr
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Go</b>
+        (often referred to as 
+       <b>Golang</b>
+       <sup class="reference" id="cite_ref-13">
+        <a href="#">[13]</a>
+       </sup>
+       ) is a 
+       <a href="#" title="Programming language">programming language</a>
+        designed by 
+       <a href="#" title="Google">Google</a>
+       <sup class="reference" id="cite_ref-techcrunch_14-0">
+        <a href="#">[14]</a>
+       </sup>
+        engineers Robert Griesemer, 
+       <a href="#" title="Rob Pike">Rob Pike</a>
+       , and 
+       <a href="#" title="Ken Thompson">Ken Thompson</a>
+       .
+       <sup class="reference" id="cite_ref-langfaq_11-1">
+        <a href="#">[11]</a>
+       </sup>
+        Go is 
+       <a class="mw-redirect" href="#" title="Static typing">statically typed</a>
+       , 
+       <a href="#" title="Compiled language">compiled</a>
+       , and 
+       <a href="#" title="Syntax (programming languages)">syntactically</a>
+        similar to 
+       <a href="#" title="C (programming language)">C</a>
+       , with the added benefits of 
+       <a href="#" title="Memory safety">memory safety</a>
+       , 
+       <a href="#" title="Garbage collection (computer science)">garbage collection</a>
+       , 
+       <a href="#" title="Structural type system">structural typing</a>
+       ,
+       <sup class="reference" id="cite_ref-structural_typing_5-1">
+        <a href="#">[5]</a>
+       </sup>
+        and 
+       <a href="#" title="Communicating sequential processes">CSP</a>
+       -style 
+       <a href="#" title="Concurrency (computer science)">concurrency</a>
+       .
+       <sup class="reference" id="cite_ref-boldly_15-0">
+        <a href="#">[15]</a>
+       </sup>
+        The 
+       <a href="#" title="Compiler">compiler</a>
+       , tools, and source code are all 
+       <a href="#" title="Free software">free</a>
+        and 
+       <a href="#" title="Open-source software">open source</a>
+       .
+       <sup class="reference" id="cite_ref-16">
+        <a href="#">[16]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=817774313" target="_blank">2017</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">249677 characters</p>
+      <p style="padding: 0px; margin: 0px; ">23 sections</p>
+      <p style="padding: 0px; margin: 0px; ">70 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">8 images</p>
+      <p style="padding: 0px; margin: 0px; ">612 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">131 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=817774313#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=817774313#Language_design" target="_blank">2. Language design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=817774313#Conventions_and_code_style" target="_blank">3. Conventions and code style</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=817774313#Language_tools" target="_blank">4. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=817774313#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=817774313#Projects_using_Go" target="_blank">6. Projects using Go</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=817774313#Reception" target="_blank">7. Reception</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=817774313#Naming_dispute" target="_blank">8. Naming dispute</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=817774313#See_also" target="_blank">9. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=817774313#Notes" target="_blank">10. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=817774313#References" target="_blank">11. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=817774313#External_links" target="_blank">12. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       goroutines
+       <span style="color: #bababa; font-size: 12px">0.367</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       channels
+       <span style="color: #bababa; font-size: 12px">0.247</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       goroutine
+       <span style="color: #bababa; font-size: 12px">0.226</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       google
+       <span style="color: #bababa; font-size: 12px">0.200</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrent
+       <span style="color: #bababa; font-size: 12px">0.152</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pike
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rob
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrency
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       channel
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       type
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expert
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nominal
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       race
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gc
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       slices
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Go</b>
+        (often referred to as 
+       <b>golang</b>
+       ) is a 
+       <a href="#" title="Programming language">programming language</a>
+        created at 
+       <a href="#" title="Google">Google</a>
+       <sup class="reference" id="cite_ref-12">
+        <a href="#">[12]</a>
+       </sup>
+        in 2009 by Robert Griesemer, 
+       <a href="#" title="Rob Pike">Rob Pike</a>
+       , and 
+       <a href="#" title="Ken Thompson">Ken Thompson</a>
+       .
+       <sup class="reference" id="cite_ref-langfaq_10-1">
+        <a href="#">[10]</a>
+       </sup>
+        It is a 
+       <a href="#" title="Compiler">compiled</a>
+       , 
+       <a class="mw-redirect" href="#" title="Static typing">statically typed</a>
+        language in the tradition of 
+       <a href="#" title="ALGOL">Algol</a>
+        and 
+       <a href="#" title="C (programming language)">C</a>
+       , with 
+       <a href="#" title="Garbage collection (computer science)">garbage collection</a>
+       , limited 
+       <a href="#" title="Structural type system">structural typing</a>
+       ,
+       <sup class="reference" id="cite_ref-structural_typing_3-1">
+        <a href="#">[3]</a>
+       </sup>
+        
+       <a href="#" title="Memory safety">memory safety</a>
+        features and 
+       <a href="#" title="Communicating sequential processes">CSP</a>
+       -style 
+       <a class="mw-redirect" href="#" title="Concurrent programming">concurrent programming</a>
+        features added.
+       <sup class="reference" id="cite_ref-boldly_13-0">
+        <a href="#">[13]</a>
+       </sup>
+        The compiler and other language tools originally developed by Google are all 
+       <a href="#" title="Free software">free</a>
+        and 
+       <a class="mw-redirect mw-disambig" href="#" title="Open-source">open source</a>
+       .
+       <sup class="reference" id="cite_ref-14">
+        <a href="#">[14]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=757569313" target="_blank">2016</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">245899 characters</p>
+      <p style="padding: 0px; margin: 0px; ">24 sections</p>
+      <p style="padding: 0px; margin: 0px; ">72 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">8 images</p>
+      <p style="padding: 0px; margin: 0px; ">601 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">134 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=757569313#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=757569313#Language_design" target="_blank">2. Language design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=757569313#Conventions_and_code_style" target="_blank">3. Conventions and code style</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=757569313#Language_tools" target="_blank">4. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=757569313#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=757569313#Projects_using_Go" target="_blank">6. Projects using Go</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=757569313#Reception" target="_blank">7. Reception</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=757569313#Naming_dispute" target="_blank">8. Naming dispute</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=757569313#See_also" target="_blank">9. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=757569313#Notes" target="_blank">10. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=757569313#References" target="_blank">11. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=757569313#External_links" target="_blank">12. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       goroutines
+       <span style="color: #bababa; font-size: 12px">0.367</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       channels
+       <span style="color: #bababa; font-size: 12px">0.247</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       goroutine
+       <span style="color: #bababa; font-size: 12px">0.226</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       google
+       <span style="color: #bababa; font-size: 12px">0.166</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrent
+       <span style="color: #bababa; font-size: 12px">0.152</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pike
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rob
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrency
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       type
+       <span style="color: #bababa; font-size: 12px">0.116</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       channel
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expert
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nominal
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       race
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       citation
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gc
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Go</b>
+        (often referred to as 
+       <b>golang</b>
+       ) is a 
+       <a href="#" title="Free software">free</a>
+        and 
+       <a class="mw-redirect mw-disambig" href="#" title="Open-source">open source</a>
+       <sup class="reference" id="cite_ref-12">
+        <a href="#">[12]</a>
+       </sup>
+        
+       <a href="#" title="Programming language">programming language</a>
+        created at 
+       <a href="#" title="Google">Google</a>
+       <sup class="reference" id="cite_ref-13">
+        <a href="#">[13]</a>
+       </sup>
+        in 2007 by Robert Griesemer, 
+       <a href="#" title="Rob Pike">Rob Pike</a>
+       , and 
+       <a href="#" title="Ken Thompson">Ken Thompson</a>
+       .
+       <sup class="reference" id="cite_ref-langfaq_10-1">
+        <a href="#">[10]</a>
+       </sup>
+        It is a 
+       <a href="#" title="Compiler">compiled</a>
+       , 
+       <a class="mw-redirect" href="#" title="Static typing">statically typed</a>
+        language in the tradition of 
+       <a href="#" title="ALGOL">Algol</a>
+        and 
+       <a href="#" title="C (programming language)">C</a>
+       , with 
+       <a href="#" title="Garbage collection (computer science)">garbage collection</a>
+       , limited 
+       <a href="#" title="Structural type system">structural typing</a>
+       ,
+       <sup class="reference" id="cite_ref-structural_typing_3-1">
+        <a href="#">[3]</a>
+       </sup>
+        
+       <a href="#" title="Memory safety">memory safety</a>
+        features and 
+       <a href="#" title="Communicating sequential processes">CSP</a>
+       -style 
+       <a class="mw-redirect" href="#" title="Concurrent programming">concurrent programming</a>
+        features added.
+       <sup class="reference" id="cite_ref-boldly_14-0">
+        <a href="#">[14]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=697435365" target="_blank">2015</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">211294 characters</p>
+      <p style="padding: 0px; margin: 0px; ">24 sections</p>
+      <p style="padding: 0px; margin: 0px; ">59 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">6 images</p>
+      <p style="padding: 0px; margin: 0px; ">535 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">115 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=697435365#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=697435365#Language_design" target="_blank">2. Language design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=697435365#Conventions_and_code_style" target="_blank">3. Conventions and code style</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=697435365#Language_tools" target="_blank">4. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=697435365#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=697435365#Notable_users" target="_blank">6. Notable users</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=697435365#Reception" target="_blank">7. Reception</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=697435365#Naming_dispute" target="_blank">8. Naming dispute</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=697435365#Version_history" target="_blank">9. Version history</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=697435365#See_also" target="_blank">10. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=697435365#Notes" target="_blank">11. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=697435365#References" target="_blank">12. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=697435365#External_links" target="_blank">13. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       goroutines
+       <span style="color: #bababa; font-size: 12px">0.359</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       channels
+       <span style="color: #bababa; font-size: 12px">0.261</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       goroutine
+       <span style="color: #bababa; font-size: 12px">0.239</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       google
+       <span style="color: #bababa; font-size: 12px">0.194</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrency
+       <span style="color: #bababa; font-size: 12px">0.158</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pike
+       <span style="color: #bababa; font-size: 12px">0.150</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rob
+       <span style="color: #bababa; font-size: 12px">0.150</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrent
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       channel
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expert
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       race
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       type
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       slices
+       <span style="color: #bababa; font-size: 12px">0.095</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bzip2
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ipv4addr
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Go</b>
+       , also commonly referred to as 
+       <b>golang</b>
+       , is a programming language developed at 
+       <a href="#" title="Google">Google</a>
+       <sup class="reference" id="cite_ref-10">
+        <a href="#">[10]</a>
+       </sup>
+        in 2007 by 
+       <a class="new" href="#" title="Robert Griesemer (page does not exist)">Robert Griesemer</a>
+       , 
+       <a href="#" title="Rob Pike">Rob Pike</a>
+       , and 
+       <a href="#" title="Ken Thompson">Ken Thompson</a>
+       .
+       <sup class="reference" id="cite_ref-langfaq_8-1">
+        <a href="#">[8]</a>
+       </sup>
+        Designed primarily for 
+       <a class="mw-redirect" href="#" title="Systems programming">systems programming</a>
+       , it is a 
+       <a href="#" title="Compiler">compiled</a>
+       , 
+       <a class="mw-redirect" href="#" title="Static typing">statically typed</a>
+        language in the tradition of 
+       <a href="#" title="C (programming language)">C</a>
+        and 
+       <a href="#" title="C++">C++</a>
+       , with 
+       <a href="#" title="Garbage collection (computer science)">garbage collection</a>
+       , various safety features and 
+       <a href="#" title="Communicating sequential processes">CSP</a>
+       -style 
+       <a class="mw-redirect" href="#" title="Concurrent programming">concurrent programming</a>
+        features added.
+       <sup class="reference" id="cite_ref-boldly_11-0">
+        <a href="#">[11]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130" target="_blank">2014</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">170395 characters</p>
+      <p style="padding: 0px; margin: 0px; ">27 sections</p>
+      <p style="padding: 0px; margin: 0px; ">57 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">4 images</p>
+      <p style="padding: 0px; margin: 0px; ">490 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">123 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#Language_design" target="_blank">2. Language design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#Conventions_and_code_style" target="_blank">3. Conventions and code style</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#Language_tools" target="_blank">4. Language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#Notable_users" target="_blank">6. Notable users</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#Libraries" target="_blank">7. Libraries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#Community_and_conferences" target="_blank">8. Community and conferences</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#Reception" target="_blank">9. Reception</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#Mascot" target="_blank">10. Mascot</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#Naming_dispute" target="_blank">11. Naming dispute</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#See_also" target="_blank">12. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#Notes" target="_blank">13. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#References" target="_blank">14. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=638766130#External_links" target="_blank">15. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       io
+       <span style="color: #bababa; font-size: 12px">0.206</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       race
+       <span style="color: #bababa; font-size: 12px">0.206</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       reader
+       <span style="color: #bababa; font-size: 12px">0.196</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       slices
+       <span style="color: #bababa; font-size: 12px">0.196</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       communicating
+       <span style="color: #bababa; font-size: 12px">0.165</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pike
+       <span style="color: #bababa; font-size: 12px">0.165</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rob
+       <span style="color: #bababa; font-size: 12px">0.165</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       byte
+       <span style="color: #bababa; font-size: 12px">0.164</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       google
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       channels
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       slice
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bzip2
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrency
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrent
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       distribution
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Go</b>
+       , also commonly referred to as 
+       <b>golang</b>
+       , is a programming language initially developed at 
+       <a href="#" title="Google">Google</a>
+       <sup class="reference" id="cite_ref-6">
+        <a href="#">[6]</a>
+       </sup>
+        in 2007 by 
+       <a class="new" href="#" title="Robert Griesemer (page does not exist)">Robert Griesemer</a>
+       , 
+       <a href="#" title="Rob Pike">Rob Pike</a>
+       , and 
+       <a href="#" title="Ken Thompson">Ken Thompson</a>
+       .
+       <sup class="reference" id="cite_ref-langfaq_5-1">
+        <a href="#">[5]</a>
+       </sup>
+        It is a statically-
+       <a href="#" title="Type system">typed</a>
+        language with syntax loosely derived from that of C, adding 
+       <a href="#" title="Garbage collection (computer science)">garbage collection</a>
+       , 
+       <a href="#" title="Type safety">type safety</a>
+       , some 
+       <a class="mw-redirect" href="#" title="Dynamic typing">dynamic-typing</a>
+        capabilities, additional built-in types such as 
+       <a href="#" title="Variable-length array">variable-length arrays</a>
+        and key-value maps, and a large standard library.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=587461013" target="_blank">2013</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">145208 characters</p>
+      <p style="padding: 0px; margin: 0px; ">20 sections</p>
+      <p style="padding: 0px; margin: 0px; ">49 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">474 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">116 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=587461013#Language_design" target="_blank">1. Language design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=587461013#Conventions_and_language_tools" target="_blank">2. Conventions and language tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=587461013#Concurrency" target="_blank">3. Concurrency</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=587461013#Interface_system" target="_blank">4. Interface system</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=587461013#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=587461013#Projects_and_organizations_using_Go" target="_blank">6. Projects and organizations using Go</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=587461013#Reception" target="_blank">7. Reception</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=587461013#Mascot" target="_blank">8. Mascot</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=587461013#Naming_dispute" target="_blank">9. Naming dispute</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=587461013#See_also" target="_blank">10. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=587461013#References" target="_blank">11. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=587461013#External_links" target="_blank">12. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       io
+       <span style="color: #bababa; font-size: 12px">0.224</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       race
+       <span style="color: #bababa; font-size: 12px">0.224</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       reader
+       <span style="color: #bababa; font-size: 12px">0.213</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       communicating
+       <span style="color: #bababa; font-size: 12px">0.179</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrency
+       <span style="color: #bababa; font-size: 12px">0.158</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       google
+       <span style="color: #bababa; font-size: 12px">0.158</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       byte
+       <span style="color: #bababa; font-size: 12px">0.142</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       channels
+       <span style="color: #bababa; font-size: 12px">0.142</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bzip2
+       <span style="color: #bababa; font-size: 12px">0.134</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pike
+       <span style="color: #bababa; font-size: 12px">0.134</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rob
+       <span style="color: #bababa; font-size: 12px">0.134</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrent
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       slices
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       maps
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       hope
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Go</b>
+       , also called 
+       <b>golang</b>
+       , is a programming language initially developed at 
+       <a href="#" title="Google">Google</a>
+       <sup class="reference" id="cite_ref-6">
+        <a href="#">[6]</a>
+       </sup>
+        in 2007 by 
+       <a class="new" href="#" title="Robert Griesemer (page does not exist)">Robert Griesemer</a>
+       , 
+       <a href="#" title="Rob Pike">Rob Pike</a>
+       , and 
+       <a href="#" title="Ken Thompson">Ken Thompson</a>
+       .
+       <sup class="reference" id="cite_ref-langfaq_5-1">
+        <a href="#">[5]</a>
+       </sup>
+        It is a statically-
+       <a href="#" title="Type system">typed</a>
+        language with syntax loosely derived from that of C, adding automatic memory management, type safety, some dynamic-typing capabilities, additional built-in types such as variable-length arrays and key-value maps, and a large standard library. Beyond that broad category, Go is defined by:
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=530079709" target="_blank">2012</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">117463 characters</p>
+      <p style="padding: 0px; margin: 0px; ">15 sections</p>
+      <p style="padding: 0px; margin: 0px; ">33 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">4 images</p>
+      <p style="padding: 0px; margin: 0px; ">467 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">36 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=530079709#Goals" target="_blank">1. Goals</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=530079709#Description" target="_blank">2. Description</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=530079709#Type_system" target="_blank">3. Type system</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=530079709#Name_visibility" target="_blank">4. Name visibility</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=530079709#Concurrency" target="_blank">5. Concurrency</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=530079709#Implementations" target="_blank">6. Implementations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=530079709#Examples" target="_blank">7. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=530079709#Reception" target="_blank">8. Reception</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=530079709#Naming_dispute" target="_blank">9. Naming dispute</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=530079709#See_also" target="_blank">10. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=530079709#References" target="_blank">11. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=530079709#Further_reading" target="_blank">12. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=530079709#External_links" target="_blank">13. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       goroutines
+       <span style="color: #bababa; font-size: 12px">0.350</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pike
+       <span style="color: #bababa; font-size: 12px">0.210</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rob
+       <span style="color: #bababa; font-size: 12px">0.210</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       channels
+       <span style="color: #bababa; font-size: 12px">0.167</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       google
+       <span style="color: #bababa; font-size: 12px">0.165</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrent
+       <span style="color: #bababa; font-size: 12px">0.142</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       hope
+       <span style="color: #bababa; font-size: 12px">0.140</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assertions
+       <span style="color: #bababa; font-size: 12px">0.140</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       threads
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gc
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       inputs
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pointer
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       wanted
+       <span style="color: #bababa; font-size: 12px">0.098</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       2010
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       confusion
+       <span style="color: #bababa; font-size: 12px">0.094</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The initial design of Go was started in September 2007 by 
+       <a class="new" href="#" title="Robert Griesemer (page does not exist)">Robert Griesemer</a>
+       , 
+       <a href="#" title="Rob Pike">Rob Pike</a>
+       , and 
+       <a href="#" title="Ken Thompson">Ken Thompson</a>
+       .
+       <sup class="reference" id="cite_ref-langfaq_5-1">
+        <a href="#">[5]</a>
+       </sup>
+        Go was officially announced in November 2009. In May 2010, Rob Pike publicly stated that Go was being used &quot;for real stuff&quot; at Google.
+       <sup class="reference" id="cite_ref-register_7-0">
+        <a href="#">[7]</a>
+       </sup>
+        Go's &quot;gc&quot; compiler targets the 
+       <a href="#" title="Linux">Linux</a>
+       , 
+       <a class="mw-redirect" href="#" title="Mac OS X">Mac OS X</a>
+       , 
+       <a href="#" title="FreeBSD">FreeBSD</a>
+       , 
+       <a href="#" title="OpenBSD">OpenBSD</a>
+       , 
+       <a href="#" title="Plan 9 from Bell Labs">Plan 9</a>
+       , and 
+       <a href="#" title="Microsoft Windows">Microsoft Windows</a>
+        operating systems and the 
+       <a class="mw-redirect" href="#" title="I386">i386</a>
+       , 
+       <a class="mw-redirect" href="#" title="Amd64">amd64</a>
+       , and 
+       <a class="mw-redirect mw-disambig" href="#" title="ARM">ARM</a>
+        processor architectures.
+       <sup class="reference" id="cite_ref-8">
+        <a href="#">[8]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=467089587" target="_blank">2011</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">106464 characters</p>
+      <p style="padding: 0px; margin: 0px; ">10 sections</p>
+      <p style="padding: 0px; margin: 0px; ">32 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">457 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">33 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=467089587#Goals" target="_blank">1. Goals</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=467089587#Description" target="_blank">2. Description</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=467089587#Implementations" target="_blank">3. Implementations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=467089587#Examples" target="_blank">4. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=467089587#Reception" target="_blank">5. Reception</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=467089587#Naming_dispute" target="_blank">6. Naming dispute</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=467089587#Concurrency" target="_blank">7. Concurrency</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=467089587#See_also" target="_blank">8. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=467089587#References" target="_blank">9. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=467089587#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       goroutines
+       <span style="color: #bababa; font-size: 12px">0.340</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccabe
+       <span style="color: #bababa; font-size: 12px">0.204</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pike
+       <span style="color: #bababa; font-size: 12px">0.204</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rob
+       <span style="color: #bababa; font-size: 12px">0.204</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       google
+       <span style="color: #bababa; font-size: 12px">0.200</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       channels
+       <span style="color: #bababa; font-size: 12px">0.162</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrent
+       <span style="color: #bababa; font-size: 12px">0.137</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       hope
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assertions
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       threads
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       signature
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gc
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       wanted
+       <span style="color: #bababa; font-size: 12px">0.095</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       finally
+       <span style="color: #bababa; font-size: 12px">0.092</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       confusion
+       <span style="color: #bababa; font-size: 12px">0.092</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The initial design of Go was started in September 2007 by 
+       <a class="new" href="#" title="Robert Griesemer (page does not exist)">Robert Griesemer</a>
+       , 
+       <a href="#" title="Rob Pike">Rob Pike</a>
+       , and 
+       <a href="#" title="Ken Thompson">Ken Thompson</a>
+       .
+       <sup class="reference" id="cite_ref-langfaq_4-1">
+        <a href="#">[4]</a>
+       </sup>
+        Go was officially announced in November 2009. In May 2010, Rob Pike publicly stated that Go was being used &quot;for real stuff&quot; at Google.
+       <sup class="reference" id="cite_ref-register_6-0">
+        <a href="#">[6]</a>
+       </sup>
+        Go's &quot;gc&quot; compiler targets the 
+       <a href="#" title="Linux">Linux</a>
+       , 
+       <a class="mw-redirect" href="#" title="Mac OS X">Mac OS X</a>
+       , 
+       <a href="#" title="FreeBSD">FreeBSD</a>
+       , 
+       <a href="#" title="OpenBSD">OpenBSD</a>
+        and 
+       <a href="#" title="Microsoft Windows">Microsoft Windows</a>
+        operating systems and the 
+       <a class="mw-redirect" href="#" title="I386">i386</a>
+       , 
+       <a class="mw-redirect" href="#" title="Amd64">amd64</a>
+       , and 
+       <a class="mw-redirect mw-disambig" href="#" title="ARM">ARM</a>
+        processor architectures.
+       <sup class="reference" id="cite_ref-7">
+        <a href="#">[7]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=404912876" target="_blank">2010</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">87006 characters</p>
+      <p style="padding: 0px; margin: 0px; ">10 sections</p>
+      <p style="padding: 0px; margin: 0px; ">23 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">414 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">26 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=404912876#Description" target="_blank">1. Description</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=404912876#Implementations" target="_blank">2. Implementations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=404912876#Examples" target="_blank">3. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=404912876#Reception" target="_blank">4. Reception</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=404912876#Naming_dispute" target="_blank">5. Naming dispute</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=404912876#Concurrency" target="_blank">6. Concurrency</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=404912876#Popularity" target="_blank">7. Popularity</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=404912876#See_also" target="_blank">8. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=404912876#References" target="_blank">9. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=404912876#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       goroutines
+       <span style="color: #bababa; font-size: 12px">0.371</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccabe
+       <span style="color: #bababa; font-size: 12px">0.222</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pike
+       <span style="color: #bababa; font-size: 12px">0.222</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rob
+       <span style="color: #bababa; font-size: 12px">0.222</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       google
+       <span style="color: #bababa; font-size: 12px">0.218</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       channels
+       <span style="color: #bababa; font-size: 12px">0.177</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrent
+       <span style="color: #bababa; font-size: 12px">0.150</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       hope
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assertions
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       threads
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       wanted
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       2010
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       confusion
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       braces
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       concurrency
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The initial design of Go was started in September 2007 by Robert Griesemer, 
+       <a href="#" title="Rob Pike">Rob Pike</a>
+       , and 
+       <a href="#" title="Ken Thompson">Ken Thompson</a>
+       ,
+       <sup class="reference" id="cite_ref-langfaq_2-1">
+        <a href="#">[2]</a>
+       </sup>
+        building on previous work related to the 
+       <a href="#" title="Inferno (operating system)">Inferno</a>
+        
+       <a href="#" title="Operating system">operating system</a>
+       .
+       <sup class="reference" id="cite_ref-4">
+        <a href="#">[4]</a>
+       </sup>
+        Go was officially announced in November 2009, with implementations released for the 
+       <a href="#" title="Linux">Linux</a>
+        and 
+       <a class="mw-redirect" href="#" title="Mac OS X">Mac OS X</a>
+        platforms.
+       <sup class="reference" id="cite_ref-5">
+        <a href="#">[5]</a>
+       </sup>
+        At the time of its launch, Go was not considered to be ready for adoption in production environments.
+       <sup class="reference" id="cite_ref-ars_6-0">
+        <a href="#">[6]</a>
+       </sup>
+        In May 2010, Rob Pike stated publicly that Go is being used &quot;for real stuff&quot; at Google.
+       <sup class="reference" id="cite_ref-register_7-0">
+        <a href="#">[7]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=335163582" target="_blank">2009</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">32744 characters</p>
+      <p style="padding: 0px; margin: 0px; ">8 sections</p>
+      <p style="padding: 0px; margin: 0px; ">18 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">1 images</p>
+      <p style="padding: 0px; margin: 0px; ">57 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">21 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=335163582#Description" target="_blank">1. Description</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=335163582#Implementations" target="_blank">2. Implementations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=335163582#Examples" target="_blank">3. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=335163582#Reception" target="_blank">4. Reception</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=335163582#Naming_dispute" target="_blank">5. Naming dispute</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=335163582#Concurrency" target="_blank">6. Concurrency</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=335163582#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&amp;oldid=335163582#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       goroutines
+       <span style="color: #bababa; font-size: 12px">0.362</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccabe
+       <span style="color: #bababa; font-size: 12px">0.217</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ugliness
+       <span style="color: #bababa; font-size: 12px">0.217</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       google
+       <span style="color: #bababa; font-size: 12px">0.170</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       writes
+       <span style="color: #bababa; font-size: 12px">0.146</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       hope
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assertions
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pike
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rob
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       simplicity
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       posting
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       informationweek
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       threads
+       <span style="color: #bababa; font-size: 12px">0.128</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       channels
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       wanted
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The initial design of Go was started in September 2007 by 
+       <a class="new" href="#" title="Robert Griesemer (page does not exist)">Robert Griesemer</a>
+       , 
+       <a href="#" title="Rob Pike">Rob Pike</a>
+        and 
+       <a href="#" title="Ken Thompson">Ken Thompson</a>
+       ,
+       <sup class="reference" id="cite_ref-langfaq_2-1">
+        <a href="#">[2]</a>
+       </sup>
+        building on previous work related to the 
+       <a href="#" title="Inferno (operating system)">Inferno operating system</a>
+       .
+       <sup class="reference" id="cite_ref-4">
+        <a href="#">[4]</a>
+       </sup>
+        Go was officially announced in November 2009, with implementations released for the 
+       <a href="#" title="Linux">Linux</a>
+        and 
+       <a class="mw-redirect" href="#" title="Mac OS X">Mac OS X</a>
+        platforms.
+       <sup class="reference" id="cite_ref-5">
+        <a href="#">[5]</a>
+       </sup>
+         As of the launch, Go was not considered to be ready for adoption in production environments.
+       <sup class="reference" id="cite_ref-6">
+        <a href="#">[6]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>

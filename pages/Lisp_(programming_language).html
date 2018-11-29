@@ -1,0 +1,2514 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title charset="utf-8">Programming Languages</title>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"> </script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+  <link href="../css/custom.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <nav class="navbar navbar-default navbar-darkbg-dark navbar-fixed-top">
+   <div class="container">
+    <div class="navbar-header">
+     <a class="navbar-brand" href="../index.html">Programming Languages</a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-docs">
+       <a class="nav-link" href="../docs.html">Docs</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-clusters">
+       <a class="nav-link" href="../clusters.html">Clusters</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-viz">
+       <a class="nav-link" href="../viz.html">Viz</a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <div class="container" style="padding-top: 30px;">
+   <div class="row">
+    <div class="col-sm-4">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Lisplogo.png/220px-Lisplogo.png" style="max-width: 300px"/>
+    </div>
+    <div class="col-sm-8">
+     <h1>Lisp (programming language)</h1>
+     <p>
+      <b>Lisp</b>
+       (historically, 
+      <b>LISP</b>
+      ) is a family of 
+      <a href="#" title="Computer">computer</a>
+       
+      <a href="#" title="Programming language">programming languages</a>
+       with a long history and a distinctive, fully 
+      <a class="mw-redirect" href="#" title="Parenthesized">parenthesized</a>
+       
+      <a href="#" title="Polish notation">prefix notation</a>
+      .
+      <sup class="reference" id="cite_ref-3">
+       <a href="#">[3]</a>
+      </sup>
+      
+Originally specified in 1958, Lisp is the second-oldest 
+      <a href="#" title="High-level programming language">high-level programming language</a>
+       in widespread use today. Only 
+      <a href="#" title="Fortran">Fortran</a>
+       is older, by one year.
+      <sup class="reference" id="cite_ref-4">
+       <a href="#">[4]</a>
+      </sup>
+      <sup class="reference" id="cite_ref-5">
+       <a href="#">[5]</a>
+      </sup>
+       Lisp has changed since its early days, and many 
+      <a class="mw-redirect" href="#" title="Programming language dialect">dialects</a>
+       have existed over its history. Today, the best known general-purpose Lisp dialects are 
+      <a href="#" title="Clojure">Clojure</a>
+      , 
+      <a href="#" title="Common Lisp">Common Lisp</a>
+      , and 
+      <a href="#" title="Scheme (programming language)">Scheme</a>
+      .
+
+     </p>
+    </div>
+   </div>
+   <h3 style="padding-top: 15px">Page Revisions</h3>
+   <table style="text-align: left; margin: 0px auto">
+    <tr>
+     <td>
+      <b>Year</b>
+     </td>
+     <td>
+      <b>Metadata</b>
+     </td>
+     <td>
+      <b>Sections</b>
+     </td>
+     <td>
+      <b>Top Words</b>
+     </td>
+     <td>
+      <b>First Paragraph</b>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=871148032" target="_blank">2018</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">229527 characters</p>
+      <p style="padding: 0px; margin: 0px; ">29 sections</p>
+      <p style="padding: 0px; margin: 0px; ">112 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">16 images</p>
+      <p style="padding: 0px; margin: 0px; ">410 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">102 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=871148032#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=871148032#Major_dialects" target="_blank">2. Major dialects</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=871148032#Language_innovations" target="_blank">3. Language innovations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=871148032#Syntax_and_semantics" target="_blank">4. Syntax and semantics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=871148032#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=871148032#Object_systems" target="_blank">6. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=871148032#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=871148032#References" target="_blank">8. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=871148032#Further_reading" target="_blank">9. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=871148032#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.891</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.170</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.099</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.070</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.070</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lists
+       <span style="color: #bababa; font-size: 12px">0.065</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expression
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.050</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        (historically, 
+       <b>LISP</b>
+       ) is a family of 
+       <a href="#" title="Computer">computer</a>
+        
+       <a href="#" title="Programming language">programming languages</a>
+        with a long history and a distinctive, fully 
+       <a class="mw-redirect" href="#" title="Parenthesized">parenthesized</a>
+        
+       <a href="#" title="Polish notation">prefix notation</a>
+       .
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+       
+Originally specified in 1958, Lisp is the second-oldest 
+       <a href="#" title="High-level programming language">high-level programming language</a>
+        in widespread use today. Only 
+       <a href="#" title="Fortran">Fortran</a>
+        is older, by one year.
+       <sup class="reference" id="cite_ref-4">
+        <a href="#">[4]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-5">
+        <a href="#">[5]</a>
+       </sup>
+        Lisp has changed since its early days, and many 
+       <a class="mw-redirect" href="#" title="Programming language dialect">dialects</a>
+        have existed over its history. Today, the best known general-purpose Lisp dialects are 
+       <a href="#" title="Clojure">Clojure</a>
+       , 
+       <a href="#" title="Common Lisp">Common Lisp</a>
+       , and 
+       <a href="#" title="Scheme (programming language)">Scheme</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=816850347" target="_blank">2017</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">203979 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">112 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">15 images</p>
+      <p style="padding: 0px; margin: 0px; ">369 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">88 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=816850347#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=816850347#Major_dialects" target="_blank">2. Major dialects</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=816850347#Language_innovations" target="_blank">3. Language innovations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=816850347#Syntax_and_semantics" target="_blank">4. Syntax and semantics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=816850347#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=816850347#Object_systems" target="_blank">6. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=816850347#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=816850347#Further_reading" target="_blank">8. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=816850347#External_links" target="_blank">9. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.890</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.164</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.089</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.078</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.074</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.074</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.071</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lists
+       <span style="color: #bababa; font-size: 12px">0.065</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expression
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        (historically, 
+       <b>LISP</b>
+       ) is a family of 
+       <a href="#" title="Computer">computer</a>
+        
+       <a href="#" title="Programming language">programming languages</a>
+        with a long history and a distinctive, fully 
+       <a class="mw-redirect" href="#" title="Parenthesized">parenthesized</a>
+        
+       <a href="#" title="Polish notation">prefix notation</a>
+       .
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+       
+Originally specified in 1958, Lisp is the second-oldest 
+       <a href="#" title="High-level programming language">high-level programming language</a>
+        in widespread use today. Only 
+       <a href="#" title="Fortran">Fortran</a>
+        is older, by one year.
+       <sup class="reference" id="cite_ref-4">
+        <a href="#">[4]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-5">
+        <a href="#">[5]</a>
+       </sup>
+        Lisp has changed since its early days, and many 
+       <a class="mw-redirect" href="#" title="Programming language dialect">dialects</a>
+        have existed over its history. Today, the best known general-purpose Lisp dialects are 
+       <a href="#" title="Common Lisp">Common Lisp</a>
+        and 
+       <a href="#" title="Scheme (programming language)">Scheme</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=754122651" target="_blank">2016</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">197658 characters</p>
+      <p style="padding: 0px; margin: 0px; ">29 sections</p>
+      <p style="padding: 0px; margin: 0px; ">115 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">14 images</p>
+      <p style="padding: 0px; margin: 0px; ">349 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">74 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=754122651#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=754122651#Major_dialects" target="_blank">2. Major dialects</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=754122651#Language_innovations" target="_blank">3. Language innovations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=754122651#Syntax_and_semantics" target="_blank">4. Syntax and semantics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=754122651#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=754122651#Object_systems" target="_blank">6. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=754122651#Popular_usage" target="_blank">7. Popular usage</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=754122651#References" target="_blank">8. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=754122651#Further_reading" target="_blank">9. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=754122651#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.890</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.162</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.127</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.091</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.075</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.075</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lists
+       <span style="color: #bababa; font-size: 12px">0.066</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expression
+       <span style="color: #bababa; font-size: 12px">0.056</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.056</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        (historically, 
+       <b>LISP</b>
+       ) is a family of 
+       <a href="#" title="Computer">computer</a>
+        
+       <a href="#" title="Programming language">programming languages</a>
+        with a long history and a distinctive, fully 
+       <a class="mw-redirect" href="#" title="Parenthesized">parenthesized</a>
+        
+       <a href="#" title="Polish notation">prefix notation</a>
+       .
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+       
+Originally specified in 1958, Lisp is the second-oldest 
+       <a href="#" title="High-level programming language">high-level programming language</a>
+        in widespread use today. Only 
+       <a href="#" title="Fortran">Fortran</a>
+        is older, by one year.
+       <sup class="reference" id="cite_ref-4">
+        <a href="#">[4]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-5">
+        <a href="#">[5]</a>
+       </sup>
+        Lisp has changed since its early days, and many 
+       <a class="mw-redirect" href="#" title="Programming language dialect">dialects</a>
+        have existed over its history. Today, the best known general-purpose 
+       <a class="new" href="#" title="Lisp dialects (page does not exist)">Lisp dialects</a>
+        are 
+       <a href="#" title="Common Lisp">Common Lisp</a>
+        and 
+       <a href="#" title="Scheme (programming language)">Scheme</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=697407883" target="_blank">2015</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">181983 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">112 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">12 images</p>
+      <p style="padding: 0px; margin: 0px; ">313 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">71 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=697407883#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=697407883#Major_dialects" target="_blank">2. Major dialects</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=697407883#Language_innovations" target="_blank">3. Language innovations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=697407883#Syntax_and_semantics" target="_blank">4. Syntax and semantics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=697407883#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=697407883#Object_systems" target="_blank">6. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=697407883#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=697407883#References" target="_blank">8. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=697407883#Further_reading" target="_blank">9. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=697407883#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.888</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.164</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.129</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.092</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.076</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.075</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lists
+       <span style="color: #bababa; font-size: 12px">0.067</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expression
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       clojure
+       <span style="color: #bababa; font-size: 12px">0.056</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.056</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        (historically, 
+       <b>LISP</b>
+       ) is a family of 
+       <a href="#" title="Computer">computer</a>
+        
+       <a href="#" title="Programming language">programming languages</a>
+        with a long history and a distinctive, fully parenthesized 
+       <a href="#" title="Polish notation">Polish prefix</a>
+        notation.
+       <sup class="reference" id="cite_ref-1">
+        <a href="#">[1]</a>
+       </sup>
+       
+Originally specified in 1958, Lisp is the second-oldest 
+       <a href="#" title="High-level programming language">high-level programming language</a>
+        in widespread use today; only 
+       <a href="#" title="Fortran">Fortran</a>
+        is older (by one year).
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[2]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+        Like Fortran, Lisp has changed a great deal since its early days, and a number of 
+       <a class="mw-redirect" href="#" title="Programming language dialect">dialects</a>
+        have existed over its history. Today, the most widely known general-purpose Lisp dialects are 
+       <a href="#" title="Common Lisp">Common Lisp</a>
+        and 
+       <a href="#" title="Scheme (programming language)">Scheme</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=637556403" target="_blank">2014</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">182104 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">111 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">12 images</p>
+      <p style="padding: 0px; margin: 0px; ">314 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">71 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=637556403#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=637556403#Major_dialects" target="_blank">2. Major dialects</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=637556403#Language_innovations" target="_blank">3. Language innovations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=637556403#Syntax_and_semantics" target="_blank">4. Syntax and semantics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=637556403#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=637556403#Object_systems" target="_blank">6. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=637556403#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=637556403#References" target="_blank">8. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=637556403#Further_reading" target="_blank">9. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=637556403#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.889</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.159</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.128</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.075</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.071</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lists
+       <span style="color: #bababa; font-size: 12px">0.067</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       clojure
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.058</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.056</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expression
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        (historically, 
+       <b>LISP</b>
+       ) is a family of 
+       <a href="#" title="Computer">computer</a>
+        
+       <a href="#" title="Programming language">programming languages</a>
+        with a long history and a distinctive, fully parenthesized 
+       <a href="#" title="Polish notation">Polish prefix</a>
+        notation.
+       <sup class="reference" id="cite_ref-1">
+        <a href="#">[1]</a>
+       </sup>
+       
+Originally specified in 1958, Lisp is the second-oldest 
+       <a href="#" title="High-level programming language">high-level programming language</a>
+        in widespread use today; only 
+       <a href="#" title="Fortran">Fortran</a>
+        is older (by one year).
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[2]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+        Like Fortran, Lisp has changed a great deal since its early days, and a number of 
+       <a class="mw-redirect" href="#" title="Programming language dialect">dialects</a>
+        have existed over its history. Today, the most widely known general-purpose Lisp dialects are 
+       <a href="#" title="Common Lisp">Common Lisp</a>
+        and 
+       <a href="#" title="Scheme (programming language)">Scheme</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=588285204" target="_blank">2013</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">175558 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">108 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">12 images</p>
+      <p style="padding: 0px; margin: 0px; ">306 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">64 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=588285204#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=588285204#Major_dialects" target="_blank">2. Major dialects</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=588285204#Language_innovations" target="_blank">3. Language innovations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=588285204#Syntax_and_semantics" target="_blank">4. Syntax and semantics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=588285204#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=588285204#Object_systems" target="_blank">6. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=588285204#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=588285204#References" target="_blank">8. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=588285204#Further_reading" target="_blank">9. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=588285204#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.888</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.157</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.095</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lists
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.065</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.059</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       clojure
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expression
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        (historically, 
+       <b>LISP</b>
+       ) is a family of 
+       <a href="#" title="Computer">computer</a>
+        
+       <a href="#" title="Programming language">programming languages</a>
+        with a long history and a distinctive, fully parenthesized 
+       <a href="#" title="Polish notation">Polish prefix</a>
+        notation.
+       <sup class="reference" id="cite_ref-1">
+        <a href="#">[1]</a>
+       </sup>
+       
+Originally specified in 1958, Lisp is the second-oldest 
+       <a href="#" title="High-level programming language">high-level programming language</a>
+        in widespread use today; only 
+       <a href="#" title="Fortran">Fortran</a>
+        is older (by one year). Like Fortran, Lisp has changed a great deal since its early days, and a number of 
+       <a class="mw-redirect" href="#" title="Programming language dialect">dialects</a>
+        have existed over its history. Today, the most widely known general-purpose Lisp dialects are 
+       <a href="#" title="Common Lisp">Common Lisp</a>
+        and 
+       <a href="#" title="Scheme (programming language)">Scheme</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=530468647" target="_blank">2012</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">164391 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">107 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">11 images</p>
+      <p style="padding: 0px; margin: 0px; ">284 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">57 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=530468647#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=530468647#Major_dialects" target="_blank">2. Major dialects</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=530468647#Language_innovations" target="_blank">3. Language innovations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=530468647#Syntax_and_semantics" target="_blank">4. Syntax and semantics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=530468647#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=530468647#Object_systems" target="_blank">6. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=530468647#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=530468647#References" target="_blank">8. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=530468647#Further_reading" target="_blank">9. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=530468647#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.892</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.155</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.128</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.094</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.076</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.071</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lists
+       <span style="color: #bababa; font-size: 12px">0.067</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.059</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       clojure
+       <span style="color: #bababa; font-size: 12px">0.056</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.056</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        (historically, 
+       <b>LISP</b>
+       ) is a family of 
+       <a href="#" title="Computer">computer</a>
+        
+       <a href="#" title="Programming language">programming languages</a>
+        with a long history and a distinctive, fully parenthesized 
+       <a href="#" title="Polish notation">Polish prefix</a>
+        notation.
+       <sup class="reference" id="cite_ref-1">
+        <a href="#">[1]</a>
+       </sup>
+       
+Originally specified in 1958, Lisp is the second-oldest 
+       <a href="#" title="High-level programming language">high-level programming language</a>
+        in widespread use today; only 
+       <a href="#" title="Fortran">Fortran</a>
+        is older (by one year). Like Fortran, Lisp has changed a great deal since its early days, and a number of 
+       <a class="mw-redirect" href="#" title="Programming language dialect">dialects</a>
+        have existed over its history. Today, the most widely known general-purpose Lisp dialects are 
+       <a href="#" title="Common Lisp">Common Lisp</a>
+        and 
+       <a href="#" title="Scheme (programming language)">Scheme</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=468405937" target="_blank">2011</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">154038 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">102 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">10 images</p>
+      <p style="padding: 0px; margin: 0px; ">282 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">51 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=468405937#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=468405937#Major_dialects" target="_blank">2. Major dialects</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=468405937#Language_innovations" target="_blank">3. Language innovations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=468405937#Syntax_and_semantics" target="_blank">4. Syntax and semantics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=468405937#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=468405937#Object_systems" target="_blank">6. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=468405937#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=468405937#See_also" target="_blank">8. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=468405937#Further_reading" target="_blank">9. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=468405937#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.890</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.158</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.116</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.074</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lists
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.065</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       clojure
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.053</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        (historically, 
+       <b>LISP</b>
+       ) is a family of 
+       <a href="#" title="Computer">computer</a>
+        
+       <a href="#" title="Programming language">programming languages</a>
+        with a long history and a distinctive, fully parenthesized syntax. Originally specified in 1958, Lisp is the second-oldest 
+       <a href="#" title="High-level programming language">high-level programming language</a>
+        in widespread use today; only 
+       <a href="#" title="Fortran">Fortran</a>
+        is older (by one year). Like Fortran, Lisp has changed a great deal since its early days, and a number of 
+       <a class="mw-redirect" href="#" title="Programming language dialect">dialects</a>
+        have existed over its history. Today, the most widely known general-purpose Lisp dialects are 
+       <a href="#" title="Common Lisp">Common Lisp</a>
+       , 
+       <a href="#" title="Scheme (programming language)">Scheme</a>
+       , and 
+       <a href="#" title="Clojure">Clojure</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=403789089" target="_blank">2010</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">136802 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">103 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">4 images</p>
+      <p style="padding: 0px; margin: 0px; ">276 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">61 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=403789089#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=403789089#Major_dialects" target="_blank">2. Major dialects</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=403789089#Language_innovations" target="_blank">3. Language innovations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=403789089#Syntax_and_semantics" target="_blank">4. Syntax and semantics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=403789089#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=403789089#Object_systems" target="_blank">6. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=403789089#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=403789089#References" target="_blank">8. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=403789089#Further_reading" target="_blank">9. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=403789089#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.894</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.155</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.128</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.094</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.075</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.071</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lists
+       <span style="color: #bababa; font-size: 12px">0.067</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.063</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.056</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bar
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        (or 
+       <b>LISP</b>
+       ) is a family of 
+       <a href="#" title="Computer">computer</a>
+        
+       <a href="#" title="Programming language">programming languages</a>
+        with a long history and a distinctive, fully parenthesized syntax. Originally specified in 1958, Lisp is the second-oldest 
+       <a href="#" title="High-level programming language">high-level programming language</a>
+        in widespread use today; only 
+       <a href="#" title="Fortran">Fortran</a>
+        is older (by one year). Like Fortran, Lisp has changed a great deal since its early days, and a number of 
+       <a class="mw-redirect" href="#" title="Programming language dialect">dialects</a>
+        have existed over its history. Today, the most widely known general-purpose Lisp dialects are 
+       <a href="#" title="Common Lisp">Common Lisp</a>
+        and 
+       <a href="#" title="Scheme (programming language)">Scheme</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=334035317" target="_blank">2009</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">124608 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">102 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">250 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">56 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=334035317#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=334035317#Major_dialects" target="_blank">2. Major dialects</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=334035317#Language_innovations" target="_blank">3. Language innovations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=334035317#Syntax_and_semantics" target="_blank">4. Syntax and semantics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=334035317#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=334035317#Object_systems" target="_blank">6. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=334035317#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=334035317#References" target="_blank">8. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=334035317#Further_reading" target="_blank">9. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=334035317#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.893</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.153</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lists
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.065</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.053</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bar
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        (or 
+       <b>LISP</b>
+       ) is a family of 
+       <a href="#" title="Computer">computer</a>
+        
+       <a href="#" title="Programming language">programming languages</a>
+        with a long history and a distinctive, fully parenthesized syntax. Originally specified in 1958, Lisp is the second-oldest 
+       <a href="#" title="High-level programming language">high-level programming language</a>
+        in widespread use today; only 
+       <a href="#" title="Fortran">Fortran</a>
+        is older. Like Fortran, Lisp has changed a great deal since its early days, and a number of 
+       <a class="mw-redirect" href="#" title="Programming language dialect">dialects</a>
+        have existed over its history. Today, the most widely known general-purpose Lisp dialects are 
+       <a href="#" title="Clojure">Clojure</a>
+       , 
+       <a href="#" title="Common Lisp">Common Lisp</a>
+        and 
+       <a href="#" title="Scheme (programming language)">Scheme</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=260101466" target="_blank">2008</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">112586 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">101 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">2 images</p>
+      <p style="padding: 0px; margin: 0px; ">232 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">53 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=260101466#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=260101466#Connection_to_artificial_intelligence" target="_blank">2. Connection to artificial intelligence</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=260101466#Since_2000" target="_blank">3. Since 2000</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=260101466#Major_dialects" target="_blank">4. Major dialects</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=260101466#Language_innovations" target="_blank">5. Language innovations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=260101466#Syntax_and_semantics" target="_blank">6. Syntax and semantics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=260101466#Examples" target="_blank">7. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=260101466#Object_systems" target="_blank">8. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=260101466#References" target="_blank">9. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=260101466#Further_reading" target="_blank">10. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=260101466#See_also" target="_blank">11. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=260101466#External_links" target="_blank">12. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.884</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.152</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.137</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.116</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.076</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lists
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.069</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bar
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        (or 
+       <b>LISP</b>
+       ) is a family of 
+       <a href="#" title="Computer">computer</a>
+        
+       <a href="#" title="Programming language">programming languages</a>
+        with a long history and a distinctive, fully parenthesized syntax. Originally specified in 1958, Lisp is the second-oldest 
+       <a href="#" title="High-level programming language">high-level programming language</a>
+        in widespread use today; only 
+       <a href="#" title="Fortran">Fortran</a>
+        is older. Like Fortran, Lisp has changed a great deal since its early days, and a number of 
+       <a class="mw-redirect" href="#" title="Programming language dialect">dialects</a>
+        have existed over its history. Today, the most widely known general-purpose Lisp dialects are 
+       <a href="#" title="Common Lisp">Common Lisp</a>
+        and 
+       <a href="#" title="Scheme (programming language)">Scheme</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=180960379" target="_blank">2007</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">103103 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">94 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">2 images</p>
+      <p style="padding: 0px; margin: 0px; ">216 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">33 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=180960379#The_invention_of_Lisp" target="_blank">1. The invention of Lisp</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=180960379#Lisp_and_AI" target="_blank">2. Lisp and AI</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=180960379#Lisp_today" target="_blank">3. Lisp today</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=180960379#Language_innovations" target="_blank">4. Language innovations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=180960379#Syntax_and_semantics" target="_blank">5. Syntax and semantics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=180960379#Examples" target="_blank">6. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=180960379#Object_systems" target="_blank">7. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=180960379#Quotations" target="_blank">8. Quotations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=180960379#Notes" target="_blank">9. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=180960379#References" target="_blank">10. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=180960379#See_also" target="_blank">11. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=180960379#External_links" target="_blank">12. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.872</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.158</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.098</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.089</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lists
+       <span style="color: #bababa; font-size: 12px">0.075</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.069</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bar
+       <span style="color: #bababa; font-size: 12px">0.063</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.062</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        is a family of 
+       <a href="#" title="Computer">computer</a>
+        
+       <a class="mw-redirect" href="#" title="Programming languages">programming languages</a>
+        with a long history and a distinctive fully-parenthesized syntax. Originally specified in 1958, Lisp is the second-oldest 
+       <a href="#" title="High-level programming language">high-level programming language</a>
+        in widespread use today; only 
+       <a href="#" title="Fortran">Fortran</a>
+        is older. Like Fortran, Lisp has changed a great deal since its early days, and a number of 
+       <a class="mw-redirect" href="#" title="Programming language dialect">dialects</a>
+        have existed over its history. Today, the most widely-known general-purpose Lisp dialects are 
+       <a href="#" title="Common Lisp">Common Lisp</a>
+        and 
+       <a href="#" title="Scheme (programming language)">Scheme</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=97541347" target="_blank">2006</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">93214 characters</p>
+      <p style="padding: 0px; margin: 0px; ">29 sections</p>
+      <p style="padding: 0px; margin: 0px; ">90 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">1 images</p>
+      <p style="padding: 0px; margin: 0px; ">201 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">44 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=97541347#The_invention_of_Lisp" target="_blank">1. The invention of Lisp</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=97541347#Lisp_and_AI" target="_blank">2. Lisp and AI</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=97541347#Lisp_today" target="_blank">3. Lisp today</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=97541347#Language_innovations" target="_blank">4. Language innovations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=97541347#Syntax_and_semantics" target="_blank">5. Syntax and semantics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=97541347#Examples" target="_blank">6. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=97541347#Object_systems" target="_blank">7. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=97541347#Genealogy_and_variants" target="_blank">8. Genealogy and variants</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=97541347#Quotations" target="_blank">9. Quotations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=97541347#See_also" target="_blank">10. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=97541347#References" target="_blank">11. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=97541347#External_links" target="_blank">12. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.864</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.173</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.134</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lists
+       <span style="color: #bababa; font-size: 12px">0.082</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.076</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bar
+       <span style="color: #bababa; font-size: 12px">0.069</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expression
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        is a family of 
+       <a href="#" title="Computer">computer</a>
+        
+       <a href="#" title="Programming language">programming languages</a>
+        with a long history and a distinctive fully-parenthesized syntax. Originally specified in 
+       <a href="#" title="1958">1958</a>
+       , Lisp is the second-oldest 
+       <a href="#" title="High-level programming language">high-level programming language</a>
+        in widespread use today; only 
+       <a href="#" title="Fortran">Fortran</a>
+        is older. Like Fortran, Lisp has changed a great deal since its early days, and a number of 
+       <a class="mw-redirect" href="#" title="Programming language dialect">dialects</a>
+        have existed over its history. Today, the most widely-known general-purpose Lisp dialects are 
+       <a href="#" title="Common Lisp">Common Lisp</a>
+        and 
+       <a href="#" title="Scheme (programming language)">Scheme</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=33274491" target="_blank">2005</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">72769 characters</p>
+      <p style="padding: 0px; margin: 0px; ">21 sections</p>
+      <p style="padding: 0px; margin: 0px; ">111 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">1 images</p>
+      <p style="padding: 0px; margin: 0px; ">171 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">32 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=33274491#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=33274491#Syntax_and_Semantics" target="_blank">2. Syntax and Semantics</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=33274491#Examples" target="_blank">3. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=33274491#Object_systems" target="_blank">4. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=33274491#Genealogy_and_variants" target="_blank">5. Genealogy and variants</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=33274491#Quotations" target="_blank">6. Quotations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=33274491#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=33274491#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.865</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.197</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.125</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.123</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.092</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expression
+       <span style="color: #bababa; font-size: 12px">0.082</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.069</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ai
+       <span style="color: #bababa; font-size: 12px">0.058</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       conses
+       <span style="color: #bababa; font-size: 12px">0.058</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       Originally envisioned as a practical (in contrast to 
+       <a class="mw-redirect" href="#" title="Turing Machine"> Turing's</a>
+       ) computation model, based on ideas from 
+       <a href="#" title="Lambda calculus">lambda calculus</a>
+       , Lisp immediately became the favored 
+       <a class="mw-redirect" href="#" title="Artificial Intelligence">Artificial Intelligence</a>
+        programming language. Lisp pioneered the use of  
+       <a class="mw-redirect" href="#" title="Symbolic processing"> symbol processing</a>
+       ,  
+       <a class="mw-redirect" href="#" title="Tree data structure">list programming and tree structures</a>
+        (see also 
+       <a href="#" title="Information Processing Language"> IPL-V</a>
+       ),  
+       <a href="#" title="Garbage collection (computer science)">automatic storage management</a>
+       , 
+       <a href="#" title="Interpreter (computing)">interpreters</a>
+       ,  
+       <a href="#" title="Functional programming">functional programming</a>
+       , 
+       <a href="#" title="Object-oriented programming">object-oriented programming</a>
+       , 
+       <a href="#" title="Constraint programming">constraint programming</a>
+       , 
+       <a class="mw-redirect mw-disambig" href="#" title="Macros"> macro programming</a>
+       , and domain-oriented programming (e.g. 
+       <a class="mw-redirect" href="#" title="Little languages">little languages</a>
+        and 
+       <a class="mw-redirect mw-disambig" href="#" title="Extension (computing)">extensions</a>
+        and 
+       <a href="#" title="Metaprogramming">metaprogramming</a>
+       ).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=9131017" target="_blank">2004</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">43026 characters</p>
+      <p style="padding: 0px; margin: 0px; ">12 sections</p>
+      <p style="padding: 0px; margin: 0px; ">65 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">107 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">17 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=9131017#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=9131017#Syntax" target="_blank">2. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=9131017#Example_programs" target="_blank">3. Example programs</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=9131017#Object_systems" target="_blank">4. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=9131017#Genealogy_and_Variants" target="_blank">5. Genealogy and Variants</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=9131017#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=9131017#External_links" target="_blank">7. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.799</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.240</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.194</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.160</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.157</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expression
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       destructive
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cons
+       <span style="color: #bababa; font-size: 12px">0.089</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.084</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foo
+       <span style="color: #bababa; font-size: 12px">0.083</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       conses
+       <span style="color: #bababa; font-size: 12px">0.080</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bar
+       <span style="color: #bababa; font-size: 12px">0.063</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       linked
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        is a family of 
+       <a class="mw-redirect" href="#" title="Functional programming language">functional programming languages</a>
+        with a long history. Developed first as a practical model of computation (in comparison to 
+       <a href="#" title="Alan Turing">Alan Turing</a>
+       's), it later became the favored language of 
+       <a href="#" title="Artificial intelligence">artificial intelligence</a>
+        research during the field's heyday in the 
+       <a href="#" title="1970s">1970s</a>
+        and 
+       <a href="#" title="1980s">1980s</a>
+       . Lisp languages are today used in a number of fields, from 
+       <a href="#" title="World Wide Web">Web development</a>
+        to 
+       <a href="#" title="Finance">finance</a>
+        
+       <a class="external autonumber" href="#" rel="nofollow">[1]</a>
+       , and are also common in 
+       <a href="#" title="Computer science">computer science</a>
+        
+       <a href="#" title="Education">education</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=2106359" target="_blank">2003</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">19325 characters</p>
+      <p style="padding: 0px; margin: 0px; ">8 sections</p>
+      <p style="padding: 0px; margin: 0px; ">37 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">58 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">7 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=2106359#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=2106359#Syntax" target="_blank">2. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=2106359#Minimal_Lisp" target="_blank">3. Minimal Lisp</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=2106359#Example_programs" target="_blank">4. Example programs</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=2106359#Object_systems" target="_blank">5. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=2106359#Implementation" target="_blank">6. Implementation</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=2106359#Genealogy_and_Variants" target="_blank">7. Genealogy and Variants</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=2106359#See_also" target="_blank">8. See also</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.852</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.214</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.129</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expression
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       argument
+       <span style="color: #bababa; font-size: 12px">0.074</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       1958
+       <span style="color: #bababa; font-size: 12px">0.071</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.071</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.071</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       defun
+       <span style="color: #bababa; font-size: 12px">0.071</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       recursively
+       <span style="color: #bababa; font-size: 12px">0.056</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       arguments
+       <span style="color: #bababa; font-size: 12px">0.056</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nil
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <br/>
+       
+
+       <b>Lisp</b>
+        (which stands for &quot;
+       <b>LIS</b>
+       t 
+       <b>P</b>
+       rocessing&quot;) is a 
+       <a href="#" title="Programming language">programming language</a>
+        oriented towards 
+       <a href="#" title="Functional programming">functional programming</a>
+       . Its prominent features include prefix-notation syntax, 
+       <a class="mw-redirect" href="#" title="Dynamic typing">dynamic typing</a>
+        (variables are type-neutral, but values have implicit type), and the ability to treat source code as first-class objects.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=573104" target="_blank">2002</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">14918 characters</p>
+      <p style="padding: 0px; margin: 0px; ">5 sections</p>
+      <p style="padding: 0px; margin: 0px; ">26 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">54 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">1 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=573104#Lisp_History" target="_blank">1. Lisp History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=573104#Syntax" target="_blank">2. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=573104#Example_programs" target="_blank">3. Example programs</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=573104#Object_systems" target="_blank">4. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=573104#Genealogy_and_Variants" target="_blank">5. Genealogy and Variants</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.864</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       evaluates
+       <span style="color: #bababa; font-size: 12px">0.223</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.110</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       list
+       <span style="color: #bababa; font-size: 12px">0.099</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expression
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dialects
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       argument
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       1958
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       car
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cdr
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       defun
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       arguments
+       <span style="color: #bababa; font-size: 12px">0.058</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nil
+       <span style="color: #bababa; font-size: 12px">0.058</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oldest
+       <span style="color: #bababa; font-size: 12px">0.049</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>LISP</b>
+        (which stands for &quot;
+       <b>LIS</b>
+       t 
+       <b>P</b>
+       rocessing&quot;) is a 
+       <a href="#" title="Programming language">programming language</a>
+        oriented towards 
+       <a href="#" title="Functional programming">functional programming</a>
+       . Its prominent features include prefix-notation syntax, 
+       <a class="mw-redirect" href="#" title="Dynamic typing">dynamic typing</a>
+        (variables are type-neutral, but values have implicit type), and the ability to treat source code as first-class objects. Not counting the various 
+       <a class="mw-redirect" href="#" title="Machine language">machine languages</a>
+        and 
+       <a href="#" title="Assembly language">assembly languages</a>
+       , Lisp is the second-oldest  programming language still in widespread use; only 
+       <a href="#" title="Fortran">Fortran</a>
+        is older. Like Fortran, Lisp has changed greatly since its early days. Strictly speaking, Lisp is now not so much a single language as a class of similar languages, known as &quot;Lisp dialects&quot;.
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=264134" target="_blank">2001</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">12352 characters</p>
+      <p style="padding: 0px; margin: 0px; ">4 sections</p>
+      <p style="padding: 0px; margin: 0px; ">75 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">41 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">0 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=264134#Syntax" target="_blank">1. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=264134#Example_programs" target="_blank">2. Example programs</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=264134#Object_systems" target="_blank">3. Object systems</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lisp_(programming_language)&amp;oldid=264134#Genealogy_and_Variants" target="_blank">4. Genealogy and Variants</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.893</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mccarthy
+       <span style="color: #bababa; font-size: 12px">0.092</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       responsible
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lists
+       <span style="color: #bababa; font-size: 12px">0.066</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       typical
+       <span style="color: #bababa; font-size: 12px">0.065</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oldest
+       <span style="color: #bababa; font-size: 12px">0.062</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cobol
+       <span style="color: #bababa; font-size: 12px">0.062</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fortran
+       <span style="color: #bababa; font-size: 12px">0.058</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       symbolic
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       factorial
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expression
+       <span style="color: #bababa; font-size: 12px">0.048</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       contents
+       <span style="color: #bababa; font-size: 12px">0.048</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       macro
+       <span style="color: #bababa; font-size: 12px">0.048</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       prefix
+       <span style="color: #bababa; font-size: 12px">0.048</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lisp</b>
+        (coined from &quot;
+       <b>lis</b>
+       t 
+       <b>p</b>
+       rocessing&quot;) is an early 
+       <a href="#" title="Programming language">programming language</a>
+        with a simple prefix-notation syntax, 
+       <a class="mw-redirect" href="#" title="Dynamic typing">dynamic typing</a>
+        (that is, untyped variables but typed values), and special features for processing lists. Not counting 
+       <a class="mw-redirect" href="#" title="Machine language">machine languages</a>
+        and 
+       <a href="#" title="Assembly language">assembly languages</a>
+       , Lisp is the second-oldest
+
+      </p>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>

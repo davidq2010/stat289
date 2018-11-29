@@ -1,0 +1,2205 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title charset="utf-8">Programming Languages</title>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"> </script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+  <link href="../css/custom.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <nav class="navbar navbar-default navbar-darkbg-dark navbar-fixed-top">
+   <div class="container">
+    <div class="navbar-header">
+     <a class="navbar-brand" href="../index.html">Programming Languages</a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-docs">
+       <a class="nav-link" href="../docs.html">Docs</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-clusters">
+       <a class="nav-link" href="../clusters.html">Clusters</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-viz">
+       <a class="nav-link" href="../viz.html">Viz</a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <div class="container" style="padding-top: 30px;">
+   <div class="row">
+    <div class="col-sm-4">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/D_Programming_Language_logo.svg/220px-D_Programming_Language_logo.svg.png" style="max-width: 300px"/>
+    </div>
+    <div class="col-sm-8">
+     <h1>D (programming language)</h1>
+     <p>
+      <b>D</b>
+       (or 
+      <b>Dlang</b>
+      ) is an 
+      <a href="#" title="Object-oriented programming">object-oriented</a>
+      , 
+      <a href="#" title="Imperative programming">imperative</a>
+      , 
+      <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+       
+      <a href="#" title="System programming language">system programming language</a>
+       created by 
+      <a href="#" title="Walter Bright">Walter Bright</a>
+       of 
+      <a href="#" title="Digital Mars">Digital Mars</a>
+       and released in 2001. Bright was joined in the design and development effort in 2007 by 
+      <a href="#" title="Andrei Alexandrescu">Andrei Alexandrescu</a>
+      . Though it originated as a re-engineering of 
+      <a href="#" title="C++">C++</a>
+      , D is a distinct language, having redesigned some core C++ features while also sharing characteristics from other languages, notably 
+      <a href="#" title="Java (programming language)">Java</a>
+      , 
+      <a href="#" title="Python (programming language)">Python</a>
+      , 
+      <a href="#" title="Ruby (programming language)">Ruby</a>
+      , 
+      <a href="#" title="C Sharp (programming language)">C#</a>
+      , and 
+      <a href="#" title="Eiffel (programming language)">Eiffel</a>
+      .
+
+     </p>
+    </div>
+   </div>
+   <h3 style="padding-top: 15px">Page Revisions</h3>
+   <table style="text-align: left; margin: 0px auto">
+    <tr>
+     <td>
+      <b>Year</b>
+     </td>
+     <td>
+      <b>Metadata</b>
+     </td>
+     <td>
+      <b>Sections</b>
+     </td>
+     <td>
+      <b>Top Words</b>
+     </td>
+     <td>
+      <b>First Paragraph</b>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=871156587" target="_blank">2018</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">148605 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">42 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">6 images</p>
+      <p style="padding: 0px; margin: 0px; ">227 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">78 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=871156587#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=871156587#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=871156587#Implementations" target="_blank">3. Implementations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=871156587#Development_tools" target="_blank">4. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=871156587#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=871156587#Uses" target="_blank">6. Uses</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=871156587#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=871156587#References" target="_blank">8. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=871156587#Further_reading" target="_blank">9. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=871156587#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       d2
+       <span style="color: #bababa; font-size: 12px">0.351</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tango
+       <span style="color: #bababa; font-size: 12px">0.307</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       d1
+       <span style="color: #bababa; font-size: 12px">0.219</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bright
+       <span style="color: #bababa; font-size: 12px">0.175</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mixins
+       <span style="color: #bababa; font-size: 12px">0.139</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       alexandrescu
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       phobos
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       walter
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abi
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       std
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       andrei
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compile
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       imperative
+       <span style="color: #bababa; font-size: 12px">0.091</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>D</b>
+        (or 
+       <b>Dlang</b>
+       ) is an 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="System programming language">system programming language</a>
+        created by 
+       <a href="#" title="Walter Bright">Walter Bright</a>
+        of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+        and released in 2001. Bright was joined in the design and development effort in 2007 by 
+       <a href="#" title="Andrei Alexandrescu">Andrei Alexandrescu</a>
+       . Though it originated as a re-engineering of 
+       <a href="#" title="C++">C++</a>
+       , D is a distinct language, having redesigned some core C++ features while also sharing characteristics from other languages, notably 
+       <a href="#" title="Java (programming language)">Java</a>
+       , 
+       <a href="#" title="Python (programming language)">Python</a>
+       , 
+       <a href="#" title="Ruby (programming language)">Ruby</a>
+       , 
+       <a href="#" title="C Sharp (programming language)">C#</a>
+       , and 
+       <a href="#" title="Eiffel (programming language)">Eiffel</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=817800378" target="_blank">2017</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">133114 characters</p>
+      <p style="padding: 0px; margin: 0px; ">21 sections</p>
+      <p style="padding: 0px; margin: 0px; ">39 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">6 images</p>
+      <p style="padding: 0px; margin: 0px; ">218 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">62 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=817800378#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=817800378#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=817800378#Implementations" target="_blank">3. Implementations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=817800378#Development_tools" target="_blank">4. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=817800378#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=817800378#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=817800378#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=817800378#Further_reading" target="_blank">8. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=817800378#External_links" target="_blank">9. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       d2
+       <span style="color: #bababa; font-size: 12px">0.354</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tango
+       <span style="color: #bababa; font-size: 12px">0.310</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       d1
+       <span style="color: #bababa; font-size: 12px">0.221</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bright
+       <span style="color: #bababa; font-size: 12px">0.177</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mixins
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       alexandrescu
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       phobos
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       walter
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.125</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abi
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       std
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       andrei
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compile
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       imperative
+       <span style="color: #bababa; font-size: 12px">0.092</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>D programming language</b>
+        is an 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="System programming language">system programming language</a>
+        created by 
+       <a href="#" title="Walter Bright">Walter Bright</a>
+        of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+        and released in 2001. Bright was joined in the design and development effort in 2007 by 
+       <a href="#" title="Andrei Alexandrescu">Andrei Alexandrescu</a>
+       . Though it originated as a re-engineering of 
+       <a href="#" title="C++">C++</a>
+       , D is a distinct language, having redesigned some core C++ features while also taking inspiration from other languages, notably 
+       <a href="#" title="Java (programming language)">Java</a>
+       , 
+       <a href="#" title="Python (programming language)">Python</a>
+       , 
+       <a href="#" title="Ruby (programming language)">Ruby</a>
+       , 
+       <a href="#" title="C Sharp (programming language)">C#</a>
+       , and 
+       <a href="#" title="Eiffel (programming language)">Eiffel</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=756065554" target="_blank">2016</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">128292 characters</p>
+      <p style="padding: 0px; margin: 0px; ">21 sections</p>
+      <p style="padding: 0px; margin: 0px; ">38 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">6 images</p>
+      <p style="padding: 0px; margin: 0px; ">217 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">53 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=756065554#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=756065554#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=756065554#Implementations" target="_blank">3. Implementations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=756065554#Development_tools" target="_blank">4. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=756065554#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=756065554#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=756065554#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=756065554#Further_reading" target="_blank">8. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=756065554#External_links" target="_blank">9. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       d2
+       <span style="color: #bababa; font-size: 12px">0.366</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tango
+       <span style="color: #bababa; font-size: 12px">0.320</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       d1
+       <span style="color: #bababa; font-size: 12px">0.229</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mixins
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       alexandrescu
+       <span style="color: #bababa; font-size: 12px">0.137</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bright
+       <span style="color: #bababa; font-size: 12px">0.137</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       phobos
+       <span style="color: #bababa; font-size: 12px">0.137</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abi
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       std
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       andrei
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compile
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       imperative
+       <span style="color: #bababa; font-size: 12px">0.095</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assembler
+       <span style="color: #bababa; font-size: 12px">0.092</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>D programming language</b>
+        is an 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="System programming language">system programming language</a>
+        created by 
+       <a href="#" title="Walter Bright">Walter Bright</a>
+        of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+        and released in 2001. Bright was joined in the design and development effort in 2007 by 
+       <a href="#" title="Andrei Alexandrescu">Andrei Alexandrescu</a>
+       . Though it originated as a re-engineering of 
+       <a href="#" title="C++">C++</a>
+       , D is a distinct language, having redesigned some core C++ features while also taking inspiration from other languages, notably 
+       <a href="#" title="Java (programming language)">Java</a>
+       , 
+       <a href="#" title="Python (programming language)">Python</a>
+       , 
+       <a href="#" title="Ruby (programming language)">Ruby</a>
+       , 
+       <a href="#" title="C Sharp (programming language)">C#</a>
+       , and 
+       <a href="#" title="Eiffel (programming language)">Eiffel</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=695112296" target="_blank">2015</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">126738 characters</p>
+      <p style="padding: 0px; margin: 0px; ">21 sections</p>
+      <p style="padding: 0px; margin: 0px; ">38 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">6 images</p>
+      <p style="padding: 0px; margin: 0px; ">215 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">51 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=695112296#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=695112296#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=695112296#Implementations" target="_blank">3. Implementations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=695112296#Development_tools" target="_blank">4. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=695112296#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=695112296#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=695112296#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=695112296#Further_reading" target="_blank">8. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=695112296#External_links" target="_blank">9. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       d2
+       <span style="color: #bababa; font-size: 12px">0.367</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tango
+       <span style="color: #bababa; font-size: 12px">0.321</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       d1
+       <span style="color: #bababa; font-size: 12px">0.229</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mixins
+       <span style="color: #bababa; font-size: 12px">0.146</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       alexandrescu
+       <span style="color: #bababa; font-size: 12px">0.138</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bright
+       <span style="color: #bababa; font-size: 12px">0.138</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       phobos
+       <span style="color: #bababa; font-size: 12px">0.138</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abi
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       std
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       andrei
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compile
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       imperative
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assembler
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>D programming language</b>
+        is an 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="System programming language">system programming language</a>
+        created by 
+       <a href="#" title="Walter Bright">Walter Bright</a>
+        of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+        and released in 2001. Bright was joined in the design and development effort in 2006 by 
+       <a href="#" title="Andrei Alexandrescu">Andrei Alexandrescu</a>
+       . Though it originated as a re-engineering of 
+       <a href="#" title="C++">C++</a>
+       , D is a distinct language, having redesigned some core C++ features while also taking inspiration from other languages, notably 
+       <a href="#" title="Java (programming language)">Java</a>
+       , 
+       <a href="#" title="Python (programming language)">Python</a>
+       , 
+       <a href="#" title="Ruby (programming language)">Ruby</a>
+       , 
+       <a href="#" title="C Sharp (programming language)">C#</a>
+       , and 
+       <a href="#" title="Eiffel (programming language)">Eiffel</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=637464735" target="_blank">2014</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">113981 characters</p>
+      <p style="padding: 0px; margin: 0px; ">21 sections</p>
+      <p style="padding: 0px; margin: 0px; ">38 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">5 images</p>
+      <p style="padding: 0px; margin: 0px; ">211 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">47 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=637464735#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=637464735#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=637464735#Implementations" target="_blank">3. Implementations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=637464735#Development_tools" target="_blank">4. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=637464735#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=637464735#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=637464735#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=637464735#Further_reading" target="_blank">8. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=637464735#External_links" target="_blank">9. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       d2
+       <span style="color: #bababa; font-size: 12px">0.370</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tango
+       <span style="color: #bababa; font-size: 12px">0.324</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       d1
+       <span style="color: #bababa; font-size: 12px">0.231</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mixins
+       <span style="color: #bababa; font-size: 12px">0.147</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       alexandrescu
+       <span style="color: #bababa; font-size: 12px">0.139</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       phobos
+       <span style="color: #bababa; font-size: 12px">0.139</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abi
+       <span style="color: #bababa; font-size: 12px">0.110</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       std
+       <span style="color: #bababa; font-size: 12px">0.110</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       andrei
+       <span style="color: #bababa; font-size: 12px">0.110</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.110</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compile
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       imperative
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assembler
+       <span style="color: #bababa; font-size: 12px">0.094</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bright
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>D programming language</b>
+        is an 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="System programming language">system programming language</a>
+        created by 
+       <a href="#" title="Walter Bright">Walter Bright</a>
+        of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+        and 
+       <a href="#" title="Andrei Alexandrescu">Andrei Alexandrescu</a>
+       . Though it originated as a re-engineering of 
+       <a href="#" title="C++">C++</a>
+       , D is a distinct language, having redesigned some core C++ features while also taking inspiration from other languages, notably 
+       <a href="#" title="Java (programming language)">Java</a>
+       , 
+       <a href="#" title="Python (programming language)">Python</a>
+       , 
+       <a href="#" title="Ruby (programming language)">Ruby</a>
+       , 
+       <a href="#" title="C Sharp (programming language)">C#</a>
+       , and 
+       <a href="#" title="Eiffel (programming language)">Eiffel</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=587251726" target="_blank">2013</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">104514 characters</p>
+      <p style="padding: 0px; margin: 0px; ">20 sections</p>
+      <p style="padding: 0px; margin: 0px; ">37 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">5 images</p>
+      <p style="padding: 0px; margin: 0px; ">207 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">40 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=587251726#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=587251726#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=587251726#Implementations" target="_blank">3. Implementations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=587251726#Development_tools" target="_blank">4. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=587251726#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=587251726#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=587251726#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=587251726#Further_reading" target="_blank">8. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=587251726#External_links" target="_blank">9. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       d2
+       <span style="color: #bababa; font-size: 12px">0.395</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tango
+       <span style="color: #bababa; font-size: 12px">0.346</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mixins
+       <span style="color: #bababa; font-size: 12px">0.157</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       d1
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       phobos
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.140</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abi
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       std
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compile
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       imperative
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assembler
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bright
+       <span style="color: #bababa; font-size: 12px">0.099</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       contract
+       <span style="color: #bababa; font-size: 12px">0.099</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ddbg
+       <span style="color: #bababa; font-size: 12px">0.099</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>D programming language</b>
+        is an 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="System programming language">system programming language</a>
+        created by 
+       <a href="#" title="Walter Bright">Walter Bright</a>
+        of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+       . Though it originated as a re-engineering of 
+       <a href="#" title="C++">C++</a>
+       , D is a distinct language, having redesigned some core C++ features while also taking inspiration from other languages, notably 
+       <a href="#" title="Java (programming language)">Java</a>
+       , 
+       <a href="#" title="Python (programming language)">Python</a>
+       , 
+       <a href="#" title="Ruby (programming language)">Ruby</a>
+       , 
+       <a href="#" title="C Sharp (programming language)">C#</a>
+       , and 
+       <a href="#" title="Eiffel (programming language)">Eiffel</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=530063279" target="_blank">2012</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">97422 characters</p>
+      <p style="padding: 0px; margin: 0px; ">19 sections</p>
+      <p style="padding: 0px; margin: 0px; ">35 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">2 images</p>
+      <p style="padding: 0px; margin: 0px; ">207 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">39 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=530063279#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=530063279#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=530063279#Implementations" target="_blank">3. Implementations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=530063279#Development_tools" target="_blank">4. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=530063279#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=530063279#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=530063279#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=530063279#Further_reading" target="_blank">8. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=530063279#External_links" target="_blank">9. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       d2
+       <span style="color: #bababa; font-size: 12px">0.399</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tango
+       <span style="color: #bababa; font-size: 12px">0.349</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mixins
+       <span style="color: #bababa; font-size: 12px">0.158</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       d1
+       <span style="color: #bababa; font-size: 12px">0.150</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       phobos
+       <span style="color: #bababa; font-size: 12px">0.150</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abi
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       std
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       template
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       imperative
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assembler
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bright
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       contract
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ddbg
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>D programming language</b>
+        is an 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="System programming language">system programming language</a>
+        created by 
+       <a href="#" title="Walter Bright">Walter Bright</a>
+        of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+       . Though it originated as a re-engineering of 
+       <a href="#" title="C++">C++</a>
+       , D is a distinct language, having redesigned some core C++ features while also taking inspiration from other languages, notably 
+       <a href="#" title="Java (programming language)">Java</a>
+       , 
+       <a href="#" title="Python (programming language)">Python</a>
+       , 
+       <a href="#" title="Ruby (programming language)">Ruby</a>
+       , 
+       <a href="#" title="C Sharp (programming language)">C#</a>
+       , and 
+       <a href="#" title="Eiffel (programming language)">Eiffel</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=466842003" target="_blank">2011</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">86301 characters</p>
+      <p style="padding: 0px; margin: 0px; ">19 sections</p>
+      <p style="padding: 0px; margin: 0px; ">32 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">198 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">31 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=466842003#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=466842003#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=466842003#Implementations" target="_blank">3. Implementations</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=466842003#Development_tools" target="_blank">4. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=466842003#Examples" target="_blank">5. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=466842003#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=466842003#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=466842003#Further_reading" target="_blank">8. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=466842003#External_links" target="_blank">9. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       d2
+       <span style="color: #bababa; font-size: 12px">0.424</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tango
+       <span style="color: #bababa; font-size: 12px">0.371</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mixins
+       <span style="color: #bababa; font-size: 12px">0.169</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       d1
+       <span style="color: #bababa; font-size: 12px">0.159</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       phobos
+       <span style="color: #bababa; font-size: 12px">0.159</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abi
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       template
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assembler
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       contract
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ddbg
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stabilization
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       windbg
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       zerobugs
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compile
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>D programming language</b>
+        is an 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="System programming language">system programming language</a>
+        created by 
+       <a href="#" title="Walter Bright">Walter Bright</a>
+        of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+       . It originated as a re-engineering of 
+       <a href="#" title="C++">C++</a>
+       , but even though it is mainly influenced by that language, it is not a variant of C++. D has redesigned some C++ features and has been influenced by concepts used in other programming languages, such as 
+       <a href="#" title="Java (programming language)">Java</a>
+       , 
+       <a href="#" title="Python (programming language)">Python</a>
+       , 
+       <a href="#" title="Ruby (programming language)">Ruby</a>
+       , 
+       <a href="#" title="C Sharp (programming language)">C#</a>
+       , and 
+       <a href="#" title="Eiffel (programming language)">Eiffel</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=405142333" target="_blank">2010</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">89552 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">38 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">2 images</p>
+      <p style="padding: 0px; margin: 0px; ">190 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">31 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=405142333#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=405142333#Versions" target="_blank">2. Versions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=405142333#Implementation" target="_blank">3. Implementation</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=405142333#Development_tools" target="_blank">4. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=405142333#Problems_and_controversies" target="_blank">5. Problems and controversies</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=405142333#Examples" target="_blank">6. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=405142333#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=405142333#References" target="_blank">8. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=405142333#Further_reading" target="_blank">9. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=405142333#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       phobos
+       <span style="color: #bababa; font-size: 12px">0.306</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tango
+       <span style="color: #bababa; font-size: 12px">0.306</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       utf
+       <span style="color: #bababa; font-size: 12px">0.284</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mixins
+       <span style="color: #bababa; font-size: 12px">0.162</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mars
+       <span style="color: #bababa; font-size: 12px">0.153</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       char
+       <span style="color: #bababa; font-size: 12px">0.150</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       collector
+       <span style="color: #bababa; font-size: 12px">0.150</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       garbage
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abi
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dll
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       digital
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       template
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assembler
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       alias
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>D programming language</b>
+       , also known simply as 
+       <b>D</b>
+       , is an 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="System programming language">system programming language</a>
+        designed by 
+       <a href="#" title="Walter Bright">Walter Bright</a>
+        of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+       . It originated as a re-engineering of 
+       <a href="#" title="C++">C++</a>
+       , but even though it is predominantly influenced by that language, it is not a variant of C++. D has redesigned some C++ features and has been influenced by concepts used in other programming languages, such as 
+       <a href="#" title="Java (programming language)">Java</a>
+       , 
+       <a href="#" title="Python (programming language)">Python</a>
+       , 
+       <a href="#" title="C Sharp (programming language)">C#</a>
+       , and 
+       <a href="#" title="Eiffel (programming language)">Eiffel</a>
+       .
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=333120266" target="_blank">2009</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">72447 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">32 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">191 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">18 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=333120266#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=333120266#D_2.0" target="_blank">2. D 2.0</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=333120266#Implementation" target="_blank">3. Implementation</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=333120266#Development_tools" target="_blank">4. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=333120266#Problems_and_controversies" target="_blank">5. Problems and controversies</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=333120266#Examples" target="_blank">6. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=333120266#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=333120266#References" target="_blank">8. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=333120266#Further_reading" target="_blank">9. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=333120266#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       phobos
+       <span style="color: #bababa; font-size: 12px">0.301</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       utf
+       <span style="color: #bababa; font-size: 12px">0.279</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tango
+       <span style="color: #bababa; font-size: 12px">0.251</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mixins
+       <span style="color: #bababa; font-size: 12px">0.159</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mars
+       <span style="color: #bababa; font-size: 12px">0.151</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       char
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       collector
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       template
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       garbage
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abi
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dll
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       digital
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       branch
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       experimental
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>D programming language</b>
+       , also known simply as 
+       <b>D</b>
+       , is an 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="System programming language">system programming language</a>
+        by 
+       <a href="#" title="Walter Bright">Walter Bright</a>
+        of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+       . It originated as a re-engineering of 
+       <a href="#" title="C++">C++</a>
+       , but even though it is predominantly influenced by that language, it is not a variant of it. D has redesigned some C++ features and has been influenced by concepts used in other programming languages, such as 
+       <a href="#" title="Java (programming language)">Java</a>
+       , 
+       <a href="#" title="C Sharp (programming language)">C#</a>
+       , and 
+       <a href="#" title="Eiffel (programming language)">Eiffel</a>
+       . A stable version, 1.0, was released on January 2, 2007.
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+        An experimental version, 2.0, was released on June 17, 2007.
+       <sup class="reference" id="cite_ref-d2.0changelog_2-1">
+        <a href="#">[2]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=259347249" target="_blank">2008</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">60943 characters</p>
+      <p style="padding: 0px; margin: 0px; ">21 sections</p>
+      <p style="padding: 0px; margin: 0px; ">38 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">172 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">26 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=259347249#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=259347249#D_2.0" target="_blank">2. D 2.0</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=259347249#Implementation" target="_blank">3. Implementation</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=259347249#Development_tools" target="_blank">4. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=259347249#Problems_and_controversies" target="_blank">5. Problems and controversies</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=259347249#Examples" target="_blank">6. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=259347249#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=259347249#References" target="_blank">8. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=259347249#External_links" target="_blank">9. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       phobos
+       <span style="color: #bababa; font-size: 12px">0.306</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tango
+       <span style="color: #bababa; font-size: 12px">0.255</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       foreach
+       <span style="color: #bababa; font-size: 12px">0.162</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mars
+       <span style="color: #bababa; font-size: 12px">0.153</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       collector
+       <span style="color: #bababa; font-size: 12px">0.150</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       template
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       garbage
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abi
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       obj
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dll
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       digital
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       char
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       branch
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       experimental
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       completion
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>D programming language</b>
+       , also known simply as 
+       <b>D</b>
+       , is an 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multiparadigm</a>
+        
+       <a href="#" title="System programming language">system programming language</a>
+        by 
+       <a href="#" title="Walter Bright">Walter Bright</a>
+        of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+       . It originated as a re-engineering of 
+       <a href="#" title="C++">C++</a>
+       , but even though it is predominantly influenced by that language, it is not a variant of C++. D has redesigned some C++ features and has been influenced by concepts used in other programming languages, such as 
+       <a href="#" title="Java (programming language)">Java</a>
+       , 
+       <a href="#" title="C Sharp (programming language)">C#</a>
+        and 
+       <a href="#" title="Eiffel (programming language)">Eiffel</a>
+       . A stable version, 1.0, was released on 
+       <a href="#" title="January 2">January 2</a>
+       , 
+       <a href="#" title="2007">2007</a>
+       . An experimental version, 
+       <a href="#">2.0</a>
+       , was released on 
+       <a href="#" title="June 17">June 17</a>
+        
+       <a href="#" title="2007">2007</a>
+       .
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=180076978" target="_blank">2007</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">67269 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">26 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">151 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">18 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=180076978#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=180076978#D_2.0" target="_blank">2. D 2.0</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=180076978#Implementation" target="_blank">3. Implementation</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=180076978#Development_tools" target="_blank">4. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=180076978#Problems_and_controversies" target="_blank">5. Problems and controversies</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=180076978#Examples" target="_blank">6. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=180076978#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=180076978#References" target="_blank">8. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=180076978#External_links" target="_blank">9. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       phobos
+       <span style="color: #bababa; font-size: 12px">0.272</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tango
+       <span style="color: #bababa; font-size: 12px">0.204</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       garbage
+       <span style="color: #bababa; font-size: 12px">0.165</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abi
+       <span style="color: #bababa; font-size: 12px">0.162</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dll
+       <span style="color: #bababa; font-size: 12px">0.162</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       experimental
+       <span style="color: #bababa; font-size: 12px">0.142</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       completion
+       <span style="color: #bababa; font-size: 12px">0.137</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assembler
+       <span style="color: #bababa; font-size: 12px">0.137</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       alias
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dlls
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bright
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ddbg
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       finalized
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mars
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       walter
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>D programming language</b>
+       , also known simply as 
+       <b>D</b>
+       , is an 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multiparadigm</a>
+        
+       <a href="#" title="System programming language">system programming language</a>
+        by 
+       <a href="#" title="Walter Bright">Walter Bright</a>
+        of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+       . It originated as a re-engineering of 
+       <a href="#" title="C++">C++</a>
+       , but even though it is predominantly influenced by that language, it is not a variant of C++. D has redesigned some C++ features and has been influenced by concepts used in other programming languages, such as 
+       <a href="#" title="Java (programming language)">Java</a>
+       , 
+       <a class="mw-redirect mw-disambig" href="#" title="C Sharp">C#</a>
+        and 
+       <a href="#" title="Eiffel (programming language)">Eiffel</a>
+       . A stable version, 1.0, was released on 
+       <a href="#" title="January 2">January 2</a>
+       , 
+       <a href="#" title="2007">2007</a>
+       . An experimental version, 
+       <a href="#">2.0</a>
+       , was released on 
+       <a href="#" title="June 17">June 17</a>
+        
+       <a href="#" title="2007">2007</a>
+       .
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=97316120" target="_blank">2006</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">29988 characters</p>
+      <p style="padding: 0px; margin: 0px; ">11 sections</p>
+      <p style="padding: 0px; margin: 0px; ">16 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">1 images</p>
+      <p style="padding: 0px; margin: 0px; ">66 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">12 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=97316120#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=97316120#Implementation" target="_blank">2. Implementation</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=97316120#Development_tools" target="_blank">3. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=97316120#Examples" target="_blank">4. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=97316120#See_also" target="_blank">5. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=97316120#External_links" target="_blank">6. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       abi
+       <span style="color: #bababa; font-size: 12px">0.254</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assembler
+       <span style="color: #bababa; font-size: 12px">0.216</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bright
+       <span style="color: #bababa; font-size: 12px">0.214</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       finalized
+       <span style="color: #bababa; font-size: 12px">0.214</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       walter
+       <span style="color: #bababa; font-size: 12px">0.214</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       garbage
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       collection
+       <span style="color: #bababa; font-size: 12px">0.127</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       inline
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       desired
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       aspects
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       debuggers
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bundle
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       backwards
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       modes
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sufficient
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>D</b>
+        is an 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multiparadigm</a>
+        
+       <a href="#" title="System programming language">system programming language</a>
+        by 
+       <a href="#" title="Walter Bright">Walter Bright</a>
+        of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+       . It originated as a re-engineering of 
+       <a href="#" title="C++">C++</a>
+       , but even though it is predominantely influenced by that language, it is not a variant of C++. 
+       <b>D</b>
+        has redesigned some C++ features and has been influenced by concepts used in other programming languages, such as 
+       <a href="#" title="Java (programming language)">Java</a>
+       , 
+       <a class="mw-redirect mw-disambig" href="#" title="C Sharp">C#</a>
+        and 
+       <a href="#" title="Eiffel (programming language)">Eiffel</a>
+       . A stable version, 1.0, is expected in early January 2007.
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=33015948" target="_blank">2005</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">12993 characters</p>
+      <p style="padding: 0px; margin: 0px; ">4 sections</p>
+      <p style="padding: 0px; margin: 0px; ">13 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">44 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">9 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=33015948#D_examples" target="_blank">1. D examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=33015948#External_links" target="_blank">2. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       abi
+       <span style="color: #bababa; font-size: 12px">0.323</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       assembler
+       <span style="color: #bababa; font-size: 12px">0.274</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bright
+       <span style="color: #bababa; font-size: 12px">0.271</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       walter
+       <span style="color: #bababa; font-size: 12px">0.271</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       garbage
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       inline
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       desired
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       contract
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       finalized
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mars
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matches
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       slicing
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       typifies
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       reducing
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       collection
+       <span style="color: #bababa; font-size: 12px">0.129</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>D</b>
+        is an 
+       <a class="mw-redirect" href="#" title="Object-oriented">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        
+       <a class="mw-redirect" href="#" title="Systems programming">systems programming</a>
+        language designed by 
+       <a href="#" title="Walter Bright">Walter Bright</a>
+        of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+        as a successor to 
+       <a class="mw-redirect" href="#" title="C plus plus">C++</a>
+       . He has done this by adding some features and reducing the complexity of C++ syntax. Examples of successors to C++ include 
+       <a class="mw-redirect" href="#" title="Java programming language">Java</a>
+        and 
+       <a class="mw-redirect" href="#" title="C Sharp programming language"> C#</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=9805007" target="_blank">2004</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">7088 characters</p>
+      <p style="padding: 0px; margin: 0px; ">2 sections</p>
+      <p style="padding: 0px; margin: 0px; ">7 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">34 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">5 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=9805007#Example" target="_blank">1. Example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=9805007#External_links" target="_blank">2. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       assembler
+       <span style="color: #bababa; font-size: 12px">0.368</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bright
+       <span style="color: #bababa; font-size: 12px">0.364</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       walter
+       <span style="color: #bababa; font-size: 12px">0.364</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       inline
+       <span style="color: #bababa; font-size: 12px">0.190</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       contract
+       <span style="color: #bababa; font-size: 12px">0.182</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       finalized
+       <span style="color: #bababa; font-size: 12px">0.182</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mars
+       <span style="color: #bababa; font-size: 12px">0.182</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matches
+       <span style="color: #bababa; font-size: 12px">0.182</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       low
+       <span style="color: #bababa; font-size: 12px">0.154</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       regularly
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       retains
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       successors
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       digital
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       adds
+       <span style="color: #bababa; font-size: 12px">0.127</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       garbage
+       <span style="color: #bababa; font-size: 12px">0.127</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>D</b>
+        is an 
+       <a class="mw-redirect" href="#" title="Object-oriented">object-oriented</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        
+       <a class="mw-redirect" href="#" title="Systems programming">systems programming</a>
+        language designed by Walter Bright of 
+       <a href="#" title="Digital Mars">Digital Mars</a>
+        as a successor to 
+       <a class="mw-redirect" href="#" title="C programming language">C</a>
+       . Other successors to C include 
+       <a class="mw-redirect" href="#" title="C plus plus">C++</a>
+       , 
+       <a href="#" title="Objective-C">Objective-C</a>
+       , 
+       <a class="mw-redirect" href="#" title="Java programming language">Java</a>
+        and 
+       <a class="mw-redirect" href="#" title="C Sharp programming language">C#</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;oldid=2299245" target="_blank">2003</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">2347 characters</p>
+      <p style="padding: 0px; margin: 0px; ">0 sections</p>
+      <p style="padding: 0px; margin: 0px; ">7 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">4 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">1 external links</p>
+     </td>
+     <td style="width: 25%;"/>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       assembler
+       <span style="color: #bababa; font-size: 12px">0.488</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       inline
+       <span style="color: #bababa; font-size: 12px">0.251</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       overload
+       <span style="color: #bababa; font-size: 12px">0.241</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bright
+       <span style="color: #bababa; font-size: 12px">0.241</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       walter
+       <span style="color: #bababa; font-size: 12px">0.241</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fixing
+       <span style="color: #bababa; font-size: 12px">0.241</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       differentiate
+       <span style="color: #bababa; font-size: 12px">0.192</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       http
+       <span style="color: #bababa; font-size: 12px">0.192</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       drop
+       <span style="color: #bababa; font-size: 12px">0.192</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       positive
+       <span style="color: #bababa; font-size: 12px">0.163</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       interesting
+       <span style="color: #bababa; font-size: 12px">0.163</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       enter
+       <span style="color: #bababa; font-size: 12px">0.163</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       drivers
+       <span style="color: #bababa; font-size: 12px">0.163</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       device
+       <span style="color: #bababa; font-size: 12px">0.142</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       currently
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       There have been several programming languages called 
+       <b>D</b>
+        during the history of computing. (This needs elaboration.)
+
+      </p>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>

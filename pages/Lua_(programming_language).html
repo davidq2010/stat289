@@ -1,0 +1,2622 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title charset="utf-8">Programming Languages</title>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"> </script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+  <link href="../css/custom.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <nav class="navbar navbar-default navbar-darkbg-dark navbar-fixed-top">
+   <div class="container">
+    <div class="navbar-header">
+     <a class="navbar-brand" href="../index.html">Programming Languages</a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-docs">
+       <a class="nav-link" href="../docs.html">Docs</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-clusters">
+       <a class="nav-link" href="../clusters.html">Clusters</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-viz">
+       <a class="nav-link" href="../viz.html">Viz</a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <div class="container" style="padding-top: 30px;">
+   <div class="row">
+    <div class="col-sm-4">
+     <img src="" style="max-width: 300px"/>
+    </div>
+    <div class="col-sm-8">
+     <h1>Lua (programming language)</h1>
+     <p>
+      <b>Lua</b>
+       (
+      <span class="nowrap">
+       <span class="IPA nopopups noexcerpt">
+        <a href="#" title="Help:IPA/English">
+         /
+         <span style="border-bottom:1px dotted">
+          <span title="/ˈ/: primary stress follows">ˈ</span>
+          <span title="'l' in 'lie'">l</span>
+          <span title="/uː/: 'oo' in 'goose'">uː</span>
+          <span title="/ə/: 'a' in 'about'">ə</span>
+         </span>
+         /
+        </a>
+       </span>
+      </span>
+       
+      <a href="#" title="Help:Pronunciation respelling key">
+       <i title="English pronunciation respelling">
+        <span style="font-size:90%">LOO</span>
+        -ə
+       </i>
+      </a>
+      ; from 
+      <a href="#" title="Portuguese language">Portuguese</a>
+      : 
+      <i lang="pt">
+       <a class="extiw" href="#" title="wikt:lua">lua</a>
+      </i>
+       
+      <small/>
+      <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+       <a href="#" title="Help:IPA/Portuguese">[ˈlu.(w)ɐ]</a>
+      </span>
+       meaning 
+      <i>
+       <a href="#" title="Moon">moon</a>
+      </i>
+      )
+      <sup class="reference" id="cite_ref-2">
+       <a href="#">[a]</a>
+      </sup>
+       is a 
+      <a href="#" title="Lightweight programming language">lightweight</a>
+      , 
+      <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+       
+      <a href="#" title="Programming language">programming language</a>
+       designed primarily for embedded use in applications.
+      <sup class="reference" id="cite_ref-luaspe_3-0">
+       <a href="#">[2]</a>
+      </sup>
+       Lua is 
+      <a class="mw-redirect" href="#" title="Cross-platform">cross-platform</a>
+      , since the interpreter is written in 
+      <a href="#" title="ANSI C">ANSI C</a>
+      ,
+      <sup class="reference" id="cite_ref-luaabout_4-0">
+       <a href="#">[3]</a>
+      </sup>
+       and has a relatively simple C 
+      <a href="#" title="Application programming interface">API</a>
+      .
+      <sup class="reference" id="cite_ref-5">
+       <a href="#">[4]</a>
+      </sup>
+      
+
+     </p>
+    </div>
+   </div>
+   <h3 style="padding-top: 15px">Page Revisions</h3>
+   <table style="text-align: left; margin: 0px auto">
+    <tr>
+     <td>
+      <b>Year</b>
+     </td>
+     <td>
+      <b>Metadata</b>
+     </td>
+     <td>
+      <b>Sections</b>
+     </td>
+     <td>
+      <b>Top Words</b>
+     </td>
+     <td>
+      <b>First Paragraph</b>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=869400665" target="_blank">2018</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">145026 characters</p>
+      <p style="padding: 0px; margin: 0px; ">16 sections</p>
+      <p style="padding: 0px; margin: 0px; ">56 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">15 images</p>
+      <p style="padding: 0px; margin: 0px; ">349 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">54 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=869400665#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=869400665#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=869400665#Implementation" target="_blank">3. Implementation</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=869400665#C_API" target="_blank">4. C API</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=869400665#Applications" target="_blank">5. Applications</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=869400665#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=869400665#Notes" target="_blank">7. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=869400665#References" target="_blank">8. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=869400665#Further_reading" target="_blank">9. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=869400665#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.926</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tecgraf
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nil
+       <span style="color: #bababa; font-size: 12px">0.085</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sol
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stack
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       func
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       api
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tables
+       <span style="color: #bababa; font-size: 12px">0.046</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       game
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       loop
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.039</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       key
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       register
+       <span style="color: #bababa; font-size: 12px">0.034</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lua</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/uː/: 'oo' in 'goose'">uː</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">LOO</span>
+         -ə
+        </i>
+       </a>
+       ; from 
+       <a href="#" title="Portuguese language">Portuguese</a>
+       : 
+       <i lang="pt">
+        <a class="extiw" href="#" title="wikt:lua">lua</a>
+       </i>
+        
+       <small/>
+       <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+        <a href="#" title="Help:IPA/Portuguese">[ˈlu.(w)ɐ]</a>
+       </span>
+        meaning 
+       <i>
+        <a href="#" title="Moon">moon</a>
+       </i>
+       )
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[a]</a>
+       </sup>
+        is a 
+       <a href="#" title="Lightweight programming language">lightweight</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed primarily for embedded use in applications.
+       <sup class="reference" id="cite_ref-luaspe_3-0">
+        <a href="#">[2]</a>
+       </sup>
+        Lua is 
+       <a class="mw-redirect" href="#" title="Cross-platform">cross-platform</a>
+       , since the interpreter is written in 
+       <a href="#" title="ANSI C">ANSI C</a>
+       ,
+       <sup class="reference" id="cite_ref-luaabout_4-0">
+        <a href="#">[3]</a>
+       </sup>
+        and has a relatively simple C 
+       <a href="#" title="Application programming interface">API</a>
+       .
+       <sup class="reference" id="cite_ref-5">
+        <a href="#">[4]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=817777245" target="_blank">2017</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">132925 characters</p>
+      <p style="padding: 0px; margin: 0px; ">15 sections</p>
+      <p style="padding: 0px; margin: 0px; ">54 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">14 images</p>
+      <p style="padding: 0px; margin: 0px; ">312 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">51 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=817777245#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=817777245#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=817777245#Implementation" target="_blank">3. Implementation</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=817777245#C_API" target="_blank">4. C API</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=817777245#Applications" target="_blank">5. Applications</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=817777245#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=817777245#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=817777245#Further_reading" target="_blank">8. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=817777245#External_links" target="_blank">9. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.927</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tecgraf
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nil
+       <span style="color: #bababa; font-size: 12px">0.085</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sol
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stack
+       <span style="color: #bababa; font-size: 12px">0.062</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       func
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       api
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tables
+       <span style="color: #bababa; font-size: 12px">0.046</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       game
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.039</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       register
+       <span style="color: #bababa; font-size: 12px">0.034</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       indices
+       <span style="color: #bababa; font-size: 12px">0.034</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       key
+       <span style="color: #bababa; font-size: 12px">0.033</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lua</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/uː/: 'oo' in 'goose'">uː</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">LOO</span>
+         -ə
+        </i>
+       </a>
+       , from 
+       <a href="#" title="Portuguese language">Portuguese</a>
+       : 
+       <i lang="pt">
+        <a class="extiw" href="#" title="wikt:lua">lua</a>
+       </i>
+        
+       <small/>
+       <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+        <a href="#" title="Help:IPA/Portuguese">[ˈlu.(w)ɐ]</a>
+       </span>
+        meaning 
+       <i>
+        <a href="#" title="Moon">moon</a>
+       </i>
+       ) is a 
+       <a href="#" title="Lightweight programming language">lightweight</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed primarily for 
+       <a class="mw-redirect" href="#" title="Embedded systems">embedded systems</a>
+        and clients.
+       <sup class="reference" id="cite_ref-luaspe_2-0">
+        <a href="#">[2]</a>
+       </sup>
+        Lua is 
+       <a class="mw-redirect" href="#" title="Cross-platform">cross-platform</a>
+       , since the interpreter is written in 
+       <a href="#" title="ANSI C">ANSI C</a>
+       ,
+       <sup class="reference" id="cite_ref-luaabout_3-0">
+        <a href="#">[3]</a>
+       </sup>
+        and has a relatively simple C 
+       <a href="#" title="Application programming interface">API</a>
+       .
+       <sup class="reference" id="cite_ref-4">
+        <a href="#">[4]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=757550157" target="_blank">2016</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">172507 characters</p>
+      <p style="padding: 0px; margin: 0px; ">26 sections</p>
+      <p style="padding: 0px; margin: 0px; ">66 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">13 images</p>
+      <p style="padding: 0px; margin: 0px; ">409 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">78 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=757550157#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=757550157#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=757550157#Internals" target="_blank">3. Internals</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=757550157#C_API" target="_blank">4. C API</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=757550157#Applications" target="_blank">5. Applications</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=757550157#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=757550157#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=757550157#Further_reading" target="_blank">8. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=757550157#External_links" target="_blank">9. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.929</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tecgraf
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nil
+       <span style="color: #bababa; font-size: 12px">0.083</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sol
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stack
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       func
+       <span style="color: #bababa; font-size: 12px">0.050</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.050</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       api
+       <span style="color: #bababa; font-size: 12px">0.050</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tables
+       <span style="color: #bababa; font-size: 12px">0.040</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.038</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       template
+       <span style="color: #bababa; font-size: 12px">0.033</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       game
+       <span style="color: #bababa; font-size: 12px">0.033</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       register
+       <span style="color: #bababa; font-size: 12px">0.033</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       indices
+       <span style="color: #bababa; font-size: 12px">0.033</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lua</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/uː/: 'oo' in 'goose'">uː</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">LOO</span>
+         -ə
+        </i>
+       </a>
+       , from 
+       <a href="#" title="Portuguese language">Portuguese</a>
+       : 
+       <i lang="pt">
+        <a class="extiw" href="#" title="wikt:lua">lua</a>
+       </i>
+        
+       <small/>
+       <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+        <a href="#" title="Help:IPA/Portuguese">[ˈlu.(w)ɐ]</a>
+       </span>
+        meaning 
+       <i>
+        <a href="#" title="Moon">moon</a>
+       </i>
+       ) is a lightweight 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed primarily for 
+       <a class="mw-redirect" href="#" title="Embedded systems">embedded systems</a>
+        and clients.
+       <sup class="reference" id="cite_ref-luaspe_1-0">
+        <a href="#">[1]</a>
+       </sup>
+        Lua is 
+       <a class="mw-redirect" href="#" title="Cross-platform">cross-platform</a>
+        since it is written in 
+       <a href="#" title="ANSI C">ANSI C</a>
+       ,
+       <sup class="reference" id="cite_ref-luaabout_2-0">
+        <a href="#">[2]</a>
+       </sup>
+        and has a relatively simple 
+       <a href="#" title="C (programming language)">C</a>
+        
+       <a href="#" title="Application programming interface">API</a>
+       .
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=695620947" target="_blank">2015</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">166622 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">66 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">10 images</p>
+      <p style="padding: 0px; margin: 0px; ">395 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">75 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=695620947#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=695620947#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=695620947#Internals" target="_blank">3. Internals</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=695620947#C_API" target="_blank">4. C API</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=695620947#Applications" target="_blank">5. Applications</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=695620947#Further_reading" target="_blank">6. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=695620947#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=695620947#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.932</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tecgraf
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.088</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nil
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sol
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stack
+       <span style="color: #bababa; font-size: 12px">0.059</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       func
+       <span style="color: #bababa; font-size: 12px">0.049</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.049</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       api
+       <span style="color: #bababa; font-size: 12px">0.049</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tables
+       <span style="color: #bababa; font-size: 12px">0.039</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       template
+       <span style="color: #bababa; font-size: 12px">0.032</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       game
+       <span style="color: #bababa; font-size: 12px">0.032</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       register
+       <span style="color: #bababa; font-size: 12px">0.032</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       indices
+       <span style="color: #bababa; font-size: 12px">0.032</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lua</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/uː/: 'oo' in 'goose'">uː</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">LOO</span>
+         -ə
+        </i>
+       </a>
+       , from 
+       <a href="#" title="Portuguese language">Portuguese</a>
+       : 
+       <i lang="pt">
+        <a class="extiw" href="#" title="wikt:lua">lua</a>
+       </i>
+        
+       <small/>
+       <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+        <a href="#" title="Help:IPA/Portuguese">[ˈlu.(w)ɐ]</a>
+       </span>
+        meaning 
+       <i>
+        <a href="#" title="Moon">moon</a>
+       </i>
+       ) is a lightweight 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed primarily for embedded systems and clients.
+       <sup class="reference" id="cite_ref-luaspe_1-0">
+        <a href="#">[1]</a>
+       </sup>
+        Lua is 
+       <a class="mw-redirect" href="#" title="Cross-platform">cross-platform</a>
+        since it is written in 
+       <a href="#" title="ANSI C">ANSI C</a>
+       ,
+       <sup class="reference" id="cite_ref-luaabout_2-0">
+        <a href="#">[2]</a>
+       </sup>
+        and has a relatively simple 
+       <a href="#" title="C (programming language)">C</a>
+        
+       <a href="#" title="Application programming interface">API</a>
+       .
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=639283081" target="_blank">2014</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">148781 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">65 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">10 images</p>
+      <p style="padding: 0px; margin: 0px; ">368 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">58 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=639283081#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=639283081#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=639283081#Internals" target="_blank">3. Internals</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=639283081#C_API" target="_blank">4. C API</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=639283081#Applications" target="_blank">5. Applications</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=639283081#References" target="_blank">6. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=639283081#Further_reading" target="_blank">7. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=639283081#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.926</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tecgraf
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nil
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sol
+       <span style="color: #bababa; font-size: 12px">0.082</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stack
+       <span style="color: #bababa; font-size: 12px">0.062</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       func
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       api
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tables
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       template
+       <span style="color: #bababa; font-size: 12px">0.034</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       game
+       <span style="color: #bababa; font-size: 12px">0.034</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       register
+       <span style="color: #bababa; font-size: 12px">0.034</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       indices
+       <span style="color: #bababa; font-size: 12px">0.034</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lua</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/uː/: 'oo' in 'goose'">uː</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">LOO</span>
+         -ə
+        </i>
+       </a>
+       , from 
+       <a href="#" title="Portuguese language">Portuguese</a>
+       : 
+       <i lang="pt">
+        <a class="extiw" href="#" title="wikt:lua">lua</a>
+       </i>
+        
+       <small/>
+       <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+        <a href="#" title="Help:IPA/Portuguese">[ˈlu.(w)ɐ]</a>
+       </span>
+        meaning 
+       <i>
+        <a href="#" title="Moon">moon</a>
+       </i>
+       ; explicitly not &quot;LUA&quot;
+       <sup class="reference" id="cite_ref-luaabout_1-0">
+        <a href="#">[1]</a>
+       </sup>
+       ) is a lightweight 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed as a 
+       <a href="#" title="Scripting language">scripting language</a>
+        with extensible semantics as a primary goal. Lua is 
+       <a class="mw-redirect" href="#" title="Cross-platform">cross-platform</a>
+        since it is written in 
+       <a href="#" title="ANSI C">ANSI C</a>
+       ,
+       <sup class="reference" id="cite_ref-luaabout_1-1">
+        <a href="#">[1]</a>
+       </sup>
+        and has a relatively simple 
+       <a href="#" title="C (programming language)">C</a>
+        
+       <a href="#" title="Application programming interface">API</a>
+       .
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[2]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=585939912" target="_blank">2013</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">147540 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">60 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">10 images</p>
+      <p style="padding: 0px; margin: 0px; ">360 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">52 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=585939912#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=585939912#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=585939912#Internals" target="_blank">3. Internals</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=585939912#C_API" target="_blank">4. C API</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=585939912#Applications" target="_blank">5. Applications</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=585939912#References" target="_blank">6. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=585939912#Further_reading" target="_blank">7. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=585939912#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.917</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       displaystyle
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tecgraf
+       <span style="color: #bababa; font-size: 12px">0.116</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.089</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nil
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sol
+       <span style="color: #bababa; font-size: 12px">0.083</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stack
+       <span style="color: #bababa; font-size: 12px">0.063</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       func
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       api
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tables
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       template
+       <span style="color: #bababa; font-size: 12px">0.034</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       game
+       <span style="color: #bababa; font-size: 12px">0.034</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       register
+       <span style="color: #bababa; font-size: 12px">0.034</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lua</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/uː/: 'oo' in 'goose'">uː</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">LOO</span>
+         -ə
+        </i>
+       </a>
+       , from 
+       <a href="#" title="Portuguese language">Portuguese</a>
+       : 
+       <i lang="pt">
+        <a class="extiw" href="#" title="wikt:lua">lua</a>
+       </i>
+        
+       <small/>
+       <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+        <a href="#" title="Help:IPA/Portuguese">[ˈlu.(w)ɐ]</a>
+       </span>
+        meaning 
+       <i>
+        <a href="#" title="Moon">moon</a>
+       </i>
+       ; explicitly not &quot;LUA&quot;
+       <sup class="reference" id="cite_ref-luaabout_1-0">
+        <a href="#">[1]</a>
+       </sup>
+       ) is a lightweight 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed as a 
+       <a href="#" title="Scripting language">scripting language</a>
+        with &quot;extensible semantics&quot; as a primary goal. Lua is 
+       <a class="mw-redirect" href="#" title="Cross-platform">cross-platform</a>
+        since it is written in 
+       <a href="#" title="ANSI C">ANSI C</a>
+       .
+       <sup class="reference" id="cite_ref-luaabout_1-1">
+        <a href="#">[1]</a>
+       </sup>
+        Lua has a relatively simple 
+       <a href="#" title="C (programming language)">C</a>
+        
+       <a href="#" title="Application programming interface">API</a>
+       , thus &quot;Lua is especially useful for providing end users with an easy way to program the behavior of a software product without getting too far into its innards&quot;.
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[2]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=530675744" target="_blank">2012</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">137552 characters</p>
+      <p style="padding: 0px; margin: 0px; ">23 sections</p>
+      <p style="padding: 0px; margin: 0px; ">66 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">7 images</p>
+      <p style="padding: 0px; margin: 0px; ">340 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">50 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=530675744#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=530675744#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=530675744#Internals" target="_blank">3. Internals</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=530675744#C_API" target="_blank">4. C API</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=530675744#Applications" target="_blank">5. Applications</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=530675744#References" target="_blank">6. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=530675744#Further_reading" target="_blank">7. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=530675744#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.922</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tecgraf
+       <span style="color: #bababa; font-size: 12px">0.116</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.089</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nil
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sol
+       <span style="color: #bababa; font-size: 12px">0.083</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       repeat
+       <span style="color: #bababa; font-size: 12px">0.066</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stack
+       <span style="color: #bababa; font-size: 12px">0.063</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       func
+       <span style="color: #bababa; font-size: 12px">0.053</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.053</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       loop
+       <span style="color: #bababa; font-size: 12px">0.053</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       api
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tables
+       <span style="color: #bababa; font-size: 12px">0.047</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       function
+       <span style="color: #bababa; font-size: 12px">0.038</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       register
+       <span style="color: #bababa; font-size: 12px">0.035</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lua</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span title="Unrecognized symbol">
+           <strong class="error">[invalid input: 'icon']</strong>
+          </span>
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/uː/: 'oo' in 'goose'">uː</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">LOO</span>
+         -ə
+        </i>
+       </a>
+       , from 
+       <a href="#" title="Portuguese language">Portuguese</a>
+       : 
+       <i lang="pt">
+        <a class="extiw" href="#" title="wikt:lua">lua</a>
+       </i>
+        
+       <small/>
+       <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+        <a href="#" title="Help:IPA/Portuguese">[ˈlu.(w)ɐ]</a>
+       </span>
+        meaning &quot;
+       <a href="#" title="Moon">moon</a>
+       &quot;; explicitly not &quot;LUA&quot;) is a 
+       <a href="#" title="Lightweight programming language">lightweight</a>
+        
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed as a 
+       <a href="#" title="Scripting language">scripting language</a>
+        with &quot;extensible semantics&quot; as a primary goal. Lua is 
+       <a class="mw-redirect" href="#" title="Cross-platform">cross-platform</a>
+        since it is written in 
+       <a href="#" title="ANSI C">ISO C</a>
+       .
+       <sup class="reference" id="cite_ref-luaabout_1-0">
+        <a href="#">[1]</a>
+       </sup>
+        Lua has a relatively simple 
+       <a href="#" title="C (programming language)">C</a>
+        
+       <a href="#" title="Application programming interface">API</a>
+        compared to other scripting languages.
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=468119927" target="_blank">2011</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">121608 characters</p>
+      <p style="padding: 0px; margin: 0px; ">19 sections</p>
+      <p style="padding: 0px; margin: 0px; ">52 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">7 images</p>
+      <p style="padding: 0px; margin: 0px; ">324 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">42 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=468119927#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=468119927#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=468119927#Internals" target="_blank">3. Internals</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=468119927#C_API" target="_blank">4. C API</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=468119927#Applications" target="_blank">5. Applications</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=468119927#References" target="_blank">6. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=468119927#Further_reading" target="_blank">7. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=468119927#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.924</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tecgraf
+       <span style="color: #bababa; font-size: 12px">0.125</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sol
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stack
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       func
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       api
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.056</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tables
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       register
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       key
+       <span style="color: #bababa; font-size: 12px">0.036</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       atmosphere
+       <span style="color: #bababa; font-size: 12px">0.036</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       auxiliary
+       <span style="color: #bababa; font-size: 12px">0.036</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       customized
+       <span style="color: #bababa; font-size: 12px">0.036</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lua</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span title="Unrecognized symbol">
+           <strong class="error">[invalid input: 'icon']</strong>
+          </span>
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/uː/: 'oo' in 'goose'">uː</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">LOO</span>
+         -ə
+        </i>
+       </a>
+       ; from 
+       <a href="#" title="Portuguese language">Portuguese</a>
+       : 
+       <i lang="pt">
+        <a class="extiw" href="#" title="wikt:en:lua">lua</a>
+       </i>
+        meaning &quot;
+       <a href="#" title="Moon">moon</a>
+       &quot;) is a 
+       <a href="#" title="Lightweight programming language">lightweight</a>
+        
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed as a 
+       <a href="#" title="Scripting language">scripting language</a>
+        with 
+       <a href="#" title="Scripting language">extensible semantics</a>
+        as a primary goal. Lua has a relatively simple 
+       <a href="#" title="C (programming language)">C</a>
+        
+       <a href="#" title="Application programming interface">API</a>
+        compared to other scripting languages.
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=404253540" target="_blank">2010</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">111160 characters</p>
+      <p style="padding: 0px; margin: 0px; ">19 sections</p>
+      <p style="padding: 0px; margin: 0px; ">49 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">7 images</p>
+      <p style="padding: 0px; margin: 0px; ">291 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">36 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=404253540#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=404253540#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=404253540#Internals" target="_blank">3. Internals</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=404253540#C_API" target="_blank">4. C API</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=404253540#Applications" target="_blank">5. Applications</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=404253540#References" target="_blank">6. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=404253540#Further_reading" target="_blank">7. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=404253540#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.926</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tecgraf
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sol
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stack
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       func
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       api
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.056</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tables
+       <span style="color: #bababa; font-size: 12px">0.045</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       register
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       key
+       <span style="color: #bababa; font-size: 12px">0.036</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       atmosphere
+       <span style="color: #bababa; font-size: 12px">0.036</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       auxiliary
+       <span style="color: #bababa; font-size: 12px">0.036</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       customized
+       <span style="color: #bababa; font-size: 12px">0.036</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Lua</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span title="Unrecognized symbol">
+           <strong class="error">[invalid input: 'icon']</strong>
+          </span>
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/uː/: 'oo' in 'goose'">uː</span>
+           <span title="/./: syllable break">.</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">
+          L
+          <b>OO</b>
+         </span>
+         -ə
+        </i>
+       </a>
+       ; from 
+       <a href="#" title="Portuguese language">Portuguese</a>
+       : 
+       <i lang="pt">
+        <a class="extiw" href="#" title="wikt:en:lua">lua</a>
+       </i>
+        meaning &quot;
+       <a href="#" title="Moon">moon</a>
+       &quot;) is a 
+       <a href="#" title="Lightweight programming language">lightweight</a>
+        
+       <a href="#" title="Programming paradigm">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed as a 
+       <a href="#" title="Scripting language">scripting language</a>
+        with 
+       <a href="#" title="Scripting language">extensible semantics</a>
+        as a primary goal. Lua has a relatively simple 
+       <a href="#" title="C (programming language)">C</a>
+        
+       <a href="#" title="Application programming interface">API</a>
+        compared to other scripting languages.
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=334978515" target="_blank">2009</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">106324 characters</p>
+      <p style="padding: 0px; margin: 0px; ">20 sections</p>
+      <p style="padding: 0px; margin: 0px; ">51 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">7 images</p>
+      <p style="padding: 0px; margin: 0px; ">286 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">32 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=334978515#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=334978515#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=334978515#Internals" target="_blank">3. Internals</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=334978515#C_API" target="_blank">4. C API</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=334978515#Applications" target="_blank">5. Applications</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=334978515#References" target="_blank">6. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=334978515#Further_reading" target="_blank">7. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=334978515#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.935</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tecgraf
+       <span style="color: #bababa; font-size: 12px">0.116</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sol
+       <span style="color: #bababa; font-size: 12px">0.083</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stack
+       <span style="color: #bababa; font-size: 12px">0.063</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       func
+       <span style="color: #bababa; font-size: 12px">0.053</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       brazil
+       <span style="color: #bababa; font-size: 12px">0.053</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.053</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       api
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tables
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       register
+       <span style="color: #bababa; font-size: 12px">0.035</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       key
+       <span style="color: #bababa; font-size: 12px">0.033</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       atmosphere
+       <span style="color: #bababa; font-size: 12px">0.033</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       auxiliary
+       <span style="color: #bababa; font-size: 12px">0.033</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       In 
+       <a href="#" title="Computing">computing</a>
+       , 
+       <b>Lua</b>
+        (
+       <a class="new" href="#" title="Template:PronEng (page does not exist)">Template:PronEng</a>
+       , 
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">LOO</span>
+         -ə
+        </i>
+       </a>
+       ) is a 
+       <a href="#" title="Lightweight programming language">lightweight</a>
+       , 
+       <a class="mw-redirect" href="#" title="Reflection (computer science)">reflective</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        and 
+       <a href="#" title="Functional programming">functional</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+       , designed as a 
+       <a href="#" title="Scripting language">scripting language</a>
+        with 
+       <a href="#" title="Scripting language">extensible semantics</a>
+        as a primary goal. The name comes from the 
+       <a href="#" title="Portuguese language">Portuguese</a>
+        word 
+       <i>
+        <a class="extiw" href="#" title="wikt:en:lua">lua</a>
+       </i>
+        meaning &quot;moon&quot;. Lua has a relatively simple 
+       <a href="#" title="C (programming language)">C</a>
+        
+       <a href="#" title="Application programming interface">API</a>
+        compared to other scripting languages.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=260940006" target="_blank">2008</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">137736 characters</p>
+      <p style="padding: 0px; margin: 0px; ">28 sections</p>
+      <p style="padding: 0px; margin: 0px; ">59 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">7 images</p>
+      <p style="padding: 0px; margin: 0px; ">353 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">90 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=260940006#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=260940006#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=260940006#Internals" target="_blank">3. Internals</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=260940006#C_API" target="_blank">4. C API</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=260940006#Development" target="_blank">5. Development</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=260940006#Applications" target="_blank">6. Applications</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=260940006#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=260940006#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.945</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tecgraf
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sol
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stack
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       func
+       <span style="color: #bababa; font-size: 12px">0.046</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       brazil
+       <span style="color: #bababa; font-size: 12px">0.046</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.046</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       api
+       <span style="color: #bababa; font-size: 12px">0.045</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       distributions
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tables
+       <span style="color: #bababa; font-size: 12px">0.036</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       register
+       <span style="color: #bababa; font-size: 12px">0.030</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       org
+       <span style="color: #bababa; font-size: 12px">0.029</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       key
+       <span style="color: #bababa; font-size: 12px">0.029</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       In 
+       <a href="#" title="Computing">computing</a>
+       , 
+       <b>Lua</b>
+        (
+       <a class="new" href="#" title="Template:PronEng (page does not exist)">Template:PronEng</a>
+        LOO-uh) is a 
+       <a class="mw-redirect" href="#" title="Lightweight languages">lightweight</a>
+       , 
+       <a class="mw-redirect" href="#" title="Reflection (computer science)">reflective</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        and 
+       <a href="#" title="Functional programming">functional</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+       , designed as a 
+       <a href="#" title="Scripting language">scripting language</a>
+        with 
+       <a class="mw-redirect" href="#" title="Extension language">extensible</a>
+        
+       <a href="#" title="Semantics">semantics</a>
+        as a primary goal. The name means ‘moon’ in 
+       <a href="#" title="Portuguese language">Portuguese</a>
+       . It has enjoyed great popularity in the videogames industry and is known for having a simple yet powerful 
+       <a href="#" title="C (programming language)">C</a>
+        
+       <a href="#" title="Application programming interface">API</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=180954055" target="_blank">2007</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">49942 characters</p>
+      <p style="padding: 0px; margin: 0px; ">20 sections</p>
+      <p style="padding: 0px; margin: 0px; ">42 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">2 images</p>
+      <p style="padding: 0px; margin: 0px; ">165 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">22 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=180954055#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=180954055#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=180954055#Internals" target="_blank">3. Internals</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=180954055#C_API" target="_blank">4. C API</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=180954055#Applications" target="_blank">5. Applications</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=180954055#Books" target="_blank">6. Books</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=180954055#Trivia" target="_blank">7. Trivia</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=180954055#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.934</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stack
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       func
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       metatable
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tables
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       api
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       key
+       <span style="color: #bababa; font-size: 12px">0.046</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       auxiliary
+       <span style="color: #bababa; font-size: 12px">0.045</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       celes
+       <span style="color: #bababa; font-size: 12px">0.045</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rio
+       <span style="color: #bababa; font-size: 12px">0.045</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       print
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       waldemar
+       <span style="color: #bababa; font-size: 12px">0.036</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       offsets
+       <span style="color: #bababa; font-size: 12px">0.036</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       In 
+       <a href="#" title="Computing">computing</a>
+       , the 
+       <b>Lua</b>
+        (
+       <a class="new" href="#" title="Template:PronEng (page does not exist)">Template:PronEng</a>
+        LOO-ah) 
+       <a href="#" title="Programming language">programming language</a>
+        is a 
+       <a class="mw-redirect" href="#" title="Lightweight languages">lightweight</a>
+       , 
+       <a class="mw-redirect" href="#" title="Reflection (computer science)">reflective</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        and 
+       <a href="#" title="Procedural programming">procedural</a>
+        language, designed as a 
+       <a href="#" title="Scripting language">scripting language</a>
+        with 
+       <a class="mw-redirect" href="#" title="Extension language">extensible</a>
+        
+       <a href="#" title="Semantics">semantics</a>
+        as a primary goal. The name is derived from the 
+       <a href="#" title="Portuguese language">Portuguese</a>
+        word for 
+       <i>moon</i>
+       .
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=96888233" target="_blank">2006</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">40336 characters</p>
+      <p style="padding: 0px; margin: 0px; ">14 sections</p>
+      <p style="padding: 0px; margin: 0px; ">31 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">1 images</p>
+      <p style="padding: 0px; margin: 0px; ">162 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">22 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=96888233#Philosophy" target="_blank">1. Philosophy</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=96888233#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=96888233#Features" target="_blank">3. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=96888233#Internals" target="_blank">4. Internals</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=96888233#Applications" target="_blank">5. Applications</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=96888233#Books" target="_blank">6. Books</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=96888233#External_links" target="_blank">7. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.895</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       func
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       args
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       metatable
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       celes
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rio
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       print
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       waldemar
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       heterogeneous
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tables
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       key
+       <span style="color: #bababa; font-size: 12px">0.049</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fit
+       <span style="color: #bababa; font-size: 12px">0.046</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       license
+       <span style="color: #bababa; font-size: 12px">0.043</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       de
+       <span style="color: #bababa; font-size: 12px">0.040</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       In 
+       <a href="#" title="Computing">computing</a>
+       , the 
+       <b>Lua</b>
+        (pronounced LOO-ah, or 
+       <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">/'lua/</span>
+        in 
+       <a href="#" title="International Phonetic Alphabet">IPA</a>
+       ) 
+       <a href="#" title="Programming language">programming language</a>
+        is a lightweight, 
+       <a class="mw-redirect" href="#" title="Reflection (computer science)">reflective</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        and 
+       <a href="#" title="Procedural programming">procedural</a>
+        language, designed as a 
+       <a href="#" title="Scripting language">scripting language</a>
+        with 
+       <a class="mw-redirect" href="#" title="Extension language">extensible</a>
+        
+       <a href="#" title="Semantics">semantics</a>
+        as a primary goal. The name is derived from the 
+       <a href="#" title="Portuguese language">Portuguese</a>
+        word for 
+       <i>moon</i>
+       .
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=33371544" target="_blank">2005</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">25529 characters</p>
+      <p style="padding: 0px; margin: 0px; ">12 sections</p>
+      <p style="padding: 0px; margin: 0px; ">30 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">1 images</p>
+      <p style="padding: 0px; margin: 0px; ">93 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">14 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=33371544#Philosophy" target="_blank">1. Philosophy</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=33371544#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=33371544#Features" target="_blank">3. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=33371544#Internals" target="_blank">4. Internals</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=33371544#Applications" target="_blank">5. Applications</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=33371544#Books" target="_blank">6. Books</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=33371544#External_links" target="_blank">7. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.924</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       games
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       customization
+       <span style="color: #bababa; font-size: 12px">0.063</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       metatable
+       <span style="color: #bababa; font-size: 12px">0.063</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tables
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       print
+       <span style="color: #bababa; font-size: 12px">0.059</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mod
+       <span style="color: #bababa; font-size: 12px">0.050</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       heterogeneous
+       <span style="color: #bababa; font-size: 12px">0.050</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       modified
+       <span style="color: #bababa; font-size: 12px">0.049</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       game
+       <span style="color: #bababa; font-size: 12px">0.049</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       key
+       <span style="color: #bababa; font-size: 12px">0.045</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       powerful
+       <span style="color: #bababa; font-size: 12px">0.044</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       extensibility
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fit
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>Lua</b>
+        (pronounced LOO-ah, or 
+       <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">/'lua/</span>
+        in 
+       <a href="#" title="International Phonetic Alphabet">IPA</a>
+       ) 
+       <a href="#" title="Programming language">programming language</a>
+        is a lightweight, 
+       <a class="mw-redirect" href="#" title="Reflection (computer science)">reflective</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        and 
+       <a href="#" title="Procedural programming">procedural</a>
+        language, designed as a 
+       <a href="#" title="Scripting language">scripting language</a>
+        with 
+       <a class="mw-redirect" href="#" title="Extension language">extensible</a>
+        
+       <a href="#" title="Semantics">semantics</a>
+        as a primary goal. The name is derived from the 
+       <a href="#" title="Portuguese language">Portuguese</a>
+        word for 
+       <i>moon</i>
+       .
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=9187342" target="_blank">2004</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">8058 characters</p>
+      <p style="padding: 0px; margin: 0px; ">1 sections</p>
+      <p style="padding: 0px; margin: 0px; ">9 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">47 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">5 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=9187342#External_links" target="_blank">1. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.908</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       game
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       playing
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       precision
+       <span style="color: #bababa; font-size: 12px">0.071</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       island
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       simplicity
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       monkey
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       massively
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ion
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       simulate
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       animation
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       animations
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       janeiro
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       loo
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       moon
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>Lua</b>
+        (pronouced LOO-ah or /lua/ in 
+       <a href="#" title="SAMPA">SAMPA</a>
+       ) 
+       <a href="#" title="Programming language">programming language</a>
+        is a lightweight 
+       <a href="#" title="Imperative programming">imperative</a>
+       /
+       <a href="#" title="Procedural programming">procedural</a>
+        language, designed as 
+       <a class="mw-redirect" href="#" title="Glue language">glue language</a>
+        with extensible semantics as a primary goal. The name derives from the 
+       <a href="#" title="Portuguese language">Portuguese</a>
+        word for 
+       <i>moon</i>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=2446501" target="_blank">2003</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">6269 characters</p>
+      <p style="padding: 0px; margin: 0px; ">1 sections</p>
+      <p style="padding: 0px; margin: 0px; ">6 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">38 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">3 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=2446501#External_links" target="_blank">1. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.915</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       precision
+       <span style="color: #bababa; font-size: 12px">0.085</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       captured
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       island
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       simplicity
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       monkey
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       simulate
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       janeiro
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       loo
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       moon
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pontifical
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rio
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       floating
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       interpreter
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       catholic
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <br/>
+       
+The 
+       <b>Lua</b>
+        (pronouced LOO-ah or /lua/ in 
+       <a href="#" title="SAMPA">SAMPA</a>
+       ) 
+       <a href="#" title="Programming language">programming language</a>
+        is a lightweight 
+       <a href="#" title="Imperative programming">imperative</a>
+       /
+       <a href="#" title="Procedural programming">procedural</a>
+        language, designed as 
+       <a class="mw-redirect" href="#" title="Glue language">glue language</a>
+        with extensible semantics as a primary goal. 
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Lua_(programming_language)&amp;oldid=589441" target="_blank">2002</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">1233 characters</p>
+      <p style="padding: 0px; margin: 0px; ">0 sections</p>
+      <p style="padding: 0px; margin: 0px; ">3 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">3 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">1 external links</p>
+     </td>
+     <td style="width: 25%;"/>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       glue
+       <span style="color: #bababa; font-size: 12px">0.439</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       goal
+       <span style="color: #bababa; font-size: 12px">0.439</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       links
+       <span style="color: #bababa; font-size: 12px">0.439</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lua
+       <span style="color: #bababa; font-size: 12px">0.439</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       extensible
+       <span style="color: #bababa; font-size: 12px">0.259</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bytecode
+       <span style="color: #bababa; font-size: 12px">0.259</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       external
+       <span style="color: #bababa; font-size: 12px">0.175</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       interpreted
+       <span style="color: #bababa; font-size: 12px">0.159</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       semantics
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       primary
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       designed
+       <span style="color: #bababa; font-size: 12px">0.069</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       language
+       <span style="color: #bababa; font-size: 12px">0.036</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       programming
+       <span style="color: #bababa; font-size: 12px">0.024</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       The 
+       <b>Lua</b>
+        
+       <a href="#" title="Programming language">programming language</a>
+        is a bytecode interpreted 
+       <a class="mw-redirect" href="#" title="Glue language">glue language</a>
+        designed with extensible semantics as a primary goal.
+
+      </p>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>

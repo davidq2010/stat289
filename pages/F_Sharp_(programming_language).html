@@ -1,0 +1,2181 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title charset="utf-8">Programming Languages</title>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"> </script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+  <link href="../css/custom.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <nav class="navbar navbar-default navbar-darkbg-dark navbar-fixed-top">
+   <div class="container">
+    <div class="navbar-header">
+     <a class="navbar-brand" href="../index.html">Programming Languages</a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-docs">
+       <a class="nav-link" href="../docs.html">Docs</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-clusters">
+       <a class="nav-link" href="../clusters.html">Clusters</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-viz">
+       <a class="nav-link" href="../viz.html">Viz</a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <div class="container" style="padding-top: 30px;">
+   <div class="row">
+    <div class="col-sm-4">
+     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Fsharp%2C_Logomark%2C_October_2014.svg/220px-Fsharp%2C_Logomark%2C_October_2014.svg.png" style="max-width: 300px"/>
+    </div>
+    <div class="col-sm-8">
+     <h1>F Sharp (programming language)</h1>
+     <p>
+      <b>F#</b>
+       (pronounced 
+      <b>F sharp</b>
+      ) is a 
+      <a href="#" title="Strong and weak typing">strongly typed</a>
+      , 
+      <a href="#" title="Programming paradigm">multi-paradigm</a>
+       
+      <a href="#" title="Programming language">programming language</a>
+       that encompasses 
+      <a href="#" title="Functional programming">functional</a>
+      , 
+      <a href="#" title="Imperative programming">imperative</a>
+      , and 
+      <a href="#" title="Object-oriented programming">object-oriented programming</a>
+       methods. F# is most often used as a cross-platform 
+      <a href="#" title="Common Language Infrastructure">Common Language Infrastructure</a>
+       (CLI) language, but it can also generate 
+      <a href="#" title="JavaScript">JavaScript</a>
+      <sup class="reference" id="cite_ref-js_9-0">
+       <a href="#">[9]</a>
+      </sup>
+       and 
+      <a href="#" title="Graphics processing unit">graphics processing unit</a>
+       (GPU) code.
+      <sup class="reference" id="cite_ref-gpgpu_10-0">
+       <a href="#">[10]</a>
+      </sup>
+      
+
+     </p>
+    </div>
+   </div>
+   <h3 style="padding-top: 15px">Page Revisions</h3>
+   <table style="text-align: left; margin: 0px auto">
+    <tr>
+     <td>
+      <b>Year</b>
+     </td>
+     <td>
+      <b>Metadata</b>
+     </td>
+     <td>
+      <b>Sections</b>
+     </td>
+     <td>
+      <b>Top Words</b>
+     </td>
+     <td>
+      <b>First Paragraph</b>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=869827438" target="_blank">2018</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">160123 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">57 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">6 images</p>
+      <p style="padding: 0px; margin: 0px; ">209 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">65 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=869827438#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=869827438#Language_overview" target="_blank">2. Language overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=869827438#Development_tools" target="_blank">3. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=869827438#Application_areas" target="_blank">4. Application areas</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=869827438#Open-source_community" target="_blank">5. Open-source community</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=869827438#Compatibility" target="_blank">6. Compatibility</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=869827438#Examples" target="_blank">7. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=869827438#See_also" target="_blank">8. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=869827438#Notes" target="_blank">9. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=869827438#References" target="_blank">10. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=869827438#External_links" target="_blank">11. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       async
+       <span style="color: #bababa; font-size: 12px">0.462</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       parallel
+       <span style="color: #bababa; font-size: 12px">0.241</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       asynchronous
+       <span style="color: #bababa; font-size: 12px">0.198</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       union
+       <span style="color: #bababa; font-size: 12px">0.173</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       discriminated
+       <span style="color: #bababa; font-size: 12px">0.168</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       websharper
+       <span style="color: #bababa; font-size: 12px">0.168</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuple
+       <span style="color: #bababa; font-size: 12px">0.167</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gpu
+       <span style="color: #bababa; font-size: 12px">0.167</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       record
+       <span style="color: #bababa; font-size: 12px">0.138</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       providers
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ionide
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       quotations
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       computation
+       <span style="color: #bababa; font-size: 12px">0.110</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       quotation
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced 
+       <b>F sharp</b>
+       ) is a 
+       <a href="#" title="Strong and weak typing">strongly typed</a>
+       , 
+       <a href="#" title="Programming paradigm">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        that encompasses 
+       <a href="#" title="Functional programming">functional</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , and 
+       <a href="#" title="Object-oriented programming">object-oriented programming</a>
+        methods. F# is most often used as a cross-platform 
+       <a href="#" title="Common Language Infrastructure">Common Language Infrastructure</a>
+        (CLI) language, but it can also generate 
+       <a href="#" title="JavaScript">JavaScript</a>
+       <sup class="reference" id="cite_ref-js_9-0">
+        <a href="#">[9]</a>
+       </sup>
+        and 
+       <a href="#" title="Graphics processing unit">graphics processing unit</a>
+        (GPU) code.
+       <sup class="reference" id="cite_ref-gpgpu_10-0">
+        <a href="#">[10]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=817769470" target="_blank">2017</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">152637 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">54 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">6 images</p>
+      <p style="padding: 0px; margin: 0px; ">207 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">59 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=817769470#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=817769470#Language_overview" target="_blank">2. Language overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=817769470#Development_tools" target="_blank">3. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=817769470#Application_areas" target="_blank">4. Application areas</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=817769470#Open-source_community" target="_blank">5. Open-source community</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=817769470#Compatibility" target="_blank">6. Compatibility</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=817769470#Examples" target="_blank">7. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=817769470#See_also" target="_blank">8. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=817769470#Notes" target="_blank">9. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=817769470#References" target="_blank">10. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=817769470#External_links" target="_blank">11. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       async
+       <span style="color: #bababa; font-size: 12px">0.477</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       parallel
+       <span style="color: #bababa; font-size: 12px">0.249</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       asynchronous
+       <span style="color: #bababa; font-size: 12px">0.205</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       union
+       <span style="color: #bababa; font-size: 12px">0.179</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       discriminated
+       <span style="color: #bababa; font-size: 12px">0.174</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuple
+       <span style="color: #bababa; font-size: 12px">0.172</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       record
+       <span style="color: #bababa; font-size: 12px">0.142</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       providers
+       <span style="color: #bababa; font-size: 12px">0.138</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gpu
+       <span style="color: #bababa; font-size: 12px">0.138</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       websharper
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.117</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       computation
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       quotation
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cli
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       functional
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced 
+       <b>F sharp</b>
+       ) is a 
+       <a href="#" title="Strong and weak typing">strongly typed</a>
+       , 
+       <a href="#" title="Programming paradigm">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        that encompasses 
+       <a href="#" title="Functional programming">functional</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , and 
+       <a href="#" title="Object-oriented programming">object-oriented programming</a>
+        methods. F# is most often used as a cross-platform 
+       <a href="#" title="Common Language Infrastructure">Common Language Infrastructure</a>
+        (CLI) language, but it can also generate 
+       <a href="#" title="JavaScript">JavaScript</a>
+       <sup class="reference" id="cite_ref-js_6-0">
+        <a href="#">[6]</a>
+       </sup>
+        and 
+       <a href="#" title="Graphics processing unit">graphics processing unit</a>
+        (GPU) code.
+       <sup class="reference" id="cite_ref-gpgpu_7-0">
+        <a href="#">[7]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=753098825" target="_blank">2016</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">142793 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">51 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">5 images</p>
+      <p style="padding: 0px; margin: 0px; ">211 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">55 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=753098825#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=753098825#Language_overview" target="_blank">2. Language overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=753098825#Development_tools" target="_blank">3. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=753098825#Application_areas" target="_blank">4. Application areas</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=753098825#Open-source_community" target="_blank">5. Open-source community</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=753098825#Compatibility" target="_blank">6. Compatibility</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=753098825#Examples" target="_blank">7. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=753098825#See_also" target="_blank">8. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=753098825#Notes" target="_blank">9. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=753098825#References" target="_blank">10. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=753098825#External_links" target="_blank">11. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       async
+       <span style="color: #bababa; font-size: 12px">0.489</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       parallel
+       <span style="color: #bababa; font-size: 12px">0.255</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       asynchronous
+       <span style="color: #bababa; font-size: 12px">0.210</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       union
+       <span style="color: #bababa; font-size: 12px">0.183</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       discriminated
+       <span style="color: #bababa; font-size: 12px">0.178</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuple
+       <span style="color: #bababa; font-size: 12px">0.177</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       providers
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       record
+       <span style="color: #bababa; font-size: 12px">0.125</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       age
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       computation
+       <span style="color: #bababa; font-size: 12px">0.116</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gpu
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       quotation
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cli
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       functional
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced 
+       <b>F sharp</b>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Strongly typed programming language">strongly typed</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        that encompasses 
+       <a href="#" title="Functional programming">functional</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , and 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+        programming techniques. F# is most often used as a cross-platform 
+       <a href="#" title="Common Language Infrastructure">CLI</a>
+        language, but can also be used to generate 
+       <a href="#" title="JavaScript">JavaScript</a>
+       <sup class="reference" id="cite_ref-js_6-0">
+        <a href="#">[6]</a>
+       </sup>
+        and 
+       <a href="#" title="Graphics processing unit">GPU</a>
+       <sup class="reference" id="cite_ref-gpgpu_7-0">
+        <a href="#">[7]</a>
+       </sup>
+        code.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=697008469" target="_blank">2015</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">135652 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">51 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">5 images</p>
+      <p style="padding: 0px; margin: 0px; ">199 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">51 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=697008469#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=697008469#Language_overview" target="_blank">2. Language overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=697008469#Development_tools" target="_blank">3. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=697008469#Application_areas" target="_blank">4. Application areas</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=697008469#Open_source_community" target="_blank">5. Open source community</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=697008469#Compatibility" target="_blank">6. Compatibility</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=697008469#Examples" target="_blank">7. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=697008469#See_also" target="_blank">8. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=697008469#Notes" target="_blank">9. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=697008469#References" target="_blank">10. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=697008469#External_links" target="_blank">11. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       async
+       <span style="color: #bababa; font-size: 12px">0.493</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       parallel
+       <span style="color: #bababa; font-size: 12px">0.258</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       asynchronous
+       <span style="color: #bababa; font-size: 12px">0.212</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       union
+       <span style="color: #bababa; font-size: 12px">0.185</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       discriminated
+       <span style="color: #bababa; font-size: 12px">0.179</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuple
+       <span style="color: #bababa; font-size: 12px">0.178</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       providers
+       <span style="color: #bababa; font-size: 12px">0.142</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       record
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       age
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       computation
+       <span style="color: #bababa; font-size: 12px">0.117</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gpu
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       quotation
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cli
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced 
+       <b>eff sharp</b>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Strongly typed programming language">strongly typed</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        that encompasses 
+       <a href="#" title="Functional programming">functional</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , and 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+        programming techniques. F# is most often used as a cross-platform 
+       <a href="#" title="Common Language Infrastructure">CLI</a>
+        language, but can also be used to generate 
+       <a href="#" title="JavaScript">JavaScript</a>
+       <sup class="reference" id="cite_ref-js_4-0">
+        <a href="#">[4]</a>
+       </sup>
+        and 
+       <a href="#" title="Graphics processing unit">GPU</a>
+       <sup class="reference" id="cite_ref-gpgpu_5-0">
+        <a href="#">[5]</a>
+       </sup>
+        code.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=635390849" target="_blank">2014</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">131407 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">50 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">5 images</p>
+      <p style="padding: 0px; margin: 0px; ">190 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">49 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=635390849#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=635390849#Language_overview" target="_blank">2. Language overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=635390849#Development_tools" target="_blank">3. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=635390849#Application_areas" target="_blank">4. Application areas</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=635390849#Open_source_community" target="_blank">5. Open source community</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=635390849#Compatibility" target="_blank">6. Compatibility</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=635390849#Examples" target="_blank">7. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=635390849#See_also" target="_blank">8. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=635390849#Notes" target="_blank">9. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=635390849#References" target="_blank">10. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=635390849#External_links" target="_blank">11. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       async
+       <span style="color: #bababa; font-size: 12px">0.527</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       parallel
+       <span style="color: #bababa; font-size: 12px">0.252</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       asynchronous
+       <span style="color: #bababa; font-size: 12px">0.237</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       union
+       <span style="color: #bababa; font-size: 12px">0.181</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       discriminated
+       <span style="color: #bababa; font-size: 12px">0.176</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuple
+       <span style="color: #bababa; font-size: 12px">0.174</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       providers
+       <span style="color: #bababa; font-size: 12px">0.140</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       record
+       <span style="color: #bababa; font-size: 12px">0.123</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       age
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       computation
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gpu
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       quotation
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cli
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.095</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced 
+       <b>eff sharp</b>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Strongly typed programming language">strongly typed</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        that encompasses 
+       <a href="#" title="Functional programming">functional</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+       , and 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+        programming techniques. F# is most often used as a cross-platform 
+       <a href="#" title="Common Language Infrastructure">CLI</a>
+        language, but can also be used to generate 
+       <a href="#" title="JavaScript">JavaScript</a>
+       <sup class="reference" id="cite_ref-js_4-0">
+        <a href="#">[4]</a>
+       </sup>
+        and 
+       <a href="#" title="Graphics processing unit">GPU</a>
+       <sup class="reference" id="cite_ref-gpgpu_5-0">
+        <a href="#">[5]</a>
+       </sup>
+        code.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=587156868" target="_blank">2013</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">100452 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">53 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">5 images</p>
+      <p style="padding: 0px; margin: 0px; ">135 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">37 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=587156868#Overview" target="_blank">1. Overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=587156868#Development_tools" target="_blank">2. Development tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=587156868#Application_areas" target="_blank">3. Application areas</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=587156868#Open_source_community" target="_blank">4. Open source community</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=587156868#History" target="_blank">5. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=587156868#Examples" target="_blank">6. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=587156868#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=587156868#Notes" target="_blank">8. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=587156868#References" target="_blank">9. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=587156868#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       async
+       <span style="color: #bababa; font-size: 12px">0.523</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       parallel
+       <span style="color: #bababa; font-size: 12px">0.250</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       asynchronous
+       <span style="color: #bababa; font-size: 12px">0.235</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       union
+       <span style="color: #bababa; font-size: 12px">0.180</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       discriminated
+       <span style="color: #bababa; font-size: 12px">0.174</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuple
+       <span style="color: #bababa; font-size: 12px">0.173</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       providers
+       <span style="color: #bababa; font-size: 12px">0.139</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       websharper
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       record
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       age
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       computation
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gpu
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       quotation
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cli
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced 
+       <b>F Sharp</b>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Strongly typed programming language">strongly typed</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        encompassing 
+       <a href="#" title="Functional programming">functional</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        and 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+        programming techniques. F# is most often used as a cross-platform 
+       <a href="#" title="Common Language Infrastructure">CLI</a>
+        language, but can also be used to generate 
+       <a href="#" title="JavaScript">JavaScript</a>
+       <sup class="reference" id="cite_ref-js_2-0">
+        <a href="#">[2]</a>
+       </sup>
+        and 
+       <a href="#" title="Graphics processing unit">GPU</a>
+       <sup class="reference" id="cite_ref-gpgpu_3-0">
+        <a href="#">[3]</a>
+       </sup>
+        code.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=529773324" target="_blank">2012</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">101421 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">53 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">5 images</p>
+      <p style="padding: 0px; margin: 0px; ">135 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">35 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=529773324#Overview" target="_blank">1. Overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=529773324#Development_Tools" target="_blank">2. Development Tools</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=529773324#Application_Areas" target="_blank">3. Application Areas</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=529773324#Open_Source_Community" target="_blank">4. Open Source Community</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=529773324#History" target="_blank">5. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=529773324#Examples" target="_blank">6. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=529773324#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=529773324#Notes" target="_blank">8. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=529773324#References" target="_blank">9. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=529773324#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       async
+       <span style="color: #bababa; font-size: 12px">0.524</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       parallel
+       <span style="color: #bababa; font-size: 12px">0.251</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       asynchronous
+       <span style="color: #bababa; font-size: 12px">0.235</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       union
+       <span style="color: #bababa; font-size: 12px">0.180</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       discriminated
+       <span style="color: #bababa; font-size: 12px">0.175</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuple
+       <span style="color: #bababa; font-size: 12px">0.173</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       providers
+       <span style="color: #bababa; font-size: 12px">0.139</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       websharper
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       record
+       <span style="color: #bababa; font-size: 12px">0.123</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       age
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       computation
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gpu
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       quotation
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cli
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced 
+       <b>F Sharp</b>
+       ) is an 
+       <a class="mw-redirect" href="#" title="Free and open source">open-source</a>
+       , 
+       <a class="mw-redirect" href="#" title="Strongly typed programming language">strongly typed</a>
+       , 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        encompassing 
+       <a href="#" title="Functional programming">functional</a>
+       , 
+       <a href="#" title="Imperative programming">imperative</a>
+        and 
+       <a href="#" title="Object-oriented programming">object-oriented</a>
+        programming techniques. F# is most often used as a cross-platform 
+       <a href="#" title="Common Language Infrastructure">CLI</a>
+        language, but can also be used to generate 
+       <a href="#" title="JavaScript">JavaScript</a>
+       <sup class="reference" id="cite_ref-js_2-0">
+        <a href="#">[2]</a>
+       </sup>
+        and 
+       <a href="#" title="Graphics processing unit">GPU</a>
+       <sup class="reference" id="cite_ref-gpgpu_3-0">
+        <a href="#">[3]</a>
+       </sup>
+        code. 
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=465725370" target="_blank">2011</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">61073 characters</p>
+      <p style="padding: 0px; margin: 0px; ">6 sections</p>
+      <p style="padding: 0px; margin: 0px; ">22 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">4 images</p>
+      <p style="padding: 0px; margin: 0px; ">126 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">13 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=465725370#Overview" target="_blank">1. Overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=465725370#Examples" target="_blank">2. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=465725370#See_also" target="_blank">3. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=465725370#Notes" target="_blank">4. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=465725370#References" target="_blank">5. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=465725370#External_links" target="_blank">6. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       async
+       <span style="color: #bababa; font-size: 12px">0.529</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuple
+       <span style="color: #bababa; font-size: 12px">0.336</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       discriminated
+       <span style="color: #bababa; font-size: 12px">0.265</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unions
+       <span style="color: #bababa; font-size: 12px">0.214</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       _
+       <span style="color: #bababa; font-size: 12px">0.168</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequence
+       <span style="color: #bababa; font-size: 12px">0.162</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       record
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       type
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       invoked
+       <span style="color: #bababa; font-size: 12px">0.112</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       immutable
+       <span style="color: #bababa; font-size: 12px">0.110</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       asynchronous
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       25
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       types
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       seq
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       union
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced 
+       <b>F Sharp</b>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm programming language</a>
+       , targeting the 
+       <a href="#" title=".NET Framework">.NET Framework</a>
+       , that encompasses 
+       <a href="#" title="Functional programming">functional programming</a>
+        as well as 
+       <a href="#" title="Imperative programming">imperative</a>
+        and 
+       <a href="#" title="Object-oriented programming">object-oriented programming</a>
+        disciplines. It is a variant of 
+       <a href="#" title="ML (programming language)">ML</a>
+        and is largely compatible with the 
+       <a href="#" title="OCaml">OCaml</a>
+        implementation. F# was initially developed by 
+       <a href="#" title="Don Syme">Don Syme</a>
+        at 
+       <a href="#" title="Microsoft Research">Microsoft Research</a>
+        but is now being developed at 
+       <a href="#" title="Microsoft">Microsoft</a>
+        Developer Division and is being distributed as a fully supported language in the 
+       <a href="#" title=".NET Framework">.NET Framework</a>
+        and 
+       <a href="#" title="Microsoft Visual Studio">Visual Studio</a>
+        as part of 
+       <a class="mw-redirect" href="#" title="Visual Studio 2010">Visual Studio 2010</a>
+       .
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[2]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=403019282" target="_blank">2010</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">60231 characters</p>
+      <p style="padding: 0px; margin: 0px; ">6 sections</p>
+      <p style="padding: 0px; margin: 0px; ">20 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">4 images</p>
+      <p style="padding: 0px; margin: 0px; ">122 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">11 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=403019282#Overview" target="_blank">1. Overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=403019282#Examples" target="_blank">2. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=403019282#See_also" target="_blank">3. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=403019282#Notes" target="_blank">4. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=403019282#References" target="_blank">5. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=403019282#External_links" target="_blank">6. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       async
+       <span style="color: #bababa; font-size: 12px">0.530</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuple
+       <span style="color: #bababa; font-size: 12px">0.337</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       discriminated
+       <span style="color: #bababa; font-size: 12px">0.265</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unions
+       <span style="color: #bababa; font-size: 12px">0.214</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       _
+       <span style="color: #bababa; font-size: 12px">0.168</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequence
+       <span style="color: #bababa; font-size: 12px">0.162</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       record
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       type
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       invoked
+       <span style="color: #bababa; font-size: 12px">0.112</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       immutable
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       asynchronous
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       25
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       types
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       seq
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       union
+       <span style="color: #bababa; font-size: 12px">0.094</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced 
+       <b>F Sharp</b>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm programming language</a>
+       , targeting the 
+       <a href="#" title=".NET Framework">.NET Framework</a>
+       , that encompasses 
+       <a href="#" title="Functional programming">functional programming</a>
+        as well as 
+       <a href="#" title="Imperative programming">imperative</a>
+        and 
+       <a href="#" title="Object-oriented programming">object-oriented programming</a>
+        disciplines. It is a variant of 
+       <a href="#" title="ML (programming language)">ML</a>
+        and is largely compatible with the 
+       <a href="#" title="OCaml">OCaml</a>
+        implementation. F# was initially developed by 
+       <a href="#" title="Don Syme">Don Syme</a>
+        at 
+       <a href="#" title="Microsoft Research">Microsoft Research</a>
+        but is now being developed at 
+       <a href="#" title="Microsoft">Microsoft</a>
+        Developer Division and is being distributed as a fully supported language in the 
+       <a href="#" title=".NET Framework">.NET Framework</a>
+        and 
+       <a href="#" title="Microsoft Visual Studio">Visual Studio</a>
+        as part of 
+       <a class="mw-redirect" href="#" title="Visual Studio 2010">Visual Studio 2010</a>
+       .
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[2]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=332774112" target="_blank">2009</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">57916 characters</p>
+      <p style="padding: 0px; margin: 0px; ">6 sections</p>
+      <p style="padding: 0px; margin: 0px; ">21 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">4 images</p>
+      <p style="padding: 0px; margin: 0px; ">116 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">12 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=332774112#Overview" target="_blank">1. Overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=332774112#Examples" target="_blank">2. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=332774112#See_also" target="_blank">3. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=332774112#Notes" target="_blank">4. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=332774112#References" target="_blank">5. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=332774112#External_links" target="_blank">6. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       async
+       <span style="color: #bababa; font-size: 12px">0.531</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuple
+       <span style="color: #bababa; font-size: 12px">0.337</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       discriminated
+       <span style="color: #bababa; font-size: 12px">0.265</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unions
+       <span style="color: #bababa; font-size: 12px">0.179</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       _
+       <span style="color: #bababa; font-size: 12px">0.169</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequence
+       <span style="color: #bababa; font-size: 12px">0.162</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       record
+       <span style="color: #bababa; font-size: 12px">0.149</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       union
+       <span style="color: #bababa; font-size: 12px">0.125</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       type
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       invoked
+       <span style="color: #bababa; font-size: 12px">0.112</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       immutable
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       asynchronous
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       25
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       seq
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       types
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced 
+       <b>F Sharp</b>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm programming language</a>
+       , targeting the 
+       <a href="#" title=".NET Framework">.NET Framework</a>
+       , that encompasses 
+       <a href="#" title="Functional programming">functional programming</a>
+        as well as 
+       <a href="#" title="Imperative programming">imperative</a>
+        
+       <a href="#" title="Object-oriented programming">object-oriented programming</a>
+        disciplines. It is a variant of 
+       <a href="#" title="ML (programming language)">ML</a>
+        and is largely compatible with the 
+       <a href="#" title="OCaml">OCaml</a>
+        implementation. F# was initially developed by 
+       <a href="#" title="Don Syme">Don Syme</a>
+        at 
+       <a href="#" title="Microsoft Research">Microsoft Research</a>
+        but is now being developed at 
+       <a href="#" title="Microsoft">Microsoft</a>
+        Developer Division and will be distributed as a fully supported language in the 
+       <a href="#" title=".NET Framework">.NET Framework</a>
+        and 
+       <a href="#" title="Microsoft Visual Studio">Visual Studio</a>
+        as part of 
+       <a class="mw-redirect" href="#" title="Visual Studio 2010">Visual Studio 2010</a>
+       .
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[2]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=260376411" target="_blank">2008</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">50189 characters</p>
+      <p style="padding: 0px; margin: 0px; ">5 sections</p>
+      <p style="padding: 0px; margin: 0px; ">15 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">4 images</p>
+      <p style="padding: 0px; margin: 0px; ">108 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">10 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=260376411#Overview" target="_blank">1. Overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=260376411#Examples" target="_blank">2. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=260376411#See_also" target="_blank">3. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=260376411#References" target="_blank">4. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=260376411#External_links" target="_blank">5. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       async
+       <span style="color: #bababa; font-size: 12px">0.565</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       discriminated
+       <span style="color: #bababa; font-size: 12px">0.283</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuple
+       <span style="color: #bababa; font-size: 12px">0.224</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       _
+       <span style="color: #bababa; font-size: 12px">0.179</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       union
+       <span style="color: #bababa; font-size: 12px">0.166</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       record
+       <span style="color: #bababa; font-size: 12px">0.159</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unions
+       <span style="color: #bababa; font-size: 12px">0.152</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequence
+       <span style="color: #bababa; font-size: 12px">0.151</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       type
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       invoked
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       immutable
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       asynchronous
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       25
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       types
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced 
+       <b>F Sharp</b>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm programming language</a>
+       , targeting the 
+       <a href="#" title=".NET Framework">.NET Framework</a>
+       , that encompasses 
+       <a href="#" title="Functional programming">functional programming</a>
+        as well as 
+       <a href="#" title="Imperative programming">imperative</a>
+        
+       <a href="#" title="Object-oriented programming">object-oriented programming</a>
+        disciplines. It is a variant of 
+       <a href="#" title="ML (programming language)">ML</a>
+        and is largely compatible with the 
+       <a href="#" title="OCaml">OCaml</a>
+        implementation. F# was initially developed by 
+       <a href="#" title="Don Syme">Don Syme</a>
+        at 
+       <a href="#" title="Microsoft Research">Microsoft Research</a>
+        but is now being developed at 
+       <a href="#" title="Microsoft">Microsoft</a>
+        Developer Division and will be distributed as a fully supported language in the 
+       <a href="#" title=".NET Framework">.NET Framework</a>
+        and 
+       <a href="#" title="Microsoft Visual Studio">Visual Studio</a>
+        ecosystem.
+       <sup class="reference" id="cite_ref-1">
+        <a href="#">[1]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=180180031" target="_blank">2007</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">38928 characters</p>
+      <p style="padding: 0px; margin: 0px; ">5 sections</p>
+      <p style="padding: 0px; margin: 0px; ">15 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">110 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">9 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=180180031#Overview" target="_blank">1. Overview</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=180180031#Examples" target="_blank">2. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=180180031#References" target="_blank">3. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=180180031#External_links" target="_blank">4. External links</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=180180031#External_links_2" target="_blank">5. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       async
+       <span style="color: #bababa; font-size: 12px">0.571</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       discriminated
+       <span style="color: #bababa; font-size: 12px">0.286</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       _
+       <span style="color: #bababa; font-size: 12px">0.181</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuple
+       <span style="color: #bababa; font-size: 12px">0.181</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       union
+       <span style="color: #bababa; font-size: 12px">0.168</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       record
+       <span style="color: #bababa; font-size: 12px">0.160</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unions
+       <span style="color: #bababa; font-size: 12px">0.154</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequence
+       <span style="color: #bababa; font-size: 12px">0.153</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       type
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       invoked
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       immutable
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       asynchronous
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       25
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expressions
+       <span style="color: #bababa; font-size: 12px">0.112</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       types
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced 
+       <b>F Sharp</b>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+       , targeting the 
+       <a href="#" title=".NET Framework">.NET Framework</a>
+       , that encompasses 
+       <a href="#" title="Functional programming">functional programming</a>
+        as well as 
+       <a href="#" title="Imperative programming">imperative</a>
+        
+       <a href="#" title="Object-oriented programming">object-oriented programming</a>
+        disciplines. It is a variant of 
+       <a href="#" title="ML (programming language)">ML</a>
+        and is largely compatible with the 
+       <a href="#" title="OCaml">OCaml</a>
+        implementation. F# was intially developed by 
+       <a href="#" title="Don Syme">Don Syme</a>
+        at 
+       <a href="#" title="Microsoft Research">Microsoft Research</a>
+        but is now being developed at 
+       <a href="#" title="Microsoft">Microsoft</a>
+        Developer Division and will be productized as a fully supported language in the 
+       <a href="#" title=".NET Framework">.NET Framework</a>
+        and 
+       <a href="#" title="Microsoft Visual Studio">Visual Studio</a>
+        ecosystem.
+       <sup class="reference" id="cite_ref-1">
+        <a href="#">[1]</a>
+       </sup>
+       .
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=94286992" target="_blank">2006</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">7488 characters</p>
+      <p style="padding: 0px; margin: 0px; ">2 sections</p>
+      <p style="padding: 0px; margin: 0px; ">9 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">1 images</p>
+      <p style="padding: 0px; margin: 0px; ">18 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">9 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=94286992#See_also" target="_blank">1. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=94286992#External_links" target="_blank">2. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       ocaml
+       <span style="color: #bababa; font-size: 12px">0.356</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       net
+       <span style="color: #bababa; font-size: 12px">0.314</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mouse
+       <span style="color: #bababa; font-size: 12px">0.178</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       consequently
+       <span style="color: #bababa; font-size: 12px">0.178</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       helpful
+       <span style="color: #bababa; font-size: 12px">0.178</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       il
+       <span style="color: #bababa; font-size: 12px">0.178</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unfamiliar
+       <span style="color: #bababa; font-size: 12px">0.178</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       curried
+       <span style="color: #bababa; font-size: 12px">0.178</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       functional
+       <span style="color: #bababa; font-size: 12px">0.154</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       construction
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       goals
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       plugin
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pronounced
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       aim
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stage
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced F sharp) is a mixed 
+       <a href="#" title="Functional programming">functional</a>
+        and 
+       <a class="mw-redirect" href="#" title="Object oriented">object oriented</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        for the 
+       <a class="mw-redirect" href="#" title="Microsoft .NET">Microsoft .NET</a>
+        platform. It is typesafe, efficient, functional, object-oriented and type-inferred.
+A strength of F# is its setting within .NET. A key design aim is seamless .NET interoperability, both via direct use of .NET APIs from F# and authorship of natural .NET components in F#. Consequently, the main F# libraries are the .NET libraries themselves (e.g. DirectX, Windows Forms, and ASP.NET, as well as alternatives like 
+       <a class="mw-redirect" href="#" title="Gtk Sharp">Gtk#</a>
+       ). A Visual Studio plugin provides a graphical development environment, including features such as background type-checking with feedback under the mouse, which is extremely helpful for those unfamiliar with 
+       <a href="#" title="Type inference">type inference</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=32439122" target="_blank">2005</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">5653 characters</p>
+      <p style="padding: 0px; margin: 0px; ">1 sections</p>
+      <p style="padding: 0px; margin: 0px; ">7 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">1 images</p>
+      <p style="padding: 0px; margin: 0px; ">13 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">3 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=32439122#External_links" target="_blank">1. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       ocaml
+       <span style="color: #bababa; font-size: 12px">0.373</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       net
+       <span style="color: #bababa; font-size: 12px">0.330</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mouse
+       <span style="color: #bababa; font-size: 12px">0.187</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       consequently
+       <span style="color: #bababa; font-size: 12px">0.187</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       helpful
+       <span style="color: #bababa; font-size: 12px">0.187</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       il
+       <span style="color: #bababa; font-size: 12px">0.187</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unfamiliar
+       <span style="color: #bababa; font-size: 12px">0.187</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       curried
+       <span style="color: #bababa; font-size: 12px">0.187</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       syme
+       <span style="color: #bababa; font-size: 12px">0.187</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       goals
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       plugin
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pronounced
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       aim
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stage
+       <span style="color: #bababa; font-size: 12px">0.148</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       enables
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced F sharp) is a mixed 
+       <a href="#" title="Functional programming">functional</a>
+        and 
+       <a href="#" title="Imperative programming">imperative</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        for the 
+       <a class="mw-redirect" href="#" title="Microsoft .NET">Microsoft .NET</a>
+        platform. F# was developed by 
+       <a class="external text" href="#" rel="nofollow">Don Syme</a>
+        at 
+       <a href="#" title="Microsoft Research">Microsoft Research</a>
+       , and has a core language that is similar to that of the 
+       <a class="mw-redirect" href="#" title="Ocaml">Caml</a>
+        language (itself a member of the 
+       <a class="mw-redirect" href="#" title="ML programming language">ML programming language</a>
+        family).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=9520311" target="_blank">2004</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">4472 characters</p>
+      <p style="padding: 0px; margin: 0px; ">1 sections</p>
+      <p style="padding: 0px; margin: 0px; ">2 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">1 images</p>
+      <p style="padding: 0px; margin: 0px; ">12 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">1 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=9520311#External_link" target="_blank">1. External link</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       demonstrate
+       <span style="color: #bababa; font-size: 12px">0.348</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       il
+       <span style="color: #bababa; font-size: 12px">0.333</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       curried
+       <span style="color: #bababa; font-size: 12px">0.333</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       syme
+       <span style="color: #bababa; font-size: 12px">0.333</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pronounced
+       <span style="color: #bababa; font-size: 12px">0.264</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sharp
+       <span style="color: #bababa; font-size: 12px">0.224</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       minor
+       <span style="color: #bababa; font-size: 12px">0.224</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       efficiently
+       <span style="color: #bababa; font-size: 12px">0.196</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       paradigms
+       <span style="color: #bababa; font-size: 12px">0.196</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       initiative
+       <span style="color: #bababa; font-size: 12px">0.196</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       functional
+       <span style="color: #bababa; font-size: 12px">0.192</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       net
+       <span style="color: #bababa; font-size: 12px">0.176</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mixed
+       <span style="color: #bababa; font-size: 12px">0.174</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       don
+       <span style="color: #bababa; font-size: 12px">0.174</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       intermediate
+       <span style="color: #bababa; font-size: 12px">0.156</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>F#</b>
+        (pronounced F sharp) is a mixed 
+       <a href="#" title="Functional programming">functional</a>
+        and 
+       <a href="#" title="Imperative programming">imperative</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        for the 
+       <a class="mw-redirect" href="#" title="Microsoft .NET">Microsoft .NET</a>
+        initiative. F# was developed by Don Syme at 
+       <a href="#" title="Microsoft">Microsoft</a>
+        Research, and it is based on 
+       <a class="mw-redirect" href="#" title="O'Caml programming language">O'Caml</a>
+        (itself a member of the 
+       <a class="mw-redirect" href="#" title="ML programming language">ML programming language</a>
+        family).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=2068420" target="_blank">2003</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">1886 characters</p>
+      <p style="padding: 0px; margin: 0px; ">1 sections</p>
+      <p style="padding: 0px; margin: 0px; ">2 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">7 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">1 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=F_Sharp_(programming_language)&amp;oldid=2068420#External_Links" target="_blank">1. External Links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       ocaml
+       <span style="color: #bababa; font-size: 12px">0.400</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       syme
+       <span style="color: #bababa; font-size: 12px">0.400</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pronounced
+       <span style="color: #bababa; font-size: 12px">0.318</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sharp
+       <span style="color: #bababa; font-size: 12px">0.269</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       minor
+       <span style="color: #bababa; font-size: 12px">0.269</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       paradigms
+       <span style="color: #bababa; font-size: 12px">0.235</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       initiative
+       <span style="color: #bababa; font-size: 12px">0.235</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       functional
+       <span style="color: #bababa; font-size: 12px">0.230</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mixed
+       <span style="color: #bababa; font-size: 12px">0.209</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       don
+       <span style="color: #bababa; font-size: 12px">0.209</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       demonstrate
+       <span style="color: #bababa; font-size: 12px">0.209</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       turn
+       <span style="color: #bababa; font-size: 12px">0.187</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       microsoft
+       <span style="color: #bababa; font-size: 12px">0.173</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       net
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       enables
+       <span style="color: #bababa; font-size: 12px">0.139</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <br/>
+       
+
+       <b>F#</b>
+        (pronounced F sharp) is a mixed 
+
+       <a href="#" title="Functional programming">functional</a>
+       /
+       <a href="#" title="Imperative programming">imperative</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        for the 
+       <a class="mw-redirect" href="#" title="Microsoft .NET">Microsoft .NET</a>
+        initiative. F# was developed by Don Syme at 
+       <a href="#" title="Microsoft">Microsoft</a>
+        Research. It is based on 
+       <a class="mw-redirect" href="#" title="Ocaml">Ocaml</a>
+        which is in turn based on the 
+       <a class="mw-redirect" href="#" title="ML programming language">ML functional programming language</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>

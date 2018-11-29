@@ -1,0 +1,3000 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title charset="utf-8">Programming Languages</title>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"> </script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+  <link href="../css/custom.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <nav class="navbar navbar-default navbar-darkbg-dark navbar-fixed-top">
+   <div class="container">
+    <div class="navbar-header">
+     <a class="navbar-brand" href="../index.html">Programming Languages</a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-docs">
+       <a class="nav-link" href="../docs.html">Docs</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-clusters">
+       <a class="nav-link" href="../clusters.html">Clusters</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-viz">
+       <a class="nav-link" href="../viz.html">Viz</a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <div class="container" style="padding-top: 30px;">
+   <div class="row">
+    <div class="col-sm-4">
+     <img src="" style="max-width: 300px"/>
+    </div>
+    <div class="col-sm-8">
+     <h1>SQL</h1>
+     <p>
+      <b>SQL</b>
+       (
+      <span class="nowrap">
+       <span class="IPA nopopups noexcerpt">
+        <a href="#" title="Help:IPA/English">
+         /
+         <span style="border-bottom:1px dotted">
+          <span title="/ˌ/: secondary stress follows">ˌ</span>
+          <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+          <span title="'s' in 'sigh'">s</span>
+          <span title="/ˌ/: secondary stress follows">ˌ</span>
+          <span title="'k' in 'kind'">k</span>
+          <span title="/juː/: 'u' in 'cute'">juː</span>
+          <span title="/ˈ/: primary stress follows">ˈ</span>
+          <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+          <span title="'l' in 'lie'">l</span>
+         </span>
+         /
+        </a>
+       </span>
+       <small class="nowrap">
+         (
+        <span class="unicode haudio">
+         <span class="fn">
+          <span style="white-space:nowrap;margin-right:.25em;">
+           <a href="#" title="About this sound">
+            <img alt="About this sound" data-file-height="20" data-file-width="20" height="11" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" width="11"/>
+           </a>
+          </span>
+          <a class="internal" href="#" title="En-us-SQL.ogg">listen</a>
+         </span>
+        </span>
+        )
+       </small>
+      </span>
+       
+      <i>S-Q-L</i>
+      ,
+      <sup class="reference" id="cite_ref-learningSQL_4-0">
+       <a href="#">[4]</a>
+      </sup>
+       
+      <span class="nowrap">
+       <span class="IPA nopopups noexcerpt">
+        <a href="#" title="Help:IPA/English">
+         /
+         <span style="border-bottom:1px dotted">
+          <span title="/ˈ/: primary stress follows">ˈ</span>
+          <span title="'s' in 'sigh'">s</span>
+          <span title="/iː/: 'ee' in 'fleece'">iː</span>
+          <span title="'k' in 'kind'">k</span>
+          <span title="'w' in 'wind'">w</span>
+          <span title="/əl/: 'le' in 'bottle'">əl</span>
+         </span>
+         /
+        </a>
+       </span>
+      </span>
+       &quot;sequel&quot;; 
+      <b>Structured Query Language</b>
+      )
+      <sup class="reference" id="cite_ref-Britannica_5-0">
+       <a href="#">[5]</a>
+      </sup>
+      <sup class="reference" id="cite_ref-oed-US_6-0">
+       <a href="#">[6]</a>
+      </sup>
+      <sup class="reference" id="cite_ref-IBM-SQL_7-0">
+       <a href="#">[7]</a>
+      </sup>
+      <sup class="reference" id="cite_ref-MS-SQL-def_8-0">
+       <a href="#">[8]</a>
+      </sup>
+       is a 
+      <a href="#" title="Domain-specific language">domain-specific language</a>
+       used in programming and designed for managing data held in a 
+      <a href="#" title="Relational database management system">relational database management system</a>
+       (RDBMS), or for stream processing in a 
+      <a href="#" title="Relational data stream management system">relational data stream management system</a>
+       (RDSMS). It is particularly useful in handling 
+      <a href="#" title="Data model">structured data</a>
+       where there are relations between different entities/variables of the data. SQL offers two main advantages over older read/write 
+      <a class="mw-redirect" href="#" title="API">APIs</a>
+       like 
+      <a href="#" title="ISAM">ISAM</a>
+       or 
+      <a class="mw-redirect" href="#" title="VSAM">VSAM</a>
+      : first, it introduced the concept of accessing many records with one single command; and second, it eliminates the need to specify 
+      <i>how</i>
+       to reach a record, e.g. with or without an 
+      <a href="#" title="Database index">index</a>
+      .
+
+     </p>
+    </div>
+   </div>
+   <h3 style="padding-top: 15px">Page Revisions</h3>
+   <table style="text-align: left; margin: 0px auto">
+    <tr>
+     <td>
+      <b>Year</b>
+     </td>
+     <td>
+      <b>Metadata</b>
+     </td>
+     <td>
+      <b>Sections</b>
+     </td>
+     <td>
+      <b>Top Words</b>
+     </td>
+     <td>
+      <b>First Paragraph</b>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=871149092" target="_blank">2018</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">208324 characters</p>
+      <p style="padding: 0px; margin: 0px; ">19 sections</p>
+      <p style="padding: 0px; margin: 0px; ">33 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">11 images</p>
+      <p style="padding: 0px; margin: 0px; ">812 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">56 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=871149092#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=871149092#Design" target="_blank">2. Design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=871149092#Syntax" target="_blank">3. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=871149092#Procedural_extensions" target="_blank">4. Procedural extensions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=871149092#Interoperability_and_standardization" target="_blank">5. Interoperability and standardization</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=871149092#Alternatives" target="_blank">6. Alternatives</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=871149092#Distributed_SQL_processing" target="_blank">7. Distributed SQL processing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=871149092#Criticisms" target="_blank">8. Criticisms</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=871149092#See_also" target="_blank">9. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=871149092#Notes" target="_blank">10. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=871149092#References" target="_blank">11. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=871149092#Sources" target="_blank">12. Sources</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=871149092#External_links" target="_blank">13. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.671</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.317</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.199</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iso
+       <span style="color: #bababa; font-size: 12px">0.156</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       chamberlin
+       <span style="color: #bababa; font-size: 12px">0.142</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.134</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       standards
+       <span style="color: #bababa; font-size: 12px">0.132</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iec
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       9075
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       codd
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       postgresql
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       boyce
+       <span style="color: #bababa; font-size: 12px">0.085</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       drda
+       <span style="color: #bababa; font-size: 12px">0.085</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       alternatives
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˌ/: secondary stress follows">ˌ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/ˌ/: secondary stress follows">ˌ</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="/juː/: 'u' in 'cute'">juː</span>
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'l' in 'lie'">l</span>
+          </span>
+          /
+         </a>
+        </span>
+        <small class="nowrap">
+          (
+         <span class="unicode haudio">
+          <span class="fn">
+           <span style="white-space:nowrap;margin-right:.25em;">
+            <a href="#" title="About this sound">
+             <img alt="About this sound" data-file-height="20" data-file-width="20" height="11" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" width="11"/>
+            </a>
+           </span>
+           <a class="internal" href="#" title="En-us-SQL.ogg">listen</a>
+          </span>
+         </span>
+         )
+        </small>
+       </span>
+        
+       <i>S-Q-L</i>
+       ,
+       <sup class="reference" id="cite_ref-learningSQL_4-0">
+        <a href="#">[4]</a>
+       </sup>
+        
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/iː/: 'ee' in 'fleece'">iː</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="'w' in 'wind'">w</span>
+           <span title="/əl/: 'le' in 'bottle'">əl</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        &quot;sequel&quot;; 
+       <b>Structured Query Language</b>
+       )
+       <sup class="reference" id="cite_ref-Britannica_5-0">
+        <a href="#">[5]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-oed-US_6-0">
+        <a href="#">[6]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-IBM-SQL_7-0">
+        <a href="#">[7]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-MS-SQL-def_8-0">
+        <a href="#">[8]</a>
+       </sup>
+        is a 
+       <a href="#" title="Domain-specific language">domain-specific language</a>
+        used in programming and designed for managing data held in a 
+       <a href="#" title="Relational database management system">relational database management system</a>
+        (RDBMS), or for stream processing in a 
+       <a href="#" title="Relational data stream management system">relational data stream management system</a>
+        (RDSMS). It is particularly useful in handling 
+       <a href="#" title="Data model">structured data</a>
+        where there are relations between different entities/variables of the data. SQL offers two main advantages over older read/write 
+       <a class="mw-redirect" href="#" title="API">APIs</a>
+        like 
+       <a href="#" title="ISAM">ISAM</a>
+        or 
+       <a class="mw-redirect" href="#" title="VSAM">VSAM</a>
+       : first, it introduced the concept of accessing many records with one single command; and second, it eliminates the need to specify 
+       <i>how</i>
+        to reach a record, e.g. with or without an 
+       <a href="#" title="Database index">index</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=817033233" target="_blank">2017</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">194004 characters</p>
+      <p style="padding: 0px; margin: 0px; ">11 sections</p>
+      <p style="padding: 0px; margin: 0px; ">27 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">11 images</p>
+      <p style="padding: 0px; margin: 0px; ">801 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">47 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=817033233#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=817033233#Design" target="_blank">2. Design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=817033233#Syntax" target="_blank">3. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=817033233#Procedural_extensions" target="_blank">4. Procedural extensions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=817033233#Interoperability_and_standardization" target="_blank">5. Interoperability and standardization</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=817033233#Alternatives" target="_blank">6. Alternatives</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=817033233#Distributed_SQL_processing" target="_blank">7. Distributed SQL processing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=817033233#See_also" target="_blank">8. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=817033233#Notes" target="_blank">9. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=817033233#References" target="_blank">10. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=817033233#External_links" target="_blank">11. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.668</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.338</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.202</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iso
+       <span style="color: #bababa; font-size: 12px">0.142</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       9075
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.128</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iec
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       standards
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       chamberlin
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       codd
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       drda
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       alternatives
+       <span style="color: #bababa; font-size: 12px">0.091</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       compliance
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       13249
+       <span style="color: #bababa; font-size: 12px">0.067</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˌ/: secondary stress follows">ˌ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/./: syllable break">.</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="/juː/: 'u' in 'cute'">juː</span>
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'l' in 'lie'">l</span>
+          </span>
+          /
+         </a>
+        </span>
+        <small class="nowrap">
+          (
+         <span class="unicode haudio">
+          <span class="fn">
+           <span style="white-space:nowrap;margin-right:.25em;">
+            <a href="#" title="About this sound">
+             <img alt="About this sound" data-file-height="20" data-file-width="20" height="11" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" width="11"/>
+            </a>
+           </span>
+           <a class="internal" href="#" title="En-us-SQL.ogg">listen</a>
+          </span>
+         </span>
+         )
+        </small>
+       </span>
+        
+       <i>S-Q-L</i>
+       ,
+       <sup class="reference" id="cite_ref-learningSQL_4-0">
+        <a href="#">[4]</a>
+       </sup>
+        
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/iː/: 'ee' in 'fleece'">iː</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="'w' in 'wind'">w</span>
+           <span title="/əl/: 'le' in 'bottle'">əl</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        &quot;sequel&quot;; 
+       <b>Structured Query Language</b>
+       )
+       <sup class="reference" id="cite_ref-Britannica_5-0">
+        <a href="#">[5]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-oed-US_6-0">
+        <a href="#">[6]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-IBM-SQL_7-0">
+        <a href="#">[7]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-MS-SQL-def_8-0">
+        <a href="#">[8]</a>
+       </sup>
+        is a 
+       <a href="#" title="Domain-specific language">domain-specific language</a>
+        used in programming and designed for managing data held in a 
+       <a href="#" title="Relational database management system">relational database management system</a>
+        (RDBMS), or for stream processing in a 
+       <a href="#" title="Relational data stream management system">relational data stream management system</a>
+        (RDSMS). In comparison to older read/write 
+       <a class="mw-redirect" href="#" title="API">APIs</a>
+        like 
+       <a href="#" title="ISAM">ISAM</a>
+        or 
+       <a class="mw-redirect" href="#" title="VSAM">VSAM</a>
+       , SQL offers two main advantages: first, it introduced the concept of accessing many records with one single command; and second, it eliminates the need to specify 
+       <i>how</i>
+        to reach a record, e.g. with or without an index.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=754778810" target="_blank">2016</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">238810 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">61 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">15 images</p>
+      <p style="padding: 0px; margin: 0px; ">839 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">53 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=754778810#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=754778810#Design" target="_blank">2. Design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=754778810#Syntax" target="_blank">3. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=754778810#Procedural_extensions" target="_blank">4. Procedural extensions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=754778810#Interoperability_and_standardization" target="_blank">5. Interoperability and standardization</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=754778810#Alternatives" target="_blank">6. Alternatives</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=754778810#Distributed_SQL_processing" target="_blank">7. Distributed SQL processing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=754778810#See_also" target="_blank">8. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=754778810#Notes" target="_blank">9. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=754778810#References" target="_blank">10. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=754778810#External_links" target="_blank">11. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.661</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.231</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.223</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       select
+       <span style="color: #bababa; font-size: 12px">0.181</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nulls
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unknown
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       null
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       books
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       column
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       view
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oracle
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.098</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iso
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iec
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'s' in 'sigh'">s</span>
+          </span>
+           
+          <wbr/>
+          <span style="border-bottom:1px dotted">
+           <span title="'k' in 'kind'">k</span>
+           <span title="/juː/: 'u' in 'cute'">juː</span>
+          </span>
+           
+          <wbr/>
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'l' in 'lie'">l</span>
+          </span>
+          /
+         </a>
+        </span>
+        <small class="nowrap">
+          (
+         <span class="unicode haudio">
+          <span class="fn">
+           <span style="white-space:nowrap;margin-right:.25em;">
+            <a href="#" title="About this sound">
+             <img alt="About this sound" data-file-height="20" data-file-width="20" height="11" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" width="11"/>
+            </a>
+           </span>
+           <a class="internal" href="#" title="En-us-SQL.ogg">listen</a>
+          </span>
+         </span>
+         )
+        </small>
+       </span>
+       ,
+       <sup class="reference" id="cite_ref-learningSQL_4-0">
+        <a href="#">[4]</a>
+       </sup>
+        or 
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/iː/: 'ee' in 'fleece'">iː</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="'w' in 'wind'">w</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+           <span title="'l' in 'lie'">l</span>
+          </span>
+          /
+         </a>
+        </span>
+        <small class="nowrap">
+          (
+         <span class="unicode haudio">
+          <span class="fn">
+           <span style="white-space:nowrap;margin-right:.25em;">
+            <a href="#" title="About this sound">
+             <img alt="About this sound" data-file-height="20" data-file-width="20" height="11" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" width="11"/>
+            </a>
+           </span>
+           <a class="internal" href="#" title="En-us-sequel.ogg">listen</a>
+          </span>
+         </span>
+         )
+        </small>
+       </span>
+       ;
+       <sup class="reference" id="cite_ref-oed_5-0">
+        <a href="#">[5]</a>
+       </sup>
+        
+       <b>Structured Query Language</b>
+       <sup class="reference" id="cite_ref-Britannica_6-0">
+        <a href="#">[6]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-oed-US_7-0">
+        <a href="#">[7]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-IBM-SQL_8-0">
+        <a href="#">[8]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-MS-SQL-def_9-0">
+        <a href="#">[9]</a>
+       </sup>
+       ) is a special-purpose 
+       <a href="#" title="Domain-specific language">domain-specific language</a>
+        used in programming and designed for managing data held in a 
+       <a href="#" title="Relational database management system">relational database management system</a>
+        (RDBMS), or for stream processing in a 
+       <a href="#" title="Relational data stream management system">relational data stream management system</a>
+        (RDSMS).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=696732436" target="_blank">2015</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">235202 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">61 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">13 images</p>
+      <p style="padding: 0px; margin: 0px; ">832 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">48 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=696732436#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=696732436#Design" target="_blank">2. Design</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=696732436#Syntax" target="_blank">3. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=696732436#Procedural_extensions" target="_blank">4. Procedural extensions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=696732436#Interoperability_and_standardization" target="_blank">5. Interoperability and standardization</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=696732436#Alternatives" target="_blank">6. Alternatives</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=696732436#Distributed_SQL_processing" target="_blank">7. Distributed SQL processing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=696732436#See_also" target="_blank">8. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=696732436#Notes" target="_blank">9. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=696732436#References" target="_blank">10. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=696732436#External_links" target="_blank">11. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.659</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.231</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.222</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       select
+       <span style="color: #bababa; font-size: 12px">0.180</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nulls
+       <span style="color: #bababa; font-size: 12px">0.144</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       books
+       <span style="color: #bababa; font-size: 12px">0.144</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unknown
+       <span style="color: #bababa; font-size: 12px">0.144</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       null
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       column
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       view
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oracle
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.098</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iso
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iec
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'s' in 'sigh'">s</span>
+          </span>
+           
+          <wbr/>
+          <span style="border-bottom:1px dotted">
+           <span title="'k' in 'kind'">k</span>
+           <span title="/juː/: 'u' in 'cute'">juː</span>
+          </span>
+           
+          <wbr/>
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'l' in 'lie'">l</span>
+          </span>
+          /
+         </a>
+        </span>
+        <small class="nowrap">
+          (
+         <span class="unicode haudio">
+          <span class="fn">
+           <span style="white-space:nowrap;margin-right:.25em;">
+            <a href="#" title="About this sound">
+             <img alt="About this sound" data-file-height="20" data-file-width="20" height="11" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" width="11"/>
+            </a>
+           </span>
+           <a class="internal" href="#" title="En-us-SQL.ogg">listen</a>
+          </span>
+         </span>
+         )
+        </small>
+       </span>
+       ,
+       <sup class="reference" id="cite_ref-learningSQL_4-0">
+        <a href="#">[4]</a>
+       </sup>
+        or 
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/iː/: 'ee' in 'fleece'">iː</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="'w' in 'wind'">w</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+           <span title="'l' in 'lie'">l</span>
+          </span>
+          /
+         </a>
+        </span>
+        <small class="nowrap">
+          (
+         <span class="unicode haudio">
+          <span class="fn">
+           <span style="white-space:nowrap;margin-right:.25em;">
+            <a href="#" title="About this sound">
+             <img alt="About this sound" data-file-height="20" data-file-width="20" height="11" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" width="11"/>
+            </a>
+           </span>
+           <a class="internal" href="#" title="En-us-sequel.ogg">listen</a>
+          </span>
+         </span>
+         )
+        </small>
+       </span>
+       ;
+       <sup class="reference" id="cite_ref-oed_5-0">
+        <a href="#">[5]</a>
+       </sup>
+        
+       <b>Structured Query Language</b>
+       <sup class="reference" id="cite_ref-Britannica_6-0">
+        <a href="#">[6]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-oed-US_7-0">
+        <a href="#">[7]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-IBM-SQL_8-0">
+        <a href="#">[8]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-MS-SQL-def_9-0">
+        <a href="#">[9]</a>
+       </sup>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Special-purpose programming language">special-purpose programming language</a>
+        designed for managing data held in a 
+       <a href="#" title="Relational database management system">relational database management system</a>
+        (RDBMS), or for stream processing in a 
+       <a href="#" title="Relational data stream management system">relational data stream management system</a>
+        (RDSMS).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=639340667" target="_blank">2014</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">217193 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">55 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">10 images</p>
+      <p style="padding: 0px; margin: 0px; ">813 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">42 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=639340667#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=639340667#Syntax" target="_blank">2. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=639340667#Procedural_extensions" target="_blank">3. Procedural extensions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=639340667#Criticism" target="_blank">4. Criticism</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=639340667#Standardization" target="_blank">5. Standardization</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=639340667#Alternatives" target="_blank">6. Alternatives</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=639340667#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=639340667#Notes" target="_blank">8. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=639340667#References" target="_blank">9. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=639340667#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.662</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.248</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.229</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       select
+       <span style="color: #bababa; font-size: 12px">0.189</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nulls
+       <span style="color: #bababa; font-size: 12px">0.152</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unknown
+       <span style="color: #bababa; font-size: 12px">0.152</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       null
+       <span style="color: #bababa; font-size: 12px">0.151</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       column
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oracle
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iso
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iec
+       <span style="color: #bababa; font-size: 12px">0.091</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       comparisons
+       <span style="color: #bababa; font-size: 12px">0.088</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       9075
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'s' in 'sigh'">s</span>
+          </span>
+           
+          <wbr/>
+          <span style="border-bottom:1px dotted">
+           <span title="'k' in 'kind'">k</span>
+           <span title="/juː/: 'u' in 'cute'">juː</span>
+          </span>
+           
+          <wbr/>
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'l' in 'lie'">l</span>
+          </span>
+          /
+         </a>
+        </span>
+        <small class="nowrap">
+          (
+         <span class="unicode haudio">
+          <span class="fn">
+           <span style="white-space:nowrap;margin-right:.25em;">
+            <a href="#" title="About this sound">
+             <img alt="About this sound" data-file-height="20" data-file-width="20" height="11" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" width="11"/>
+            </a>
+           </span>
+           <a class="internal" href="#" title="En-us-SQL.ogg">listen</a>
+          </span>
+         </span>
+         )
+        </small>
+       </span>
+       ,
+       <sup class="reference" id="cite_ref-learningSQL_4-0">
+        <a href="#">[4]</a>
+       </sup>
+        or 
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/iː/: 'ee' in 'fleece'">iː</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="'w' in 'wind'">w</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+           <span title="'l' in 'lie'">l</span>
+          </span>
+          /
+         </a>
+        </span>
+        <small class="nowrap">
+          (
+         <span class="unicode haudio">
+          <span class="fn">
+           <span style="white-space:nowrap;margin-right:.25em;">
+            <a href="#" title="About this sound">
+             <img alt="About this sound" data-file-height="20" data-file-width="20" height="11" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" width="11"/>
+            </a>
+           </span>
+           <a class="internal" href="#" title="En-us-sequel.ogg">listen</a>
+          </span>
+         </span>
+         )
+        </small>
+       </span>
+       ;
+       <sup class="reference" id="cite_ref-5">
+        <a href="#">[5]</a>
+       </sup>
+        
+       <b>Structured Query Language</b>
+       <sup class="reference" id="cite_ref-6">
+        <a href="#">[6]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-7">
+        <a href="#">[7]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-8">
+        <a href="#">[8]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-9">
+        <a href="#">[9]</a>
+       </sup>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Special-purpose programming language">special-purpose programming language</a>
+        designed for managing data held in a 
+       <a href="#" title="Relational database management system">relational database management system</a>
+        (RDBMS), or for stream processing in a 
+       <a href="#" title="Relational data stream management system">relational data stream management system</a>
+        (RDSMS).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=586768363" target="_blank">2013</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">210340 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">56 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">7 images</p>
+      <p style="padding: 0px; margin: 0px; ">800 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">38 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=586768363#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=586768363#Syntax" target="_blank">2. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=586768363#Procedural_extensions" target="_blank">3. Procedural extensions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=586768363#Criticism" target="_blank">4. Criticism</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=586768363#Standardization" target="_blank">5. Standardization</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=586768363#Alternatives" target="_blank">6. Alternatives</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=586768363#See_also" target="_blank">7. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=586768363#Notes" target="_blank">8. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=586768363#References" target="_blank">9. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=586768363#External_links" target="_blank">10. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.658</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.252</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.220</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       select
+       <span style="color: #bababa; font-size: 12px">0.192</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nulls
+       <span style="color: #bababa; font-size: 12px">0.154</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unknown
+       <span style="color: #bababa; font-size: 12px">0.154</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       null
+       <span style="color: #bababa; font-size: 12px">0.153</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       column
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oracle
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iso
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iec
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       comparisons
+       <span style="color: #bababa; font-size: 12px">0.089</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       9075
+       <span style="color: #bababa; font-size: 12px">0.088</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       codd
+       <span style="color: #bababa; font-size: 12px">0.088</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'s' in 'sigh'">s</span>
+          </span>
+           
+          <wbr/>
+          <span style="border-bottom:1px dotted">
+           <span title="'k' in 'kind'">k</span>
+           <span title="/juː/: 'u' in 'cute'">juː</span>
+          </span>
+           
+          <wbr/>
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'l' in 'lie'">l</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+       ,
+       <sup class="reference" id="cite_ref-learningSQL_4-0">
+        <a href="#">[4]</a>
+       </sup>
+        or 
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/iː/: 'ee' in 'fleece'">iː</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="'w' in 'wind'">w</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+           <span title="'l' in 'lie'">l</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+       ; 
+       <b>Structured Query Language</b>
+       <sup class="reference" id="cite_ref-5">
+        <a href="#">[5]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-6">
+        <a href="#">[6]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-7">
+        <a href="#">[7]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-8">
+        <a href="#">[8]</a>
+       </sup>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Special-purpose programming language">special-purpose programming language</a>
+        designed for managing data held in a 
+       <a href="#" title="Relational database management system">relational database management system</a>
+        (RDBMS).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435" target="_blank">2012</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">204935 characters</p>
+      <p style="padding: 0px; margin: 0px; ">26 sections</p>
+      <p style="padding: 0px; margin: 0px; ">54 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">8 images</p>
+      <p style="padding: 0px; margin: 0px; ">793 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">33 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#Language_elements" target="_blank">2. Language elements</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#Queries" target="_blank">3. Queries</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#Data_manipulation" target="_blank">4. Data manipulation</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#Transaction_controls" target="_blank">5. Transaction controls</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#Data_definition" target="_blank">6. Data definition</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#Data_types" target="_blank">7. Data types</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#Data_control" target="_blank">8. Data control</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#Procedural_extensions" target="_blank">9. Procedural extensions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#SQL_Operators" target="_blank">10. SQL Operators</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#Criticism" target="_blank">11. Criticism</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#Standardization" target="_blank">12. Standardization</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#Alternatives" target="_blank">13. Alternatives</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#See_also" target="_blank">14. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#Notes" target="_blank">15. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#References" target="_blank">16. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=530171435#External_links" target="_blank">17. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.654</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.254</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.221</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       select
+       <span style="color: #bababa; font-size: 12px">0.193</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nulls
+       <span style="color: #bababa; font-size: 12px">0.155</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unknown
+       <span style="color: #bababa; font-size: 12px">0.155</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       null
+       <span style="color: #bababa; font-size: 12px">0.154</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       column
+       <span style="color: #bababa; font-size: 12px">0.123</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oracle
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iso
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iec
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.091</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       comparisons
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       9075
+       <span style="color: #bababa; font-size: 12px">0.089</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       codd
+       <span style="color: #bababa; font-size: 12px">0.089</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span title="Unrecognized symbol">
+           <strong class="error">[invalid input: 'icon']</strong>
+          </span>
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'s' in 'sigh'">s</span>
+          </span>
+           
+          <wbr/>
+          <span style="border-bottom:1px dotted">
+           <span title="'k' in 'kind'">k</span>
+           <span title="/juː/: 'u' in 'cute'">juː</span>
+          </span>
+           
+          <wbr/>
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'l' in 'lie'">l</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        &quot;S-Q-L&quot;;
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+        or 
+       <b>Structured Query Language</b>
+       ) is a special-purpose 
+       <a href="#" title="Programming language">programming language</a>
+        designed for managing data in 
+       <a href="#" title="Relational database management system">relational database management systems</a>
+        (RDBMS).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=467538620" target="_blank">2011</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">191087 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">47 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">8 images</p>
+      <p style="padding: 0px; margin: 0px; ">775 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">27 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=467538620#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=467538620#Criticism" target="_blank">2. Criticism</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=467538620#Standardization" target="_blank">3. Standardization</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=467538620#Alternatives" target="_blank">4. Alternatives</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=467538620#See_also" target="_blank">5. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=467538620#Notes" target="_blank">6. Notes</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=467538620#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=467538620#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.624</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.368</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.257</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       select
+       <span style="color: #bababa; font-size: 12px">0.216</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       column
+       <span style="color: #bababa; font-size: 12px">0.151</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       null
+       <span style="color: #bababa; font-size: 12px">0.123</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       books
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rdbms
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oracle
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       transaction
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       valued
+       <span style="color: #bababa; font-size: 12px">0.082</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       codd
+       <span style="color: #bababa; font-size: 12px">0.082</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dbms
+       <span style="color: #bababa; font-size: 12px">0.082</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        (officially 
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span title="Unrecognized symbol">
+           <strong class="error">[invalid input: 'icon']</strong>
+          </span>
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'s' in 'sigh'">s</span>
+          </span>
+           
+          <wbr/>
+          <span style="border-bottom:1px dotted">
+           <span title="'k' in 'kind'">k</span>
+           <span title="/juː/: 'u' in 'cute'">juː</span>
+          </span>
+           
+          <wbr/>
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="/ɛ/: 'e' in 'dress'">ɛ</span>
+           <span title="'l' in 'lie'">l</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+       , often 
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span title="Unrecognized symbol">
+           <strong class="error">[invalid input: 'icon']</strong>
+          </span>
+          <span style="border-bottom:1px dotted">
+           <span title="/ˌ/: secondary stress follows">ˌ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="/iː/: 'ee' in 'fleece'">iː</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="'w' in 'wind'">w</span>
+           <span title="/əl/: 'le' in 'bottle'">əl</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+       ;
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+        often referred to as 
+       <b>Structured Query Language</b>
+       ) is a 
+       <a href="#" title="Programming language">programming language</a>
+        designed for managing data in 
+       <a href="#" title="Relational database management system">relational database management systems</a>
+        (RDBMS).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=405183046" target="_blank">2010</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">154181 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">54 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">385 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">27 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=405183046#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=405183046#Language_elements" target="_blank">2. Language elements</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=405183046#Criticisms_of_SQL" target="_blank">3. Criticisms of SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=405183046#Standardization" target="_blank">4. Standardization</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=405183046#Alternatives_to_SQL" target="_blank">5. Alternatives to SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=405183046#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=405183046#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=405183046#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.737</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.261</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.190</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       9075
+       <span style="color: #bababa; font-size: 12px">0.182</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       select
+       <span style="color: #bababa; font-size: 12px">0.160</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dbms
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       column
+       <span style="color: #bababa; font-size: 12px">0.112</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       solely
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iso
+       <span style="color: #bababa; font-size: 12px">0.094</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       null
+       <span style="color: #bababa; font-size: 12px">0.091</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iec
+       <span style="color: #bababa; font-size: 12px">0.085</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       persistent
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       psm
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        (officially 
+       <small>pronounced </small>
+       <span class="nowrap">
+        <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+         <a href="#" title="Help:IPA/English">/ˌɛskjuːˈɛl/</a>
+        </span>
+       </span>
+       <i>
+        <small>
+         <sup> (deprecated template)</sup>
+        </small>
+       </i>
+        like &quot;S-Q-L&quot; but often 
+       <small>pronounced </small>
+       <span class="nowrap">
+        <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+         <a href="#" title="Help:IPA/English">/ˈsiːkwəl/</a>
+        </span>
+       </span>
+       <i>
+        <small>
+         <sup> (deprecated template)</sup>
+        </small>
+       </i>
+        like &quot;sequel&quot;),
+       <sup class="reference" id="cite_ref-1">
+        <a href="#">[1]</a>
+       </sup>
+        often referred to as 
+       <b>Structured Query Language</b>
+       , is a 
+       <a href="#" title="Database">database</a>
+        computer language designed for managing 
+       <a href="#" title="Data">data</a>
+        in 
+       <a class="mw-redirect" href="#" title="Relational database management systems">relational database management systems</a>
+        (RDBMS), and originally based upon 
+       <a href="#" title="Relational algebra">relational algebra</a>
+        and 
+       <a href="#" title="Relational calculus">calculus</a>
+       <sup class="reference" id="cite_ref-Darwen_2-0">
+        <a href="#">[2]</a>
+       </sup>
+       . Its scope includes data insert, query, update and delete, 
+       <a href="#" title="Database schema">schema</a>
+        creation and modification, and data access control. SQL was one of the first commercial languages for 
+       <a href="#" title="Edgar F. Codd">Edgar F. Codd</a>
+       's 
+       <a href="#" title="Relational model">relational model</a>
+       , as described in his influential 1970 paper, &quot;A Relational Model of Data for Large Shared Data Banks&quot;
+       <sup class="reference" id="cite_ref-codd-relational-model_3-0">
+        <a href="#">[3]</a>
+       </sup>
+       .  Despite not adhering to 
+       <a href="#" title="Codd's 12 rules"> the relational model as described by Codd</a>
+       , it became the most widely used database language.
+       <sup class="reference" id="cite_ref-SQL-Fundamentals_4-0">
+        <a href="#">[4]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-IBM-sql_5-0">
+        <a href="#">[5]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=334488499" target="_blank">2009</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">102224 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">56 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">221 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">24 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=334488499#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=334488499#Language_elements" target="_blank">2. Language elements</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=334488499#Criticisms_of_SQL" target="_blank">3. Criticisms of SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=334488499#Alternatives_to_SQL" target="_blank">4. Alternatives to SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=334488499#See_also" target="_blank">5. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=334488499#References" target="_blank">6. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=334488499#External_links" target="_blank">7. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.744</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.226</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.190</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       9075
+       <span style="color: #bababa; font-size: 12px">0.182</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       select
+       <span style="color: #bababa; font-size: 12px">0.160</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dbms
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.115</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       column
+       <span style="color: #bababa; font-size: 12px">0.112</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       null
+       <span style="color: #bababa; font-size: 12px">0.098</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       solely
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iso
+       <span style="color: #bababa; font-size: 12px">0.094</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iec
+       <span style="color: #bababa; font-size: 12px">0.085</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       persistent
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       psm
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        (
+       <b>Structured Query Language</b>
+       ) (
+       <small>pronounced </small>
+       <span class="nowrap">
+        <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+         <a href="#" title="Help:IPA/English">/ˌɛs.kjuːˈɛl/</a>
+        </span>
+       </span>
+       <i>
+        <small>
+         <sup> (deprecated template)</sup>
+        </small>
+       </i>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <small>ES</small>
+         -ky
+         <b>oo</b>
+         -
+         <small>EL</small>
+        </i>
+       </a>
+        )
+       <sup class="reference" id="cite_ref-SQL-Fundamentals_1-0">
+        <a href="#">[1]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[2]</a>
+       </sup>
+        is a 
+       <a href="#" title="Database">database</a>
+        
+       <a href="#" title="Programming language">computer language</a>
+        designed for managing 
+       <a href="#" title="Data">data</a>
+        in 
+       <a href="#" title="Relational database management system">relational database management systems</a>
+        (RDBMS), and originally based upon 
+       <a class="mw-redirect" href="#" title="Relational Algebra">Relational Algebra</a>
+       . Its scope includes data query and update, 
+       <a href="#" title="Database schema">schema</a>
+        creation and modification, and data access control. SQL was one of the first languages for 
+       <a href="#" title="Edgar F. Codd">Edgar F. Codd</a>
+       's 
+       <a href="#" title="Relational model">relational model</a>
+        in his influential 1970 paper, &quot;A Relational Model of Data for Large Shared Data Banks&quot;
+       <sup class="reference" id="cite_ref-codd-relational-model_3-0">
+        <a href="#">[3]</a>
+       </sup>
+        and became the most widely used language for relational databases.
+       <sup class="reference" id="cite_ref-chapple_4-0">
+        <a href="#">[4]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-IBM-sql_5-0">
+        <a href="#">[5]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=260952492" target="_blank">2008</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">95254 characters</p>
+      <p style="padding: 0px; margin: 0px; ">18 sections</p>
+      <p style="padding: 0px; margin: 0px; ">49 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">235 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">21 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=260952492#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=260952492#Scope_and_extensions" target="_blank">2. Scope and extensions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=260952492#Language_elements" target="_blank">3. Language elements</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=260952492#Criticisms_of_SQL" target="_blank">4. Criticisms of SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=260952492#Alternatives_to_SQL" target="_blank">5. Alternatives to SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=260952492#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=260952492#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=260952492#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.764</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.202</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.164</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       9075
+       <span style="color: #bababa; font-size: 12px">0.160</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dbms
+       <span style="color: #bababa; font-size: 12px">0.160</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       select
+       <span style="color: #bababa; font-size: 12px">0.159</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iso
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dml
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       psm
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       extensions
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       persistent
+       <span style="color: #bababa; font-size: 12px">0.080</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ddl
+       <span style="color: #bababa; font-size: 12px">0.080</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       books
+       <span style="color: #bababa; font-size: 12px">0.080</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        (
+       <b>Structured Query Language</b>
+       ) (
+       <a class="new" href="#" title="Template:PronEng (page does not exist)">Template:PronEng</a>
+       <sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">
+        [
+        <i>
+         <a href="#" title="Wikipedia:Citation needed">
+          <span title="This claim needs references to reliable sources. (December 2008)">citation needed</span>
+         </a>
+        </i>
+        ]
+       </sup>
+       ) is a 
+       <a href="#" title="Database">database</a>
+        
+       <a href="#" title="Computer language">computer language</a>
+        designed for the retrieval and management of 
+       <a href="#" title="Data">data</a>
+        in 
+       <a href="#" title="Relational database management system">relational database management systems</a>
+        (RDBMS), 
+       <a href="#" title="Database schema">database schema</a>
+        creation and modification, and database object access control management.
+       <sup class="reference" id="cite_ref-chapple_2-0">
+        <a href="#">[2]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-IBM-sql_3-0">
+        <a href="#">[3]</a>
+       </sup>
+        
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=181217796" target="_blank">2007</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">81058 characters</p>
+      <p style="padding: 0px; margin: 0px; ">18 sections</p>
+      <p style="padding: 0px; margin: 0px; ">45 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">2 images</p>
+      <p style="padding: 0px; margin: 0px; ">209 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">13 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=181217796#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=181217796#Scope_and_extensions" target="_blank">2. Scope and extensions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=181217796#Language_elements" target="_blank">3. Language elements</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=181217796#Criticisms_of_SQL" target="_blank">4. Criticisms of SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=181217796#Alternatives_to_SQL" target="_blank">5. Alternatives to SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=181217796#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=181217796#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=181217796#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.764</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.192</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       9075
+       <span style="color: #bababa; font-size: 12px">0.163</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dbms
+       <span style="color: #bababa; font-size: 12px">0.163</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       select
+       <span style="color: #bababa; font-size: 12px">0.162</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.154</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.144</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       books
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       iso
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dml
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       psm
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       column
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       extensions
+       <span style="color: #bababa; font-size: 12px">0.082</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       persistent
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        (usually 
+       <a class="new" href="#" title="Template:PronEng (page does not exist)">Template:PronEng</a>
+        or sometimes 
+       <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">/ˈsiːkwəl/</span>
+       ) is a database 
+       <a href="#" title="Computer language">computer language</a>
+        designed for the retrieval and management of 
+       <a href="#" title="Data">data</a>
+        in 
+       <a href="#" title="Relational database management system">relational database management systems</a>
+        (RDBMS), database schema creation and modification, and database object access control management.
+       <sup class="reference" id="cite_ref-chapple_1-0">
+        <a href="#">[1]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-IBM-sql_2-0">
+        <a href="#">[2]</a>
+       </sup>
+        
+       <i>SQL</i>
+        is an acronym for Structured Query Language.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=97302652" target="_blank">2006</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">54533 characters</p>
+      <p style="padding: 0px; margin: 0px; ">16 sections</p>
+      <p style="padding: 0px; margin: 0px; ">31 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">3 images</p>
+      <p style="padding: 0px; margin: 0px; ">192 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">23 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=97302652#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=97302652#Scope" target="_blank">2. Scope</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=97302652#SQL_keywords" target="_blank">3. SQL keywords</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=97302652#Database_systems_using_SQL" target="_blank">4. Database systems using SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=97302652#Criticisms_of_SQL" target="_blank">5. Criticisms of SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=97302652#Alternatives_to_SQL" target="_blank">6. Alternatives to SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=97302652#References" target="_blank">7. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=97302652#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.542</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.306</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.280</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.215</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       codd
+       <span style="color: #bababa; font-size: 12px">0.160</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ddl
+       <span style="color: #bababa; font-size: 12px">0.160</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oracle
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dml
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       books
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       retrieval
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       alternatives
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ibm
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       postgresql
+       <span style="color: #bababa; font-size: 12px">0.095</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        (commonly expanded to 
+       <b>Structured Query Language</b>
+        — see 
+       <i>
+        <a href="#">History</a>
+       </i>
+        for the term's derivation) is the most popular 
+       <a href="#" title="Computer language">computer language</a>
+        used to create, modify, retrieve and manipulate 
+       <a href="#" title="Data">data</a>
+        from 
+       <a href="#" title="Relational database management system">relational database management systems</a>
+       . The language has evolved beyond its original purpose to support 
+       <a class="mw-redirect" href="#" title="Object-relational database management system">object-relational database management systems</a>
+       . It is an 
+       <a href="#" title="American National Standards Institute">ANSI</a>
+       /
+       <a href="#" title="International Organization for Standardization">ISO</a>
+        standard.  
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=33259091" target="_blank">2005</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">35921 characters</p>
+      <p style="padding: 0px; margin: 0px; ">15 sections</p>
+      <p style="padding: 0px; margin: 0px; ">29 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">100 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">19 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=33259091#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=33259091#Scope" target="_blank">2. Scope</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=33259091#SQL_keywords" target="_blank">3. SQL keywords</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=33259091#Database_systems_using_SQL" target="_blank">4. Database systems using SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=33259091#Criticisms_of_SQL" target="_blank">5. Criticisms of SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=33259091#Alternatives_to_SQL" target="_blank">6. Alternatives to SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=33259091#External_links" target="_blank">7. External links</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=33259091#References" target="_blank">8. References</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.584</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.352</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.248</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       codd
+       <span style="color: #bababa; font-size: 12px">0.187</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.187</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oracle
+       <span style="color: #bababa; font-size: 12px">0.154</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ddl
+       <span style="color: #bababa; font-size: 12px">0.149</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.140</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       38
+       <span style="color: #bababa; font-size: 12px">0.112</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dml
+       <span style="color: #bababa; font-size: 12px">0.112</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ibm
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       alternatives
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       transaction
+       <span style="color: #bababa; font-size: 12px">0.089</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dr
+       <span style="color: #bababa; font-size: 12px">0.075</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        (commonly expanded to 
+       <b>Structured Query Language</b>
+        - see 
+       <i>
+        <a href="#">History</a>
+       </i>
+        for the term's derivation) is the most popular 
+       <a href="#" title="Computer language">computer language</a>
+        used to create, modify and retrieve 
+       <a href="#" title="Data">data</a>
+        from 
+       <a href="#" title="Relational database management system">relational database management systems</a>
+       . The language has evolved beyond its original purpose to support 
+       <a class="mw-redirect" href="#" title="Object-relational database management system">object-relational database management systems</a>
+       . It is an 
+       <a href="#" title="American National Standards Institute">ANSI</a>
+       /
+       <a href="#" title="International Organization for Standardization">ISO</a>
+        standard.
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=9112163" target="_blank">2004</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">25996 characters</p>
+      <p style="padding: 0px; margin: 0px; ">7 sections</p>
+      <p style="padding: 0px; margin: 0px; ">25 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">85 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">19 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=9112163#Origins_&amp;_Versions" target="_blank">1. Origins &amp; Versions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=9112163#Description_of_SQL" target="_blank">2. Description of SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=9112163#SQL_keywords" target="_blank">3. SQL keywords</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=9112163#Database_systems_using_SQL" target="_blank">4. Database systems using SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=9112163#Possible_criticisms_of_SQL" target="_blank">5. Possible criticisms of SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=9112163#Alternatives_to_SQL" target="_blank">6. Alternatives to SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=9112163#External_links" target="_blank">7. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.588</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.236</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ddl
+       <span style="color: #bababa; font-size: 12px">0.199</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.199</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.176</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.168</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fall
+       <span style="color: #bababa; font-size: 12px">0.149</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       codd
+       <span style="color: #bababa; font-size: 12px">0.149</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dml
+       <span style="color: #bababa; font-size: 12px">0.149</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.140</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fourth
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dcl
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       zip
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       record
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oracle
+       <span style="color: #bababa; font-size: 12px">0.088</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Structured Query Language</b>
+        (
+       <b>SQL</b>
+       ) is the most popular computer language used to create, modify and query databases.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=2092988" target="_blank">2003</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">12733 characters</p>
+      <p style="padding: 0px; margin: 0px; ">4 sections</p>
+      <p style="padding: 0px; margin: 0px; ">19 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">31 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">3 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=2092988#Examples" target="_blank">1. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=2092988#SQL_keywords" target="_blank">2. SQL keywords</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=2092988#Database_systems_using_SQL" target="_blank">3. Database systems using SQL</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=2092988#External_links" target="_blank">4. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.610</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.227</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.213</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ddl
+       <span style="color: #bababa; font-size: 12px">0.202</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       select
+       <span style="color: #bababa; font-size: 12px">0.161</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       column
+       <span style="color: #bababa; font-size: 12px">0.161</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.158</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       proprietary
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rows
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fall
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dml
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pronunciation
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.128</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Structured Query Language</b>
+       , or 
+       <b>SQL</b>
+       , is a 
+       <a class="mw-redirect" href="#" title="Declarative programming language">declarative programming language</a>
+        for use in quasi-
+       <a href="#" title="Relational database">relational databases</a>
+       .  Many of the original SQL features were inspired by, but in violation of, 
+       <a class="mw-redirect" href="#" title="Tuple calculus">tuple calculus</a>
+       , but recent extensions to SQL include a more 
+       <a href="#" title="Relational algebra">relational algebra</a>
+        flavour.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=608324" target="_blank">2002</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">8139 characters</p>
+      <p style="padding: 0px; margin: 0px; ">1 sections</p>
+      <p style="padding: 0px; margin: 0px; ">13 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">27 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">0 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=608324#Examples" target="_blank">1. Examples</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.590</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.241</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       select
+       <span style="color: #bababa; font-size: 12px">0.213</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relational
+       <span style="color: #bababa; font-size: 12px">0.210</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       database
+       <span style="color: #bababa; font-size: 12px">0.198</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rows
+       <span style="color: #bababa; font-size: 12px">0.181</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pronunciation
+       <span style="color: #bababa; font-size: 12px">0.179</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sequel
+       <span style="color: #bababa; font-size: 12px">0.179</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.167</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       column
+       <span style="color: #bababa; font-size: 12px">0.142</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       table
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       revised
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       procedural
+       <span style="color: #bababa; font-size: 12px">0.113</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oracle
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pl
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>SQL</b>
+        stands for 
+       <b>Structured Query Language</b>
+       , a language for use in quasi-
+       <a href="#" title="Relational database">relational databases</a>
+       .  Many of the original SQL features were inspired by, but in violation of, 
+       <a href="#" title="Tuple relational calculus">tuple relational calculus</a>
+       , but recent extensions to SQL include a more 
+       <a href="#" title="Relational algebra">relational algebra</a>
+        flavour.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=284675" target="_blank">2001</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">2091 characters</p>
+      <p style="padding: 0px; margin: 0px; ">0 sections</p>
+      <p style="padding: 0px; margin: 0px; ">11 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">11 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">0 external links</p>
+     </td>
+     <td style="width: 25%;"/>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sql
+       <span style="color: #bababa; font-size: 12px">0.605</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       revised
+       <span style="color: #bababa; font-size: 12px">0.391</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       1992
+       <span style="color: #bababa; font-size: 12px">0.303</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       query
+       <span style="color: #bababa; font-size: 12px">0.196</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stands
+       <span style="color: #bababa; font-size: 12px">0.196</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       1986
+       <span style="color: #bababa; font-size: 12px">0.196</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       variations
+       <span style="color: #bababa; font-size: 12px">0.171</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       2001
+       <span style="color: #bababa; font-size: 12px">0.171</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oracle
+       <span style="color: #bababa; font-size: 12px">0.171</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pl
+       <span style="color: #bababa; font-size: 12px">0.152</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       proprietary
+       <span style="color: #bababa; font-size: 12px">0.152</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       1998
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ansi
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       databases
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       corporation
+       <span style="color: #bababa; font-size: 12px">0.123</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       SQL3 supports objects, which weren't previously supported in other versions, but as of late 2001, few if any 
+       <a class="mw-redirect" href="#" title="Database management system">database management systems</a>
+        implement SQL3.
+
+      </p>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>
