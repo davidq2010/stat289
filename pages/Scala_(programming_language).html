@@ -1,0 +1,2458 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title charset="utf-8">Programming Languages</title>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"> </script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+  <link href="../css/custom.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <nav class="navbar navbar-default navbar-darkbg-dark navbar-fixed-top">
+   <div class="container">
+    <div class="navbar-header">
+     <a class="navbar-brand" href="../index.html">Programming Languages</a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-docs">
+       <a class="nav-link" href="../docs.html">Docs</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-clusters">
+       <a class="nav-link" href="../clusters.html">Clusters</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-viz">
+       <a class="nav-link" href="../viz.html">Viz</a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <div class="container" style="padding-top: 30px;">
+   <div class="row">
+    <div class="col-sm-4">
+     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Scala_logo.png/200px-Scala_logo.png" style="max-width: 300px"/>
+    </div>
+    <div class="col-sm-8">
+     <h1>Scala (programming language)</h1>
+     <p>
+      <b>Scala</b>
+       (
+      <span class="nowrap">
+       <span class="IPA nopopups noexcerpt">
+        <a href="#" title="Help:IPA/English">
+         /
+         <span style="border-bottom:1px dotted">
+          <span title="/ˈ/: primary stress follows">ˈ</span>
+          <span title="'s' in 'sigh'">s</span>
+          <span title="'k' in 'kind'">k</span>
+          <span title="/ɑː/: 'a' in 'father'">ɑː</span>
+          <span title="'l' in 'lie'">l</span>
+          <span title="/ɑː/: 'a' in 'father'">ɑː</span>
+         </span>
+         /
+        </a>
+       </span>
+      </span>
+       
+      <a href="#" title="Help:Pronunciation respelling key">
+       <i title="English pronunciation respelling">
+        <span style="font-size:90%">SKAH</span>
+        -lah
+       </i>
+      </a>
+      )
+      <sup class="reference" id="cite_ref-9">
+       <a href="#">[9]</a>
+      </sup>
+       is a 
+      <a href="#" title="General-purpose programming language">general-purpose</a>
+       
+      <a href="#" title="Programming language">programming language</a>
+       providing support for 
+      <a href="#" title="Functional programming">functional programming</a>
+       and a strong 
+      <a class="mw-redirect" href="#" title="Static typing">static</a>
+       
+      <a href="#" title="Type system">type system</a>
+      . Designed to be concise,
+      <sup class="reference" id="cite_ref-10">
+       <a href="#">[10]</a>
+      </sup>
+       many of Scala's design decisions aimed to address 
+      <a href="#" title="Criticism of Java">criticisms of Java</a>
+      .
+      <sup class="reference" id="cite_ref-overview_8-1">
+       <a href="#">[8]</a>
+      </sup>
+      
+
+     </p>
+    </div>
+   </div>
+   <h3 style="padding-top: 15px">Page Revisions</h3>
+   <table style="text-align: left; margin: 0px auto">
+    <tr>
+     <td>
+      <b>Year</b>
+     </td>
+     <td>
+      <b>Metadata</b>
+     </td>
+     <td>
+      <b>Sections</b>
+     </td>
+     <td>
+      <b>Top Words</b>
+     </td>
+     <td>
+      <b>First Paragraph</b>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459" target="_blank">2018</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">297465 characters</p>
+      <p style="padding: 0px; margin: 0px; ">36 sections</p>
+      <p style="padding: 0px; margin: 0px; ">98 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">8 images</p>
+      <p style="padding: 0px; margin: 0px; ">359 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">145 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#Platforms_and_license" target="_blank">2. Platforms and license</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#Examples" target="_blank">3. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#Features_(with_reference_to_Java)" target="_blank">4. Features (with reference to Java)</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#Concurrency" target="_blank">5. Concurrency</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#Cluster_computing" target="_blank">6. Cluster computing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#Testing" target="_blank">7. Testing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#Versions" target="_blank">8. Versions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#Comparison_with_other_JVM_languages" target="_blank">9. Comparison with other JVM languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#Adoption" target="_blank">10. Adoption</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#Criticism" target="_blank">11. Criticism</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#See_also" target="_blank">12. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#References" target="_blank">13. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#Further_reading" target="_blank">14. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=869739459#External_links" target="_blank">15. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.920</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       jvm
+       <span style="color: #bababa; font-size: 12px">0.084</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       java
+       <span style="color: #bababa; font-size: 12px">0.070</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       groovy
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       clojure
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pivot
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rankings
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pattern
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       immutable
+       <span style="color: #bababa; font-size: 12px">0.049</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       odersky
+       <span style="color: #bababa; font-size: 12px">0.048</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       traits
+       <span style="color: #bababa; font-size: 12px">0.048</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       functional
+       <span style="color: #bababa; font-size: 12px">0.046</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.040</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="/ɑː/: 'a' in 'father'">ɑː</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/ɑː/: 'a' in 'father'">ɑː</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">SKAH</span>
+         -lah
+        </i>
+       </a>
+       )
+       <sup class="reference" id="cite_ref-9">
+        <a href="#">[9]</a>
+       </sup>
+        is a 
+       <a href="#" title="General-purpose programming language">general-purpose</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        providing support for 
+       <a href="#" title="Functional programming">functional programming</a>
+        and a strong 
+       <a class="mw-redirect" href="#" title="Static typing">static</a>
+        
+       <a href="#" title="Type system">type system</a>
+       . Designed to be concise,
+       <sup class="reference" id="cite_ref-10">
+        <a href="#">[10]</a>
+       </sup>
+        many of Scala's design decisions aimed to address 
+       <a href="#" title="Criticism of Java">criticisms of Java</a>
+       .
+       <sup class="reference" id="cite_ref-overview_8-1">
+        <a href="#">[8]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271" target="_blank">2017</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">291100 characters</p>
+      <p style="padding: 0px; margin: 0px; ">36 sections</p>
+      <p style="padding: 0px; margin: 0px; ">99 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">8 images</p>
+      <p style="padding: 0px; margin: 0px; ">348 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">137 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#Platforms_and_license" target="_blank">2. Platforms and license</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#Examples" target="_blank">3. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#Features_(with_reference_to_Java)" target="_blank">4. Features (with reference to Java)</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#Concurrency" target="_blank">5. Concurrency</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#Cluster_computing" target="_blank">6. Cluster computing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#Testing" target="_blank">7. Testing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#Versions" target="_blank">8. Versions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#Comparison_with_other_JVM_languages" target="_blank">9. Comparison with other JVM languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#Adoption" target="_blank">10. Adoption</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#Criticism" target="_blank">11. Criticism</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#See_also" target="_blank">12. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#References" target="_blank">13. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#Further_reading" target="_blank">14. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=817785271#External_links" target="_blank">15. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.915</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       groovy
+       <span style="color: #bababa; font-size: 12px">0.092</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       clojure
+       <span style="color: #bababa; font-size: 12px">0.092</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.076</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       java
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       jvm
+       <span style="color: #bababa; font-size: 12px">0.070</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pivot
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.063</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pattern
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       immutable
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       odersky
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       traits
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       functional
+       <span style="color: #bababa; font-size: 12px">0.049</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       actor
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="/ɑː/: 'a' in 'father'">ɑː</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/ɑː/: 'a' in 'father'">ɑː</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">SKAH</span>
+         -lah
+        </i>
+       </a>
+       )
+       <sup class="reference" id="cite_ref-9">
+        <a href="#">[9]</a>
+       </sup>
+        is a 
+       <a href="#" title="General-purpose programming language">general-purpose</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        providing support for 
+       <a href="#" title="Functional programming">functional programming</a>
+        and a strong 
+       <a class="mw-redirect" href="#" title="Static typing">static</a>
+        
+       <a href="#" title="Type system">type system</a>
+       . Designed to be concise,
+       <sup class="reference" id="cite_ref-10">
+        <a href="#">[10]</a>
+       </sup>
+        many of Scala's design decisions aimed to address 
+       <a href="#" title="Criticism of Java">criticisms of Java</a>
+       .
+       <sup class="reference" id="cite_ref-overview_8-1">
+        <a href="#">[8]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374" target="_blank">2016</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">278941 characters</p>
+      <p style="padding: 0px; margin: 0px; ">35 sections</p>
+      <p style="padding: 0px; margin: 0px; ">99 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">9 images</p>
+      <p style="padding: 0px; margin: 0px; ">341 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">130 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#Platforms_and_license" target="_blank">2. Platforms and license</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#Examples" target="_blank">3. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#Features_(with_reference_to_Java)" target="_blank">4. Features (with reference to Java)</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#Concurrency" target="_blank">5. Concurrency</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#Cluster_computing" target="_blank">6. Cluster computing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#Testing" target="_blank">7. Testing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#Versions" target="_blank">8. Versions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#Comparison_with_other_JVM_languages" target="_blank">9. Comparison with other JVM languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#Adoption" target="_blank">10. Adoption</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#Criticism" target="_blank">11. Criticism</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#See_also" target="_blank">12. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#References" target="_blank">13. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#Further_reading" target="_blank">14. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=753399374#External_links" target="_blank">15. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.909</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       groovy
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       clojure
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       java
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pivot
+       <span style="color: #bababa; font-size: 12px">0.066</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.065</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       jvm
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pattern
+       <span style="color: #bababa; font-size: 12px">0.056</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       immutable
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       odersky
+       <span style="color: #bababa; font-size: 12px">0.053</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       traits
+       <span style="color: #bababa; font-size: 12px">0.053</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       functional
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.044</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       actor
+       <span style="color: #bababa; font-size: 12px">0.044</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="/ɑː/: 'a' in 'father'">ɑː</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/ɑː/: 'a' in 'father'">ɑː</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">SKAH</span>
+         -lah
+        </i>
+       </a>
+       )
+       <sup class="reference" id="cite_ref-9">
+        <a href="#">[9]</a>
+       </sup>
+        is a 
+       <a href="#" title="General-purpose programming language">general-purpose</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+       . Scala has full support for 
+       <a href="#" title="Functional programming">functional programming</a>
+        and a strong 
+       <a class="mw-redirect" href="#" title="Static typing">static</a>
+        
+       <a href="#" title="Type system">type system</a>
+       . Designed to be concise,
+       <sup class="reference" id="cite_ref-10">
+        <a href="#">[10]</a>
+       </sup>
+        many of Scala's design decisions were inspired by 
+       <a href="#" title="Criticism of Java">criticism of Java</a>
+       's shortcomings.
+       <sup class="reference" id="cite_ref-overview_8-1">
+        <a href="#">[8]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955" target="_blank">2015</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">254362 characters</p>
+      <p style="padding: 0px; margin: 0px; ">35 sections</p>
+      <p style="padding: 0px; margin: 0px; ">111 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">9 images</p>
+      <p style="padding: 0px; margin: 0px; ">332 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">105 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955#Platforms_and_license" target="_blank">2. Platforms and license</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955#Examples" target="_blank">3. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955#Features_(with_reference_to_Java)" target="_blank">4. Features (with reference to Java)</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955#Concurrency" target="_blank">5. Concurrency</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955#Cluster_computing" target="_blank">6. Cluster computing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955#Testing" target="_blank">7. Testing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955#Versions" target="_blank">8. Versions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955#Comparison_with_other_JVM_languages" target="_blank">9. Comparison with other JVM languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955#Adoption" target="_blank">10. Adoption</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955#See_also" target="_blank">11. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955#References" target="_blank">12. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955#Further_reading" target="_blank">13. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=697273955#External_links" target="_blank">14. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.924</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       groovy
+       <span style="color: #bababa; font-size: 12px">0.098</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       clojure
+       <span style="color: #bababa; font-size: 12px">0.088</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       java
+       <span style="color: #bababa; font-size: 12px">0.062</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       akka
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pivot
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       jvm
+       <span style="color: #bababa; font-size: 12px">0.059</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.053</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pattern
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       immutable
+       <span style="color: #bababa; font-size: 12px">0.050</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       play
+       <span style="color: #bababa; font-size: 12px">0.049</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       traits
+       <span style="color: #bababa; font-size: 12px">0.048</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       functional
+       <span style="color: #bababa; font-size: 12px">0.043</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.040</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="/ɑː/: 'a' in 'father'">ɑː</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/ɑː/: 'a' in 'father'">ɑː</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">SKAH</span>
+         -lah
+        </i>
+       </a>
+       )
+       <sup class="reference" id="cite_ref-7">
+        <a href="#">[7]</a>
+       </sup>
+        is a 
+       <a href="#" title="Programming language">programming</a>
+        language for general 
+       <a class="mw-redirect" href="#" title="Software application">software applications</a>
+       . Scala has full support for 
+       <a href="#" title="Functional programming">functional programming</a>
+        and a very strong 
+       <a class="mw-redirect" href="#" title="Static typing">static</a>
+        
+       <a href="#" title="Type system">type system</a>
+       . Designed to be concise,
+       <sup class="reference" id="cite_ref-8">
+        <a href="#">[8]</a>
+       </sup>
+        many of Scala's design decisions were inspired by 
+       <a href="#" title="Criticism of Java">criticism of the shortcomings of Java</a>
+       .
+       <sup class="reference" id="cite_ref-overview_6-1">
+        <a href="#">[6]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736" target="_blank">2014</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">235243 characters</p>
+      <p style="padding: 0px; margin: 0px; ">35 sections</p>
+      <p style="padding: 0px; margin: 0px; ">108 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">8 images</p>
+      <p style="padding: 0px; margin: 0px; ">327 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">89 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736#Platforms_and_license" target="_blank">2. Platforms and license</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736#Examples" target="_blank">3. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736#Features_(with_reference_to_Java)" target="_blank">4. Features (with reference to Java)</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736#Concurrency" target="_blank">5. Concurrency</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736#Cluster_computing" target="_blank">6. Cluster computing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736#Testing" target="_blank">7. Testing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736#Versions" target="_blank">8. Versions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736#Comparison_with_other_JVM_languages" target="_blank">9. Comparison with other JVM languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736#Adoption" target="_blank">10. Adoption</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736#See_also" target="_blank">11. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736#References" target="_blank">12. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736#Further_reading" target="_blank">13. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=640005736#External_links" target="_blank">14. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.924</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       groovy
+       <span style="color: #bababa; font-size: 12px">0.098</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       clojure
+       <span style="color: #bababa; font-size: 12px">0.088</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       java
+       <span style="color: #bababa; font-size: 12px">0.062</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pivot
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       jvm
+       <span style="color: #bababa; font-size: 12px">0.059</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.053</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pattern
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       immutable
+       <span style="color: #bababa; font-size: 12px">0.050</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       akka
+       <span style="color: #bababa; font-size: 12px">0.049</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       traits
+       <span style="color: #bababa; font-size: 12px">0.048</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       functional
+       <span style="color: #bababa; font-size: 12px">0.046</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       lisp
+       <span style="color: #bababa; font-size: 12px">0.040</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuples
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="/ɑː/: 'a' in 'father'">ɑː</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">SKAH</span>
+         -lə
+        </i>
+       </a>
+       )
+       <sup class="reference" id="cite_ref-6">
+        <a href="#">[6]</a>
+       </sup>
+        is an 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">object-functional</a>
+       <sup class="reference" id="cite_ref-StepsInScala_7-0">
+        <a href="#">[7]</a>
+       </sup>
+        
+       <a href="#" title="Programming language">programming</a>
+        language for general 
+       <a class="mw-redirect" href="#" title="Software application">software applications</a>
+       . Scala has full support for 
+       <a href="#" title="Functional programming">functional programming</a>
+        and a very strong 
+       <a class="mw-redirect" href="#" title="Static typing">static</a>
+        
+       <a href="#" title="Type system">type system</a>
+       . This allows programs written in Scala to be very concise and thus smaller in size than other 
+       <a href="#" title="General-purpose programming language">general-purpose programming languages</a>
+       . Many of Scala's design decisions were inspired by 
+       <a href="#" title="Criticism of Java">criticism</a>
+        over the shortcomings of 
+       <a href="#" title="Java (programming language)">Java</a>
+       .
+       <sup class="reference" id="cite_ref-overview_5-1">
+        <a href="#">[5]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=588407212" target="_blank">2013</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">279899 characters</p>
+      <p style="padding: 0px; margin: 0px; ">34 sections</p>
+      <p style="padding: 0px; margin: 0px; ">100 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">19 images</p>
+      <p style="padding: 0px; margin: 0px; ">371 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">135 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=588407212#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=588407212#Platforms_and_license" target="_blank">2. Platforms and license</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=588407212#Examples" target="_blank">3. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=588407212#Features_(with_reference_to_Java)" target="_blank">4. Features (with reference to Java)</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=588407212#Concurrency" target="_blank">5. Concurrency</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=588407212#Testing" target="_blank">6. Testing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=588407212#Versions" target="_blank">7. Versions</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=588407212#Comparison_with_other_JVM_languages" target="_blank">8. Comparison with other JVM languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=588407212#Adoption" target="_blank">9. Adoption</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=588407212#See_also" target="_blank">10. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=588407212#References" target="_blank">11. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=588407212#Further_reading" target="_blank">12. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=588407212#External_links" target="_blank">13. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.915</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.088</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pivot
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.067</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       groovy
+       <span style="color: #bababa; font-size: 12px">0.066</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       java
+       <span style="color: #bababa; font-size: 12px">0.065</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pattern
+       <span style="color: #bababa; font-size: 12px">0.062</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       jvm
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       clojure
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       traits
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       immutable
+       <span style="color: #bababa; font-size: 12px">0.049</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       comprehensions
+       <span style="color: #bababa; font-size: 12px">0.044</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuples
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       partial
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       akka
+       <span style="color: #bababa; font-size: 12px">0.041</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="/ɑː/: 'a' in 'father'">ɑː</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">SKAH</span>
+         -lə
+        </i>
+       </a>
+       ) is an 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">object-functional</a>
+        
+       <a href="#" title="Programming language">programming</a>
+        and 
+       <a href="#" title="Scripting language">scripting language</a>
+        for general 
+       <a class="mw-redirect" href="#" title="Software application">software applications</a>
+       , 
+       <a class="mw-redirect" href="#" title="Static typing">statically typed</a>
+       , designed to concisely express solutions in an elegant,
+       <sup class="reference" id="cite_ref-6">
+        <a href="#">[6]</a>
+       </sup>
+        
+       <a class="mw-redirect" href="#" title="Type-safe">type-safe</a>
+        and lightweight (low ceremonial) manner. Scala has full support for 
+       <a href="#" title="Functional programming">functional programming</a>
+        (including 
+       <a href="#" title="Currying">currying</a>
+       , 
+       <a href="#" title="Pattern matching">pattern matching</a>
+       , 
+       <a class="mw-redirect" href="#" title="Algebraic data types">algebraic data types</a>
+       , 
+       <a href="#" title="Lazy evaluation">lazy evaluation</a>
+       , 
+       <a class="mw-redirect" href="#" title="Tail recursion">tail recursion</a>
+       , 
+       <a href="#" title="Immutable object">immutability</a>
+       , etc.). It cleans up what are often considered poor design decisions in 
+       <a href="#" title="Java (programming language)">Java</a>
+        (such as 
+       <a href="#" title="Type erasure">type erasure</a>
+       , 
+       <a class="mw-redirect" href="#" title="Checked exception">checked exceptions</a>
+       , the non-
+       <a href="#" title="Type system">unified type system</a>
+       ) and adds a number of other features designed to allow cleaner, more concise and more expressive code to be written.
+       <sup class="reference" id="cite_ref-overview_5-1">
+        <a href="#">[5]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=529439273" target="_blank">2012</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">155561 characters</p>
+      <p style="padding: 0px; margin: 0px; ">32 sections</p>
+      <p style="padding: 0px; margin: 0px; ">93 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">6 images</p>
+      <p style="padding: 0px; margin: 0px; ">241 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">55 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=529439273#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=529439273#Platforms_and_license" target="_blank">2. Platforms and license</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=529439273#Examples" target="_blank">3. Examples</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=529439273#Features_(with_reference_to_Java)" target="_blank">4. Features (with reference to Java)</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=529439273#Concurrency" target="_blank">5. Concurrency</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=529439273#Testing" target="_blank">6. Testing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=529439273#Comparison_with_other_JVM_languages" target="_blank">7. Comparison with other JVM languages</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=529439273#Adoption" target="_blank">8. Adoption</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=529439273#See_also" target="_blank">9. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=529439273#References" target="_blank">10. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=529439273#Further_reading" target="_blank">11. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=529439273#External_links" target="_blank">12. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.910</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.088</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pattern
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       java
+       <span style="color: #bababa; font-size: 12px">0.074</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pivot
+       <span style="color: #bababa; font-size: 12px">0.074</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       comprehensions
+       <span style="color: #bababa; font-size: 12px">0.071</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.065</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       jvm
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       groovy
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       traits
+       <span style="color: #bababa; font-size: 12px">0.059</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       immutable
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scheme
+       <span style="color: #bababa; font-size: 12px">0.049</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       clojure
+       <span style="color: #bababa; font-size: 12px">0.048</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tuples
+       <span style="color: #bababa; font-size: 12px">0.045</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       partial
+       <span style="color: #bababa; font-size: 12px">0.045</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span title="Unrecognized symbol">
+           <strong class="error">[invalid input: 'icon']</strong>
+          </span>
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="/ɑː/: 'a' in 'father'">ɑː</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">SKAH</span>
+         -lə
+        </i>
+       </a>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed as a &quot;better 
+       <a href="#" title="Java (programming language)">Java</a>
+       &quot; — building on top of the 
+       <a href="#" title="Java virtual machine">Java virtual machine</a>
+        (JVM) and maintaining strong interoperability with Java, while at the same time integrating 
+       <a href="#" title="Functional programming">functional programming</a>
+        along with Java's 
+       <a href="#" title="Object-oriented programming">object-oriented programming</a>
+        model, cleaning up what are often considered to have been poor design decisions in Java (e.g. 
+       <a href="#" title="Type erasure">type erasure</a>
+       , 
+       <a class="mw-redirect" href="#" title="Checked exception">checked exceptions</a>
+        and the non-unified type system) and adding a number of other features designed to allow cleaner, more concise and more expressive code to be written.
+       <sup class="reference" id="cite_ref-overview_5-1">
+        <a href="#">[5]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=466520781" target="_blank">2011</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">63657 characters</p>
+      <p style="padding: 0px; margin: 0px; ">15 sections</p>
+      <p style="padding: 0px; margin: 0px; ">36 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">2 images</p>
+      <p style="padding: 0px; margin: 0px; ">112 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">41 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=466520781#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=466520781#Platforms_and_license" target="_blank">2. Platforms and license</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=466520781#Software_using_Scala" target="_blank">3. Software using Scala</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=466520781#Supported_paradigms" target="_blank">4. Supported paradigms</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=466520781#Static_typing" target="_blank">5. Static typing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=466520781#Extensibility" target="_blank">6. Extensibility</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=466520781#Concurrency" target="_blank">7. Concurrency</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=466520781#&quot;Hello_world&quot;_example" target="_blank">8. &quot;Hello world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=466520781#Testing" target="_blank">9. Testing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=466520781#See_also" target="_blank">10. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=466520781#References" target="_blank">11. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=466520781#Further_reading" target="_blank">12. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=466520781#External_links" target="_blank">13. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.938</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       helloworld
+       <span style="color: #bababa; font-size: 12px">0.091</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       odersky
+       <span style="color: #bababa; font-size: 12px">0.091</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       helloworld2
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       typesafe
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       java
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.050</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       jvm
+       <span style="color: #bababa; font-size: 12px">0.042</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       saved
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       news
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       functional
+       <span style="color: #bababa; font-size: 12px">0.036</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abstractions
+       <span style="color: #bababa; font-size: 12px">0.033</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       classpath
+       <span style="color: #bababa; font-size: 12px">0.030</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       defers
+       <span style="color: #bababa; font-size: 12px">0.030</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       portions
+       <span style="color: #bababa; font-size: 12px">0.030</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        (
+       <span class="nowrap">
+        <span class="IPA nopopups noexcerpt">
+         <a href="#" title="Help:IPA/English">
+          /
+          <span title="Unrecognized symbol">
+           <strong class="error">[invalid input: 'icon']</strong>
+          </span>
+          <span style="border-bottom:1px dotted">
+           <span title="/ˈ/: primary stress follows">ˈ</span>
+           <span title="'s' in 'sigh'">s</span>
+           <span title="'k' in 'kind'">k</span>
+           <span title="/ɑː/: 'a' in 'father'">ɑː</span>
+           <span title="'l' in 'lie'">l</span>
+           <span title="/ə/: 'a' in 'about'">ə</span>
+          </span>
+          /
+         </a>
+        </span>
+       </span>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">SKAH</span>
+         -lə
+        </i>
+       </a>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed to integrate features of 
+       <a href="#" title="Object-oriented programming">object-oriented programming</a>
+        and 
+       <a href="#" title="Functional programming">functional programming</a>
+       .
+       <sup class="reference" id="cite_ref-overview_2-1">
+        <a href="#">[2]</a>
+       </sup>
+        The name Scala is a 
+       <a href="#" title="Portmanteau">portmanteau</a>
+        of &quot;scalable&quot; and &quot;language&quot;, signifying that it is designed to grow with the demands of its users. 
+       <a href="#" title="James Strachan (programmer)">James Strachan</a>
+       , the creator of 
+       <a class="mw-redirect" href="#" title="Groovy (programming language)">Groovy</a>
+       , described Scala as a possible successor to 
+       <a href="#" title="Java (programming language)">Java</a>
+       .
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982" target="_blank">2010</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">52946 characters</p>
+      <p style="padding: 0px; margin: 0px; ">14 sections</p>
+      <p style="padding: 0px; margin: 0px; ">31 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">2 images</p>
+      <p style="padding: 0px; margin: 0px; ">97 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">40 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982#Platforms_and_license" target="_blank">1. Platforms and license</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982#Object-oriented_features" target="_blank">3. Object-oriented features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982#Functional_programming" target="_blank">4. Functional programming</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982#Static_typing" target="_blank">5. Static typing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982#Extensibility" target="_blank">6. Extensibility</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982#Concurrency" target="_blank">7. Concurrency</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982#Software_using_Scala" target="_blank">8. Software using Scala</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982#&quot;Hello_world&quot;_example" target="_blank">9. &quot;Hello world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982#Testing" target="_blank">10. Testing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982#See_also" target="_blank">11. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982#References" target="_blank">12. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982#Further_reading" target="_blank">13. Further reading</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=404514982#External_links" target="_blank">14. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.933</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       helloworld
+       <span style="color: #bababa; font-size: 12px">0.075</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       odersky
+       <span style="color: #bababa; font-size: 12px">0.075</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       java
+       <span style="color: #bababa; font-size: 12px">0.067</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.062</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       jvm
+       <span style="color: #bababa; font-size: 12px">0.052</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       saved
+       <span style="color: #bababa; font-size: 12px">0.046</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       functional
+       <span style="color: #bababa; font-size: 12px">0.045</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abstractions
+       <span style="color: #bababa; font-size: 12px">0.041</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       defers
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       portions
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       deliver
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       notice
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rails
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dsl
+       <span style="color: #bababa; font-size: 12px">0.037</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        (
+       <small>pronounced </small>
+       <span class="nowrap">
+        <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+         <a href="#" title="Help:IPA/English">/ˈskɑːlə/</a>
+        </span>
+       </span>
+       <i>
+        <small>
+         <sup> (deprecated template)</sup>
+        </small>
+       </i>
+        
+       <a href="#" title="Help:Pronunciation respelling key">
+        <i title="English pronunciation respelling">
+         <span style="font-size:90%">SKAH</span>
+         -lə
+        </i>
+       </a>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed to integrate features of 
+       <a href="#" title="Object-oriented programming">object-oriented programming</a>
+        and 
+       <a href="#" title="Functional programming">functional programming</a>
+       .
+       <sup class="reference" id="cite_ref-overview_1-1">
+        <a href="#">[1]</a>
+       </sup>
+        The name Scala stands for &quot;
+       <i>scalable language</i>
+       &quot;, signifying that it is designed to grow with the demands of its users.
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=332909329" target="_blank">2009</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">41977 characters</p>
+      <p style="padding: 0px; margin: 0px; ">13 sections</p>
+      <p style="padding: 0px; margin: 0px; ">26 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">1 images</p>
+      <p style="padding: 0px; margin: 0px; ">85 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">30 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=332909329#Platforms_and_license" target="_blank">1. Platforms and license</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=332909329#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=332909329#Object-oriented_features" target="_blank">3. Object-oriented features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=332909329#Functional_programming" target="_blank">4. Functional programming</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=332909329#Static_typing" target="_blank">5. Static typing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=332909329#Extensibility" target="_blank">6. Extensibility</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=332909329#Frameworks_using_Scala" target="_blank">7. Frameworks using Scala</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=332909329#&quot;Hello_world&quot;_example" target="_blank">8. &quot;Hello world&quot; example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=332909329#Testing" target="_blank">9. Testing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=332909329#See_also" target="_blank">10. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=332909329#References" target="_blank">11. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=332909329#Bibliography" target="_blank">12. Bibliography</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=332909329#External_links" target="_blank">13. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.916</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       helloworld
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       odersky
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       quicksort
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       java
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tail
+       <span style="color: #bababa; font-size: 12px">0.070</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       jvm
+       <span style="color: #bababa; font-size: 12px">0.059</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       continuations
+       <span style="color: #bababa; font-size: 12px">0.059</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       functional
+       <span style="color: #bababa; font-size: 12px">0.051</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abstractions
+       <span style="color: #bababa; font-size: 12px">0.047</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       defers
+       <span style="color: #bababa; font-size: 12px">0.043</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       portions
+       <span style="color: #bababa; font-size: 12px">0.043</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       deliver
+       <span style="color: #bababa; font-size: 12px">0.043</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       noting
+       <span style="color: #bababa; font-size: 12px">0.043</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       notice
+       <span style="color: #bababa; font-size: 12px">0.043</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        (
+       <small>pronounced </small>
+       <span class="nowrap">
+        <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+         <a href="#" title="Help:IPA/English">/ˈskɑːlə, ˈskeɪlə/</a>
+        </span>
+       </span>
+       <i>
+        <small>
+         <sup> (deprecated template)</sup>
+        </small>
+       </i>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed to integrate features of 
+       <a href="#" title="Object-oriented programming">object-oriented programming</a>
+        and 
+       <a href="#" title="Functional programming">functional programming</a>
+       .
+       <sup class="reference" id="cite_ref-overview_1-1">
+        <a href="#">[1]</a>
+       </sup>
+        The name Scala stands for &quot;
+       <i>scalable language</i>
+       &quot;, signifying that it is designed to grow with the demands of its users.
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=261055711" target="_blank">2008</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">26451 characters</p>
+      <p style="padding: 0px; margin: 0px; ">12 sections</p>
+      <p style="padding: 0px; margin: 0px; ">24 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">66 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">18 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=261055711#Platform" target="_blank">1. Platform</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=261055711#History" target="_blank">2. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=261055711#Object-oriented_features" target="_blank">3. Object-oriented features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=261055711#Functional_programming" target="_blank">4. Functional programming</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=261055711#Static_typing" target="_blank">5. Static typing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=261055711#Extensibility" target="_blank">6. Extensibility</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=261055711#Platform_independence" target="_blank">7. Platform independence</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=261055711#Hello_World_example" target="_blank">8. Hello World example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=261055711#Testing" target="_blank">9. Testing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=261055711#References" target="_blank">10. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=261055711#Books" target="_blank">11. Books</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=261055711#External_links" target="_blank">12. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.881</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       helloworld
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       quicksort
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       functional
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       java
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       invoke
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abstractions
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       jre
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       accomplish
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       notice
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       canonical
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       interoperate
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       academia
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mainstream
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       facilitates
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        (
+       <b>Scalable Language</b>
+       ) (
+       <small>pronounced </small>
+       <span class="nowrap">
+        <span class="IPA" title="Representation in the International Phonetic Alphabet (IPA)">
+         <a href="#" title="Help:IPA/English">/ˈskalə/</a>
+        </span>
+       </span>
+       <i>
+        <small>
+         <sup> (deprecated template)</sup>
+        </small>
+       </i>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed to integrate features of 
+       <a href="#" title="Object-oriented programming">object-oriented programming</a>
+        and 
+       <a href="#" title="Functional programming">functional programming</a>
+       .
+       <sup class="reference" id="cite_ref-overview_1-0">
+        <a href="#">[1]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=180807327" target="_blank">2007</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">22012 characters</p>
+      <p style="padding: 0px; margin: 0px; ">11 sections</p>
+      <p style="padding: 0px; margin: 0px; ">17 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">71 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">11 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=180807327#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=180807327#Object-oriented_features" target="_blank">2. Object-oriented features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=180807327#Functional_programming" target="_blank">3. Functional programming</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=180807327#Static_typing" target="_blank">4. Static typing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=180807327#Extensibility" target="_blank">5. Extensibility</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=180807327#Platform_independence" target="_blank">6. Platform independence</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=180807327#Hello_World_example" target="_blank">7. Hello World example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=180807327#Testing" target="_blank">8. Testing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=180807327#References" target="_blank">9. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=180807327#See_also" target="_blank">10. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=180807327#External_links" target="_blank">11. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.882</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       java
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abstractions
+       <span style="color: #bababa; font-size: 12px">0.070</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       jre
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       accomplish
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       notice
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       canonical
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       interoperate
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       academia
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mainstream
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       facilitates
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ant
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       epfl
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fédérale
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       helloworld
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        (
+       <b>Scalable Language</b>
+       ) is a 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed to integrate features of 
+       <a href="#" title="Object-oriented programming">object-oriented programming</a>
+        and 
+       <a href="#" title="Functional programming">functional programming</a>
+       .
+       <sup class="reference" id="cite_ref-overview_1-0">
+        <a href="#">[1]</a>
+       </sup>
+       
+Scala is similar to the 
+       <a class="mw-redirect" href="#" title="Java programming language">Java programming language</a>
+       , runs on the Java Virtual Machine and is compatible with existing Java programs. An alternative implementation exists for the 
+       <a class="mw-redirect" href="#" title=".NET platform">.NET platform</a>
+       .
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=89130661" target="_blank">2006</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">13525 characters</p>
+      <p style="padding: 0px; margin: 0px; ">8 sections</p>
+      <p style="padding: 0px; margin: 0px; ">10 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">37 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">7 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=89130661#Object-oriented_features" target="_blank">1. Object-oriented features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=89130661#Functional_programming" target="_blank">2. Functional programming</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=89130661#Static_typing" target="_blank">3. Static typing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=89130661#Extensibility" target="_blank">4. Extensibility</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=89130661#Platform_independence" target="_blank">5. Platform independence</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=89130661#Hello_World_example" target="_blank">6. Hello World example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=89130661#Unit_and_Other_Testing" target="_blank">7. Unit and Other Testing</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=89130661#External_links" target="_blank">8. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.873</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abstractions
+       <span style="color: #bababa; font-size: 12px">0.099</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       patterns
+       <span style="color: #bababa; font-size: 12px">0.099</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       jre
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       interoperate
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mainstream
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       facilitates
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       subclassing
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.090</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sense
+       <span style="color: #bababa; font-size: 12px">0.082</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ideal
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       elegant
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       comprehensions
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       coherent
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       joint
+       <span style="color: #bababa; font-size: 12px">0.073</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        is a 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed to express common 
+       <a class="mw-redirect" href="#" title="Design pattern (computer science)">programming patterns</a>
+        in a concise, elegant, and type-safe way. It smoothly integrates features of object-oriented and functional languages.
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=31824989" target="_blank">2005</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">9588 characters</p>
+      <p style="padding: 0px; margin: 0px; ">7 sections</p>
+      <p style="padding: 0px; margin: 0px; ">9 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">19 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">1 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=31824989#Scala_is_object-oriented" target="_blank">1. Scala is object-oriented</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=31824989#Scala_is_functional" target="_blank">2. Scala is functional</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=31824989#Scala_is_statically_typed" target="_blank">3. Scala is statically typed</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=31824989#Scala_is_extensible" target="_blank">4. Scala is extensible</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=31824989#Scala_interoperates_with_Java_and_.NET" target="_blank">5. Scala interoperates with Java and .NET</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=31824989#Hello_World_example" target="_blank">6. Hello World example</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=31824989#External_links" target="_blank">7. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.858</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       abstractions
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       patterns
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       jre
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       interoperate
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       mainstream
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       facilitates
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       subclassing
+       <span style="color: #bababa; font-size: 12px">0.096</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       matching
+       <span style="color: #bababa; font-size: 12px">0.095</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sense
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ideal
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       elegant
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       comprehensions
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       coherent
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       joint
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        is a 
+       <a class="mw-redirect" href="#" title="Multi-paradigm programming language">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed to express common 
+       <a class="new" href="#" title="Programming patterns (page does not exist)">programming patterns</a>
+        in a concise, elegant, and type-safe way. It smoothly integrates features of object-oriented and functional languages.
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=16350640" target="_blank">2004</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">3831 characters</p>
+      <p style="padding: 0px; margin: 0px; ">3 sections</p>
+      <p style="padding: 0px; margin: 0px; ">5 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">13 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">2 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=16350640#External_link" target="_blank">1. External link</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Scala_(programming_language)&amp;oldid=16350640#Musical_Tuning" target="_blank">2. Musical Tuning</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       scala
+       <span style="color: #bababa; font-size: 12px">0.511</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       musical
+       <span style="color: #bababa; font-size: 12px">0.298</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       accomplishes
+       <span style="color: #bababa; font-size: 12px">0.185</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       netherlands
+       <span style="color: #bababa; font-size: 12px">0.185</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scales
+       <span style="color: #bababa; font-size: 12px">0.185</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       freeware
+       <span style="color: #bababa; font-size: 12px">0.185</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       renaissance
+       <span style="color: #bababa; font-size: 12px">0.185</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       circle
+       <span style="color: #bababa; font-size: 12px">0.185</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       motto
+       <span style="color: #bababa; font-size: 12px">0.185</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       discovers
+       <span style="color: #bababa; font-size: 12px">0.185</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       play
+       <span style="color: #bababa; font-size: 12px">0.185</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       op
+       <span style="color: #bababa; font-size: 12px">0.185</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       latin
+       <span style="color: #bababa; font-size: 12px">0.185</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       inscribed
+       <span style="color: #bababa; font-size: 12px">0.185</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sounds
+       <span style="color: #bababa; font-size: 12px">0.185</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Scala</b>
+        is a 
+       <a class="new" href="#" title="Multi-paradigm programming (page does not exist)">multi-paradigm</a>
+        
+       <a href="#" title="Programming language">programming language</a>
+        designed to express common 
+       <a class="new" href="#" title="Programming patterns (page does not exist)">programming patterns</a>
+        in a concise, elegant, and type-safe way.
+
+      </p>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>

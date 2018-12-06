@@ -1,0 +1,2465 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title charset="utf-8">Programming Languages</title>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"> </script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+  <link href="../css/custom.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <nav class="navbar navbar-default navbar-darkbg-dark navbar-fixed-top">
+   <div class="container">
+    <div class="navbar-header">
+     <a class="navbar-brand" href="../index.html">Programming Languages</a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-docs">
+       <a class="nav-link" href="../docs.html">Docs</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-clusters">
+       <a class="nav-link" href="../clusters.html">Clusters</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-viz">
+       <a class="nav-link" href="../viz.html">Viz</a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <div class="container" style="padding-top: 30px;">
+   <div class="row">
+    <div class="col-sm-4">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gnu-bash-logo.svg/152px-Gnu-bash-logo.svg.png" style="max-width: 300px"/>
+    </div>
+    <div class="col-sm-8">
+     <h1>Bash (Unix shell)</h1>
+     <p>
+      <b>Bash</b>
+       is a 
+      <a href="#" title="Unix shell">Unix shell</a>
+       and 
+      <a href="#" title="Command language">command language</a>
+       written by 
+      <a href="#" title="Brian Fox (computer programmer)">Brian Fox</a>
+       for the 
+      <a href="#" title="GNU Project">GNU Project</a>
+       as a 
+      <a href="#" title="Free software">free software</a>
+       replacement for the 
+      <a href="#" title="Bourne shell">Bourne shell</a>
+      .
+      <sup class="reference" id="cite_ref-GNUBSD_7-0">
+       <a href="#">[7]</a>
+      </sup>
+      <sup class="reference" id="cite_ref-8">
+       <a href="#">[8]</a>
+      </sup>
+        First released in 1989,
+      <sup class="reference" id="cite_ref-BashBeta_9-0">
+       <a href="#">[9]</a>
+      </sup>
+       it has been distributed widely as the default 
+      <a href="#" title="Login">login</a>
+       shell for most 
+      <a href="#" title="Linux">Linux</a>
+       distributions and 
+      <a href="#" title="Apple Inc.">Apple's</a>
+       
+      <a href="#" title="MacOS">macOS</a>
+       (formerly 
+      <span class="nowrap">OS X</span>
+      ). A version 
+      <a href="#" title="Windows Subsystem for Linux">is also available for Windows 10</a>
+      .
+      <sup class="reference" id="cite_ref-10">
+       <a href="#">[10]</a>
+      </sup>
+       It is also the default user shell in 
+      <a href="#" title="Solaris (operating system)">Solaris</a>
+       11. 
+      <sup class="reference" id="cite_ref-11">
+       <a href="#">[11]</a>
+      </sup>
+      
+
+     </p>
+    </div>
+   </div>
+   <h3 style="padding-top: 15px">Page Revisions</h3>
+   <table style="text-align: left; margin: 0px auto">
+    <tr>
+     <td>
+      <b>Year</b>
+     </td>
+     <td>
+      <b>Metadata</b>
+     </td>
+     <td>
+      <b>Sections</b>
+     </td>
+     <td>
+      <b>Top Words</b>
+     </td>
+     <td>
+      <b>First Paragraph</b>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=871179261" target="_blank">2018</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">122035 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">51 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">8 images</p>
+      <p style="padding: 0px; margin: 0px; ">229 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">64 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=871179261#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=871179261#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=871179261#See_also" target="_blank">3. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=871179261#References" target="_blank">4. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=871179261#External_links" target="_blank">5. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.777</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.332</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.317</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       csh
+       <span style="color: #bababa; font-size: 12px">0.144</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bashrc
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expansion
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       command
+       <span style="color: #bababa; font-size: 12px">0.089</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       startup
+       <span style="color: #bababa; font-size: 12px">0.080</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       posix
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       korn
+       <span style="color: #bababa; font-size: 12px">0.072</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       profile
+       <span style="color: #bababa; font-size: 12px">0.062</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       brace
+       <span style="color: #bababa; font-size: 12px">0.062</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scripts
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bash_login
+       <span style="color: #bababa; font-size: 12px">0.058</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Unix shell">Unix shell</a>
+        and 
+       <a href="#" title="Command language">command language</a>
+        written by 
+       <a href="#" title="Brian Fox (computer programmer)">Brian Fox</a>
+        for the 
+       <a href="#" title="GNU Project">GNU Project</a>
+        as a 
+       <a href="#" title="Free software">free software</a>
+        replacement for the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+       .
+       <sup class="reference" id="cite_ref-GNUBSD_7-0">
+        <a href="#">[7]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-8">
+        <a href="#">[8]</a>
+       </sup>
+         First released in 1989,
+       <sup class="reference" id="cite_ref-BashBeta_9-0">
+        <a href="#">[9]</a>
+       </sup>
+        it has been distributed widely as the default 
+       <a href="#" title="Login">login</a>
+        shell for most 
+       <a href="#" title="Linux">Linux</a>
+        distributions and 
+       <a href="#" title="Apple Inc.">Apple's</a>
+        
+       <a href="#" title="MacOS">macOS</a>
+        (formerly 
+       <span class="nowrap">OS X</span>
+       ). A version 
+       <a href="#" title="Windows Subsystem for Linux">is also available for Windows 10</a>
+       .
+       <sup class="reference" id="cite_ref-10">
+        <a href="#">[10]</a>
+       </sup>
+        It is also the default user shell in 
+       <a href="#" title="Solaris (operating system)">Solaris</a>
+        11. 
+       <sup class="reference" id="cite_ref-11">
+        <a href="#">[11]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=816133313" target="_blank">2017</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">120561 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">47 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">8 images</p>
+      <p style="padding: 0px; margin: 0px; ">221 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">56 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=816133313#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=816133313#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=816133313#See_also" target="_blank">3. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=816133313#References" target="_blank">4. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=816133313#External_links" target="_blank">5. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.770</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.329</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.325</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       csh
+       <span style="color: #bababa; font-size: 12px">0.149</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bashrc
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       command
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expansion
+       <span style="color: #bababa; font-size: 12px">0.084</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       startup
+       <span style="color: #bababa; font-size: 12px">0.083</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       posix
+       <span style="color: #bababa; font-size: 12px">0.082</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       korn
+       <span style="color: #bababa; font-size: 12px">0.075</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       profile
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scripts
+       <span style="color: #bababa; font-size: 12px">0.063</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bash_login
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bash_profile
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Unix shell">Unix shell</a>
+        and 
+       <a href="#" title="Command language">command language</a>
+        written by 
+       <a href="#" title="Brian Fox (computer programmer)">Brian Fox</a>
+        for the 
+       <a href="#" title="GNU Project">GNU Project</a>
+        as a 
+       <a href="#" title="Free software">free software</a>
+        replacement for the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+       .
+       <sup class="reference" id="cite_ref-GNUBSD_7-0">
+        <a href="#">[7]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-8">
+        <a href="#">[8]</a>
+       </sup>
+         First released in 1989,
+       <sup class="reference" id="cite_ref-BashBeta_9-0">
+        <a href="#">[9]</a>
+       </sup>
+        it has been distributed widely as the default 
+       <a href="#" title="Login">login</a>
+        shell for most 
+       <a href="#" title="Linux">Linux</a>
+        distributions and 
+       <a href="#" title="Apple Inc.">Apple's</a>
+        
+       <a href="#" title="MacOS">macOS</a>
+        (formerly 
+       <span class="nowrap">OS X</span>
+       ). A version 
+       <a href="#" title="Windows Subsystem for Linux">is also available for Windows 10</a>
+       .
+       <sup class="reference" id="cite_ref-10">
+        <a href="#">[10]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=757420644" target="_blank">2016</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">113563 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">46 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">8 images</p>
+      <p style="padding: 0px; margin: 0px; ">221 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">53 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=757420644#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=757420644#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=757420644#See_also" target="_blank">3. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=757420644#References" target="_blank">4. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=757420644#External_links" target="_blank">5. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.767</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.333</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.329</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       csh
+       <span style="color: #bababa; font-size: 12px">0.151</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bashrc
+       <span style="color: #bababa; font-size: 12px">0.091</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       command
+       <span style="color: #bababa; font-size: 12px">0.088</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expansion
+       <span style="color: #bababa; font-size: 12px">0.085</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       startup
+       <span style="color: #bababa; font-size: 12px">0.084</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       posix
+       <span style="color: #bababa; font-size: 12px">0.083</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       korn
+       <span style="color: #bababa; font-size: 12px">0.076</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       profile
+       <span style="color: #bababa; font-size: 12px">0.065</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scripts
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bash_login
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bash_profile
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Unix shell">Unix shell</a>
+        and 
+       <a href="#" title="Command language">command language</a>
+        written by 
+       <a href="#" title="Brian Fox (computer programmer)">Brian Fox</a>
+        for the 
+       <a href="#" title="GNU Project">GNU Project</a>
+        as a 
+       <a href="#" title="Free software">free software</a>
+        replacement for the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+       .
+       <sup class="reference" id="cite_ref-GNUBSD_7-0">
+        <a href="#">[7]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-8">
+        <a href="#">[8]</a>
+       </sup>
+         First released in 1989,
+       <sup class="reference" id="cite_ref-BashBeta_9-0">
+        <a href="#">[9]</a>
+       </sup>
+        it has been distributed widely as it is a default shell on the major 
+       <a href="#" title="Linux">Linux</a>
+        distributions and 
+       <a href="#" title="MacOS">macOS</a>
+        (formerly 
+       <span class="nowrap">OS X</span>
+       ). In 2016 it was also made available by Microsoft for use in 
+       <a href="#" title="Windows 10">Windows 10</a>
+        Anniversary Update, albeit not installed by default.
+       <sup class="reference" id="cite_ref-10">
+        <a href="#">[10]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=697441736" target="_blank">2015</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">106905 characters</p>
+      <p style="padding: 0px; margin: 0px; ">22 sections</p>
+      <p style="padding: 0px; margin: 0px; ">43 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">7 images</p>
+      <p style="padding: 0px; margin: 0px; ">216 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">63 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=697441736#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=697441736#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=697441736#See_also" target="_blank">3. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=697441736#References" target="_blank">4. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=697441736#External_links" target="_blank">5. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.774</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.341</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.309</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       csh
+       <span style="color: #bababa; font-size: 12px">0.171</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.100</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bashrc
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expansion
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       startup
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       posix
+       <span style="color: #bababa; font-size: 12px">0.085</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       command
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       korn
+       <span style="color: #bababa; font-size: 12px">0.078</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       profile
+       <span style="color: #bababa; font-size: 12px">0.066</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scripts
+       <span style="color: #bababa; font-size: 12px">0.065</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bash_login
+       <span style="color: #bababa; font-size: 12px">0.062</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bash_profile
+       <span style="color: #bababa; font-size: 12px">0.062</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Unix shell">Unix shell</a>
+        and 
+       <a href="#" title="Command language">command language</a>
+        written by 
+       <a href="#" title="Brian Fox (computer programmer)">Brian Fox</a>
+        for the 
+       <a href="#" title="GNU Project">GNU Project</a>
+        as a 
+       <a href="#" title="Free software">free software</a>
+        replacement for the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+       .
+       <sup class="reference" id="cite_ref-GNUBSD_3-0">
+        <a href="#">[3]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-4">
+        <a href="#">[4]</a>
+       </sup>
+         Released in 1989,
+       <sup class="reference" id="cite_ref-BashBeta_5-0">
+        <a href="#">[5]</a>
+       </sup>
+        it has been distributed widely as the shell for the 
+       <a class="mw-redirect" href="#" title="GNU operating system">GNU operating system</a>
+        and as a default shell on 
+       <a href="#" title="Linux">Linux</a>
+        and 
+       <span class="nowrap">
+        <a class="mw-redirect" href="#" title="OS X">OS X</a>
+       </span>
+       .  It has been ported to 
+       <a href="#" title="Microsoft Windows">Microsoft Windows</a>
+        and distributed with 
+       <a href="#" title="Cygwin">Cygwin</a>
+        and 
+       <a href="#" title="MinGW">MinGW</a>
+       , to 
+       <a href="#" title="DOS">DOS</a>
+        by the 
+       <a href="#" title="DJGPP">DJGPP</a>
+        project, to 
+       <a class="mw-redirect" href="#" title="Novell NetWare">Novell NetWare</a>
+        and to 
+       <a href="#" title="Android (operating system)">Android</a>
+        via various terminal emulation applications. In the late 1990s, Bash was a minor player among multiple commonly used shells; at present Bash has overwhelming favor.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=638119495" target="_blank">2014</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">172996 characters</p>
+      <p style="padding: 0px; margin: 0px; ">21 sections</p>
+      <p style="padding: 0px; margin: 0px; ">40 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">5 images</p>
+      <p style="padding: 0px; margin: 0px; ">189 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">64 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=638119495#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=638119495#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=638119495#See_also" target="_blank">3. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=638119495#References" target="_blank">4. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=638119495#External_links" target="_blank">5. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.765</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.355</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.314</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       csh
+       <span style="color: #bababa; font-size: 12px">0.177</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bashrc
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       startup
+       <span style="color: #bababa; font-size: 12px">0.089</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       posix
+       <span style="color: #bababa; font-size: 12px">0.088</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       korn
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       profile
+       <span style="color: #bababa; font-size: 12px">0.069</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scripts
+       <span style="color: #bababa; font-size: 12px">0.068</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       alt
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bash_login
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bash_profile
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       command
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Unix shell">Unix shell</a>
+        written by 
+       <a href="#" title="Brian Fox (computer programmer)">Brian Fox</a>
+        for the 
+       <a href="#" title="GNU Project">GNU Project</a>
+        as a 
+       <a href="#" title="Free software">free software</a>
+        replacement for the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+        (sh).
+       <sup class="reference" id="cite_ref-GNUBSD_3-0">
+        <a href="#">[3]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-4">
+        <a href="#">[4]</a>
+       </sup>
+         Released in 1989,
+       <sup class="reference" id="cite_ref-BashBeta_5-0">
+        <a href="#">[5]</a>
+       </sup>
+        it has been distributed widely as the shell for the 
+       <a class="mw-redirect" href="#" title="GNU operating system">GNU operating system</a>
+        and as a default shell on 
+       <a href="#" title="Linux">Linux</a>
+        and 
+       <span class="nowrap">
+        <a class="mw-redirect" href="#" title="Mac OS X">Mac OS X</a>
+       </span>
+       .  It has been ported to 
+       <a href="#" title="Microsoft Windows">Microsoft Windows</a>
+        and distributed with 
+       <a href="#" title="Cygwin">Cygwin</a>
+        and 
+       <a href="#" title="MinGW">MinGW</a>
+       , to 
+       <a href="#" title="DOS">DOS</a>
+        by the 
+       <a href="#" title="DJGPP">DJGPP</a>
+        project, to 
+       <a class="mw-redirect" href="#" title="Novell NetWare">Novell NetWare</a>
+        and to 
+       <a href="#" title="Android (operating system)">Android</a>
+        via various terminal emulation applications. In the late 1990s,  Bash was a minor player among multiple commonly used shells, unlike presently where Bash has overwhelming favor.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=587068785" target="_blank">2013</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">161091 characters</p>
+      <p style="padding: 0px; margin: 0px; ">19 sections</p>
+      <p style="padding: 0px; margin: 0px; ">30 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">4 images</p>
+      <p style="padding: 0px; margin: 0px; ">178 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">53 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=587068785#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=587068785#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=587068785#See_also" target="_blank">3. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=587068785#References" target="_blank">4. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=587068785#External_links" target="_blank">5. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.721</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.431</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.327</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       csh
+       <span style="color: #bababa; font-size: 12px">0.189</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bashrc
+       <span style="color: #bababa; font-size: 12px">0.103</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       startup
+       <span style="color: #bababa; font-size: 12px">0.095</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       posix
+       <span style="color: #bababa; font-size: 12px">0.095</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       korn
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       profile
+       <span style="color: #bababa; font-size: 12px">0.074</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       alt
+       <span style="color: #bababa; font-size: 12px">0.069</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bash_login
+       <span style="color: #bababa; font-size: 12px">0.069</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bash_profile
+       <span style="color: #bababa; font-size: 12px">0.069</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scripts
+       <span style="color: #bababa; font-size: 12px">0.066</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sh
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Unix shell">Unix shell</a>
+        written by 
+       <a href="#" title="Brian Fox (computer programmer)">Brian Fox</a>
+        for the 
+       <a href="#" title="GNU Project">GNU Project</a>
+        as a 
+       <a href="#" title="Free software">free software</a>
+        replacement for the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+        (sh).
+       <sup class="reference" id="cite_ref-GNUBSD_3-0">
+        <a href="#">[3]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-4">
+        <a href="#">[4]</a>
+       </sup>
+         Released in 1989,
+       <sup class="reference" id="cite_ref-BashBeta_5-0">
+        <a href="#">[5]</a>
+       </sup>
+        it has been distributed widely as the shell for the 
+       <a class="mw-redirect" href="#" title="GNU operating system">GNU operating system</a>
+        and as a default shell on 
+       <a href="#" title="Linux">Linux</a>
+        and 
+       <span class="nowrap">
+        <a class="mw-redirect" href="#" title="Mac OS X">Mac OS X</a>
+       </span>
+       .  It has been ported to 
+       <a href="#" title="Microsoft Windows">Microsoft Windows</a>
+        and distributed with 
+       <a href="#" title="Cygwin">Cygwin</a>
+        and 
+       <a href="#" title="MinGW">MinGW</a>
+       , to 
+       <a href="#" title="DOS">DOS</a>
+        by the 
+       <a href="#" title="DJGPP">DJGPP</a>
+        project, to 
+       <a class="mw-redirect" href="#" title="Novell NetWare">Novell NetWare</a>
+        and to 
+       <a href="#" title="Android (operating system)">Android</a>
+        via various terminal emulation applications.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=526998441" target="_blank">2012</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">150904 characters</p>
+      <p style="padding: 0px; margin: 0px; ">9 sections</p>
+      <p style="padding: 0px; margin: 0px; ">21 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">4 images</p>
+      <p style="padding: 0px; margin: 0px; ">169 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">53 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=526998441#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=526998441#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=526998441#See_also" target="_blank">3. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=526998441#References" target="_blank">4. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=526998441#External_links" target="_blank">5. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.681</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.449</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.383</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       posix
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       korn
+       <span style="color: #bababa; font-size: 12px">0.132</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       alt
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sh
+       <span style="color: #bababa; font-size: 12px">0.085</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fox
+       <span style="color: #bababa; font-size: 12px">0.085</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scripts
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       csh
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fsf
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ksh
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       command
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       filenames
+       <span style="color: #bababa; font-size: 12px">0.053</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Unix shell">Unix shell</a>
+        written by 
+       <a href="#" title="Brian Fox (computer programmer)">Brian Fox</a>
+        for the 
+       <a href="#" title="GNU Project">GNU Project</a>
+        as a 
+       <a href="#" title="Free software">free software</a>
+        replacement for the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+        (sh).
+       <sup class="reference" id="cite_ref-GNUBSD_3-0">
+        <a href="#">[3]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-4">
+        <a href="#">[4]</a>
+       </sup>
+         Released in 1989,
+       <sup class="reference" id="cite_ref-BashBeta_5-0">
+        <a href="#">[5]</a>
+       </sup>
+        it has been distributed widely as the shell for the 
+       <a class="mw-redirect" href="#" title="GNU operating system">GNU operating system</a>
+        and as the default shell on 
+       <a href="#" title="Linux">Linux</a>
+        and 
+       <span class="nowrap">
+        <a class="mw-redirect" href="#" title="Mac OS X">Mac OS X</a>
+       </span>
+       .  It has been ported to 
+       <a href="#" title="Microsoft Windows">Microsoft Windows</a>
+        and distributed with 
+       <a href="#" title="Cygwin">Cygwin</a>
+        and 
+       <a href="#" title="MinGW">MinGW</a>
+       , to 
+       <a href="#" title="DOS">DOS</a>
+        by the 
+       <a href="#" title="DJGPP">DJGPP</a>
+        project, to 
+       <a class="mw-redirect" href="#" title="Novell NetWare">Novell NetWare</a>
+        and to 
+       <a href="#" title="Android (operating system)">Android</a>
+        via various terminal emulation applications.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=457242840" target="_blank">2011</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">138396 characters</p>
+      <p style="padding: 0px; margin: 0px; ">9 sections</p>
+      <p style="padding: 0px; margin: 0px; ">20 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">4 images</p>
+      <p style="padding: 0px; margin: 0px; ">167 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">45 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=457242840#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=457242840#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=457242840#See_also" target="_blank">3. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=457242840#References" target="_blank">4. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=457242840#External_links" target="_blank">5. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.708</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.426</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.374</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       korn
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scripts
+       <span style="color: #bababa; font-size: 12px">0.112</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sh
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       posix
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fox
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       csh
+       <span style="color: #bababa; font-size: 12px">0.080</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fsf
+       <span style="color: #bababa; font-size: 12px">0.080</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ksh
+       <span style="color: #bababa; font-size: 12px">0.080</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       command
+       <span style="color: #bababa; font-size: 12px">0.075</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shells
+       <span style="color: #bababa; font-size: 12px">0.055</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bin
+       <span style="color: #bababa; font-size: 12px">0.053</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Unix shell">Unix shell</a>
+        written by 
+       <a href="#" title="Brian Fox (computer programmer)">Brian Fox</a>
+        for the 
+       <a href="#" title="GNU Project">GNU Project</a>
+        as a 
+       <a href="#" title="Free software">free software</a>
+        replacement for the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+        (sh).
+       <sup class="reference" id="cite_ref-GNUBSD_3-0">
+        <a href="#">[3]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-4">
+        <a href="#">[4]</a>
+       </sup>
+         Released in 1989,
+       <sup class="reference" id="cite_ref-BashBeta_5-0">
+        <a href="#">[5]</a>
+       </sup>
+        it has been distributed widely as the shell for the 
+       <a class="mw-redirect" href="#" title="GNU operating system">GNU operating system</a>
+        and as the default shell on 
+       <a href="#" title="Linux">Linux</a>
+       , 
+       <a class="mw-redirect" href="#" title="Mac OS X">Mac OS X</a>
+        and 
+       <a href="#" title="Darwin (operating system)">Darwin</a>
+       .  It has been ported to 
+       <a href="#" title="Microsoft Windows">Microsoft Windows</a>
+        and distributed with 
+       <a href="#" title="Cygwin">Cygwin</a>
+        and 
+       <a href="#" title="MinGW">MinGW</a>
+       , to 
+       <a href="#" title="DOS">DOS</a>
+        by the 
+       <a href="#" title="DJGPP">DJGPP</a>
+        project and to 
+       <a class="mw-redirect" href="#" title="Novell NetWare">Novell NetWare</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=404274800" target="_blank">2010</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">107654 characters</p>
+      <p style="padding: 0px; margin: 0px; ">9 sections</p>
+      <p style="padding: 0px; margin: 0px; ">18 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">4 images</p>
+      <p style="padding: 0px; margin: 0px; ">154 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">39 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=404274800#History" target="_blank">1. History</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=404274800#Features" target="_blank">2. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=404274800#See_also" target="_blank">3. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=404274800#References" target="_blank">4. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=404274800#External_links" target="_blank">5. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.720</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.406</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.368</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       korn
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       posix
+       <span style="color: #bababa; font-size: 12px">0.116</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scripts
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sh
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fox
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fsf
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       executes
+       <span style="color: #bababa; font-size: 12px">0.074</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.065</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       reads
+       <span style="color: #bababa; font-size: 12px">0.059</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       commands
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       command
+       <span style="color: #bababa; font-size: 12px">0.056</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bashrc
+       <span style="color: #bababa; font-size: 12px">0.054</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Unix shell">Unix shell</a>
+        written by 
+       <a href="#" title="Brian Fox (computer programmer)">Brian Fox</a>
+        for the 
+       <a href="#" title="GNU Project">GNU Project</a>
+       . The name is an 
+       <a href="#" title="Acronym">acronym</a>
+       , a 
+       <a href="#" title="Pun">pun</a>
+        and descriptive.  As an acronym, it  stands for 
+       <i>Bourne-again shell</i>
+       , referring to its initial conception as a free 
+       <a class="mw-disambig" href="#" title="Open source">open source</a>
+        
+       <a href="#" title="Clone (computing)">clone</a>
+        of the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+        (sh).
+       <sup class="reference" id="cite_ref-GNUBSD_3-0">
+        <a href="#">[3]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-4">
+        <a href="#">[4]</a>
+       </sup>
+       <sup class="reference" id="cite_ref-5">
+        <a href="#">[5]</a>
+       </sup>
+         As a pun, it refers to the Christian concept of being 
+       <i>
+        <a class="mw-redirect" href="#" title="Born again (Christianity)">born again</a>
+       </i>
+       .
+       <sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">
+        [
+        <i>
+         <a href="#" title="Wikipedia:Citation needed">
+          <span title="This claim needs references to reliable sources. (November 2010)">citation needed</span>
+         </a>
+        </i>
+        ]
+       </sup>
+         The name is also descriptive of what it did, 
+       <i>bashing together</i>
+        the features of sh, 
+       <a href="#" title="C shell">csh</a>
+        and 
+       <a class="mw-redirect" href="#" title="Korn shell">ksh</a>
+       .
+       <sup class="reference" id="cite_ref-6">
+        <a href="#">[6]</a>
+       </sup>
+       
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=334985906" target="_blank">2009</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">83763 characters</p>
+      <p style="padding: 0px; margin: 0px; ">8 sections</p>
+      <p style="padding: 0px; margin: 0px; ">17 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">7 images</p>
+      <p style="padding: 0px; margin: 0px; ">157 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">19 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=334985906#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=334985906#See_also" target="_blank">2. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=334985906#References" target="_blank">3. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=334985906#External_links" target="_blank">4. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.702</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.436</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.408</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scripts
+       <span style="color: #bababa; font-size: 12px">0.122</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       korn
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       executes
+       <span style="color: #bababa; font-size: 12px">0.080</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.070</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expansion
+       <span style="color: #bababa; font-size: 12px">0.070</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       reads
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       commands
+       <span style="color: #bababa; font-size: 12px">0.061</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       startup
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       command
+       <span style="color: #bababa; font-size: 12px">0.060</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bashrc
+       <span style="color: #bababa; font-size: 12px">0.058</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       csh
+       <span style="color: #bababa; font-size: 12px">0.058</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       redirect
+       <span style="color: #bababa; font-size: 12px">0.058</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Free software">free software</a>
+        
+       <a href="#" title="Unix shell">Unix shell</a>
+        written for the 
+       <a href="#" title="GNU Project">GNU Project</a>
+       . Its name is an 
+       <a href="#" title="Acronym">acronym</a>
+        which stands for 
+       <i>Bourne-again shell</i>
+       .
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[2]</a>
+       </sup>
+         The name is a 
+       <a href="#" title="Pun">pun</a>
+        on the name of the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+        (sh), an early and important Unix shell written by 
+       <a class="mw-disambig" href="#" title="Stephen Bourne">Stephen Bourne</a>
+        and distributed with 
+       <a href="#" title="Version 7 Unix">Version 7 Unix</a>
+        circa 1978,
+       <sup class="reference" id="cite_ref-3">
+        <a href="#">[3]</a>
+       </sup>
+        and the phrase &quot;
+       <a href="#" title="Born again">born again</a>
+       .&quot; Bash was created in 1987 by 
+       <a class="mw-disambig" href="#" title="Brian Fox">Brian Fox</a>
+       . In 1990 
+       <a class="new" href="#" title="Chet Ramey (page does not exist)">Chet Ramey</a>
+        became the primary maintainer.
+       <sup class="reference" id="cite_ref-Bourne_shell_grammar_4-0">
+        <a href="#">[4]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=260948886" target="_blank">2008</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">34641 characters</p>
+      <p style="padding: 0px; margin: 0px; ">7 sections</p>
+      <p style="padding: 0px; margin: 0px; ">13 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">7 images</p>
+      <p style="padding: 0px; margin: 0px; ">126 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">11 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=260948886#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=260948886#Startup_scripts" target="_blank">2. Startup scripts</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=260948886#Portability" target="_blank">3. Portability</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=260948886#See_also" target="_blank">4. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=260948886#References" target="_blank">5. References</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=260948886#External_links" target="_blank">6. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.654</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.494</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.432</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       executes
+       <span style="color: #bababa; font-size: 12px">0.097</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       commands
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.085</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       scripts
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       reads
+       <span style="color: #bababa; font-size: 12px">0.077</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bashrc
+       <span style="color: #bababa; font-size: 12px">0.071</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       csh
+       <span style="color: #bababa; font-size: 12px">0.071</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       redirect
+       <span style="color: #bababa; font-size: 12px">0.071</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       command
+       <span style="color: #bababa; font-size: 12px">0.066</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       expansion
+       <span style="color: #bababa; font-size: 12px">0.057</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       exists
+       <span style="color: #bababa; font-size: 12px">0.050</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unix
+       <span style="color: #bababa; font-size: 12px">0.046</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Free software">free software</a>
+        
+       <a href="#" title="Unix shell">Unix shell</a>
+        written for the 
+       <a href="#" title="GNU Project">GNU Project</a>
+       . Its name is an 
+       <a href="#" title="Acronym">acronym</a>
+        which stands for 
+       <i>Bourne-again shell</i>
+       .
+       <sup class="reference" id="cite_ref-1">
+        <a href="#">[1]</a>
+       </sup>
+         The name is a 
+       <a href="#" title="Pun">pun</a>
+        on the name of the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+        (sh), an early and important Unix shell written by 
+       <a class="mw-disambig" href="#" title="Stephen Bourne">Stephen Bourne</a>
+        and distributed with 
+       <a href="#" title="Version 7 Unix">Version 7 Unix</a>
+        circa 1978,
+       <sup class="reference" id="cite_ref-2">
+        <a href="#">[2]</a>
+       </sup>
+        and the concept of being &quot;
+       <a class="mw-redirect" href="#" title="Born again Christianity">born again</a>
+       &quot;. Bash was created in 1987 by 
+       <a class="mw-disambig" href="#" title="Brian Fox">Brian Fox</a>
+       . In 1990 
+       <a class="new" href="#" title="Chet Ramey (page does not exist)">Chet Ramey</a>
+        became the primary maintainer.
+       <sup class="reference" id="cite_ref-Bourne_shell_grammar_3-0">
+        <a href="#">[3]</a>
+       </sup>
+       
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=180810531" target="_blank">2007</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">34240 characters</p>
+      <p style="padding: 0px; margin: 0px; ">5 sections</p>
+      <p style="padding: 0px; margin: 0px; ">20 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">7 images</p>
+      <p style="padding: 0px; margin: 0px; ">127 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">9 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=180810531#Features" target="_blank">1. Features</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=180810531#Startup_scripts" target="_blank">2. Startup scripts</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=180810531#Portability" target="_blank">3. Portability</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=180810531#See_also" target="_blank">4. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=180810531#External_links" target="_blank">5. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.714</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.391</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.390</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sh
+       <span style="color: #bababa; font-size: 12px">0.168</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       posix
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       startup
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       commands
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       executes
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       invoked
+       <span style="color: #bababa; font-size: 12px">0.080</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bashrc
+       <span style="color: #bababa; font-size: 12px">0.078</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rcfile
+       <span style="color: #bababa; font-size: 12px">0.078</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       option
+       <span style="color: #bababa; font-size: 12px">0.074</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       reads
+       <span style="color: #bababa; font-size: 12px">0.071</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       profile
+       <span style="color: #bababa; font-size: 12px">0.064</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Unix shell">Unix shell</a>
+        written for the 
+       <a href="#" title="GNU Project">GNU Project</a>
+       . The name of the actual executable is 
+       <b>bash</b>
+       . Its name is an 
+       <a href="#" title="Acronym">acronym</a>
+        for 
+       <i>Bourne-again shell</i>
+       , a 
+       <a href="#" title="Pun">pun</a>
+        on the name of the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+        (sh) (i.e. &quot;Bourne again&quot; or &quot;
+       <a href="#" title="Born again">born again</a>
+       &quot;), an early and important Unix shell written by 
+       <a class="mw-disambig" href="#" title="Stephen Bourne">Stephen Bourne</a>
+        and distributed with 
+       <a href="#" title="Version 7 Unix">Version 7 Unix</a>
+        circa 1978. Bash was created in 1987 by 
+       <a class="mw-disambig" href="#" title="Brian Fox">Brian Fox</a>
+       . In 1990 
+       <a class="new" href="#" title="Chet Ramey (page does not exist)">Chet Ramey</a>
+        became the primary maintainer.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=97193798" target="_blank">2006</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">34854 characters</p>
+      <p style="padding: 0px; margin: 0px; ">7 sections</p>
+      <p style="padding: 0px; margin: 0px; ">33 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">4 images</p>
+      <p style="padding: 0px; margin: 0px; ">118 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">10 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=97193798#Syntax" target="_blank">1. Syntax</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=97193798#Startup_scripts" target="_blank">2. Startup scripts</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=97193798#External_links" target="_blank">3. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.681</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.395</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.344</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sh
+       <span style="color: #bababa; font-size: 12px">0.170</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       posix
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.128</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       startup
+       <span style="color: #bababa; font-size: 12px">0.110</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       quoted
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       commands
+       <span style="color: #bababa; font-size: 12px">0.102</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       option
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       executes
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       command
+       <span style="color: #bababa; font-size: 12px">0.084</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       invoked
+       <span style="color: #bababa; font-size: 12px">0.081</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dollar
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bashrc
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>bash</b>
+        is a 
+       <a href="#" title="Unix shell">Unix shell</a>
+        written for the 
+       <a href="#" title="GNU Project">GNU Project</a>
+       . Its name is an 
+       <a class="mw-redirect" href="#" title="Acronym and initialism">acronym</a>
+        for 
+       <i>Bourne-again shell</i>
+        — a 
+       <a href="#" title="Pun">pun</a>
+        (&quot;Bourne again&quot; / &quot;born again&quot;) on the name of the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+        (sh), an early, important Unix shell written by 
+       <a class="mw-disambig" href="#" title="Stephen Bourne">Stephen Bourne</a>
+        and distributed with 
+       <a href="#" title="Version 7 Unix">Version 7 Unix</a>
+       , circa 1978. bash was created in 1987 by 
+       <a class="mw-disambig" href="#" title="Brian Fox">Brian Fox</a>
+       . In 1990, 
+       <a class="new" href="#" title="Chet Ramey (page does not exist)">Chet Ramey</a>
+        became the primary maintainer.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=32866619" target="_blank">2005</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">22562 characters</p>
+      <p style="padding: 0px; margin: 0px; ">7 sections</p>
+      <p style="padding: 0px; margin: 0px; ">31 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">2 images</p>
+      <p style="padding: 0px; margin: 0px; ">34 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">16 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=32866619#Bash_syntax_highlights" target="_blank">1. Bash syntax highlights</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=32866619#Bash_startup_scripts" target="_blank">2. Bash startup scripts</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=32866619#External_links" target="_blank">3. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.668</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.423</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.363</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sh
+       <span style="color: #bababa; font-size: 12px">0.167</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.125</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       posix
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       startup
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       quoted
+       <span style="color: #bababa; font-size: 12px">0.104</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       commands
+       <span style="color: #bababa; font-size: 12px">0.101</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       command
+       <span style="color: #bababa; font-size: 12px">0.092</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       option
+       <span style="color: #bababa; font-size: 12px">0.091</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       executes
+       <span style="color: #bababa; font-size: 12px">0.085</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       invoked
+       <span style="color: #bababa; font-size: 12px">0.079</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dollar
+       <span style="color: #bababa; font-size: 12px">0.078</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bashrc
+       <span style="color: #bababa; font-size: 12px">0.078</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Unix shell">Unix command shell</a>
+        written for the 
+       <a href="#" title="GNU">GNU project</a>
+       .  Its name is an acronym for 
+       <i>
+         
+        <b>B</b>
+        ourne-
+        <b>a</b>
+        gain 
+        <b>sh</b>
+        ell 
+       </i>
+       —a pun on the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+        (sh), which was an early, important Unix shell.  The Bourne shell was the shell distributed with 
+       <a class="mw-redirect" href="#" title="Version 7">Version 7</a>
+        Unix, circa 1978.  The original Bourne shell was written by 
+       <a class="mw-disambig" href="#" title="Stephen Bourne">Stephen Bourne</a>
+       , then a researcher at 
+       <a href="#" title="Bell Labs">Bell Labs</a>
+       .  The Bash shell was written in 1987 by 
+       <a class="mw-disambig" href="#" title="Brian Fox">Brian Fox</a>
+       .  In 1990, 
+       <a class="new" href="#" title="Chet Ramey (page does not exist)">Chet Ramey</a>
+        became the primary maintainer.  Bash is the default shell on most 
+       <a href="#" title="Linux">Linux</a>
+        systems as well as on 
+       <a class="mw-redirect" href="#" title="Mac OS X v10.4">Mac OS X Tiger</a>
+       , and it can be run on most 
+       <a href="#" title="Unix-like">Unix-like</a>
+        operating systems.  It has also been ported to 
+       <a href="#" title="Microsoft Windows">Microsoft Windows</a>
+        by the 
+       <a href="#" title="Cygwin">Cygwin project</a>
+       .
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=9076063" target="_blank">2004</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">19048 characters</p>
+      <p style="padding: 0px; margin: 0px; ">7 sections</p>
+      <p style="padding: 0px; margin: 0px; ">29 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">29 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">9 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=9076063#Bash_syntax_highlights" target="_blank">1. Bash syntax highlights</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=9076063#Bash_startup_scripts" target="_blank">2. Bash startup scripts</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=9076063#External_links" target="_blank">3. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.694</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.425</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.313</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sh
+       <span style="color: #bababa; font-size: 12px">0.168</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       login
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       posix
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       startup
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       quoted
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       command
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       option
+       <span style="color: #bababa; font-size: 12px">0.092</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       commands
+       <span style="color: #bababa; font-size: 12px">0.092</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       executes
+       <span style="color: #bababa; font-size: 12px">0.086</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       invoked
+       <span style="color: #bababa; font-size: 12px">0.080</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       dollar
+       <span style="color: #bababa; font-size: 12px">0.078</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bashrc
+       <span style="color: #bababa; font-size: 12px">0.078</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Unix shell">UNIX command shell</a>
+        written for the 
+       <a href="#" title="GNU">GNU project</a>
+       .  Its name is an acronym for 
+       <i>
+         
+        <b>B</b>
+        ourne-
+        <b>a</b>
+        gain 
+        <b>sh</b>
+        ell 
+       </i>
+        — a pun on the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+        (sh), which was an early, important UNIX shell.  The Bourne shell was the shell distributed with 
+       <a class="mw-redirect" href="#" title="Version 7">Version 7</a>
+        UNIX, circa 1978.  The original Bourne shell was written by 
+       <a class="mw-disambig" href="#" title="Stephen Bourne">Stephen Bourne</a>
+       , then a researcher at 
+       <a href="#" title="Bell Labs">Bell Labs</a>
+       .  The Bash shell was written in 1987 by 
+       <a class="mw-disambig" href="#" title="Brian Fox">Brian Fox</a>
+       .  In 1990, 
+       <a class="new" href="#" title="Chet Ramey (page does not exist)">Chet Ramey</a>
+        became the primary maintainer.  Bash is the default shell on most 
+       <a class="mw-redirect" href="#" title="GNU/Linux">GNU/Linux</a>
+        systems as well as on 
+       <a class="mw-redirect" href="#" title="Mac OS X">Mac OS X</a>
+        Panther, and it can be run on most 
+       <a class="mw-redirect" href="#" title="UNIX-like">UNIX-like</a>
+        operating systems.  It has also been ported to 
+       <a href="#" title="Microsoft Windows">Microsoft Windows</a>
+        by the 
+       <a href="#" title="Cygwin">Cygwin project</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=2113134" target="_blank">2003</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">3031 characters</p>
+      <p style="padding: 0px; margin: 0px; ">1 sections</p>
+      <p style="padding: 0px; margin: 0px; ">5 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">15 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">2 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=2113134#External_links" target="_blank">1. External links</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.657</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.467</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.317</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sh
+       <span style="color: #bababa; font-size: 12px">0.188</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gnu
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stephen
+       <span style="color: #bababa; font-size: 12px">0.117</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       chet
+       <span style="color: #bababa; font-size: 12px">0.117</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       csh
+       <span style="color: #bababa; font-size: 12px">0.117</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ksh
+       <span style="color: #bababa; font-size: 12px">0.117</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ramey
+       <span style="color: #bababa; font-size: 12px">0.117</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unix
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ftp
+       <span style="color: #bababa; font-size: 12px">0.094</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cygwin
+       <span style="color: #bababa; font-size: 12px">0.094</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fox
+       <span style="color: #bababa; font-size: 12px">0.094</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       command
+       <span style="color: #bababa; font-size: 12px">0.087</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <tt>
+        <b>bash</b>
+       </tt>
+        is a 
+       <a href="#" title="Unix shell">Unix command shell</a>
+        written for the 
+       <a href="#" title="GNU">GNU project</a>
+       . Its name is an acronym for &quot;
+       <b>
+        <i>B</i>
+        ourne-
+        <i>a</i>
+        gain 
+        <i>sh</i>
+        ell
+       </b>
+       &quot;: a pun on the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+        
+       <i>sh</i>
+       , which was the original Unix shell. The Bash command syntax is largely backward-compatible with sh, and includes ideas drawn from 
+       <a class="mw-redirect" href="#" title="Korn shell">ksh</a>
+        and 
+       <a class="mw-redirect" href="#" title="C Shell">csh</a>
+       , such as the command history, the directory stack,  the $RANDOM variable, and the 
+       <a href="#" title="POSIX">POSIX</a>
+        form of command substitution, '$('.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=840555" target="_blank">2002</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">2537 characters</p>
+      <p style="padding: 0px; margin: 0px; ">1 sections</p>
+      <p style="padding: 0px; margin: 0px; ">4 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">13 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">1 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=840555#External_link" target="_blank">1. External link</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.541</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.537</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.365</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sh
+       <span style="color: #bababa; font-size: 12px">0.216</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gnu
+       <span style="color: #bababa; font-size: 12px">0.162</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stephen
+       <span style="color: #bababa; font-size: 12px">0.134</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       chet
+       <span style="color: #bababa; font-size: 12px">0.134</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       csh
+       <span style="color: #bababa; font-size: 12px">0.134</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ksh
+       <span style="color: #bababa; font-size: 12px">0.134</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ramey
+       <span style="color: #bababa; font-size: 12px">0.134</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       unix
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       ftp
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       cygwin
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       fox
+       <span style="color: #bababa; font-size: 12px">0.108</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       download
+       <span style="color: #bababa; font-size: 12px">0.093</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a 
+       <a href="#" title="Unix shell">Unix command shell</a>
+        written for the 
+       <a href="#" title="GNU">GNU project</a>
+       . Its name is an acronym for &quot;Bourne-Again SHell&quot;: a pun on the 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+        
+       <i>sh</i>
+       , which was the original Unix shell. The Bash command syntax is largely backward-compatible with sh, and includes ideas drawn from 
+       <a class="mw-redirect" href="#" title="Korn shell">ksh</a>
+        and 
+       <a class="mw-redirect" href="#" title="C Shell">csh</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&amp;oldid=436298086" target="_blank">2001</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">1575 characters</p>
+      <p style="padding: 0px; margin: 0px; ">0 sections</p>
+      <p style="padding: 0px; margin: 0px; ">4 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">6 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">1 external links</p>
+     </td>
+     <td style="width: 25%;"/>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       bourne
+       <span style="color: #bababa; font-size: 12px">0.703</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shell
+       <span style="color: #bababa; font-size: 12px">0.477</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       bash
+       <span style="color: #bababa; font-size: 12px">0.283</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       korn
+       <span style="color: #bababa; font-size: 12px">0.176</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       incorporates
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       links
+       <span style="color: #bababa; font-size: 12px">0.141</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       utilities
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shells
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       remaining
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stands
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pun
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       author
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       steve
+       <span style="color: #bababa; font-size: 12px">0.107</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gnu
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       distribution
+       <span style="color: #bababa; font-size: 12px">0.062</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Bash</b>
+        is a  
+       <a href="#" title="GNU">GNU</a>
+        
+       <a href="#" title="Unix shell">Unix shell</a>
+       , made popular by distribution with 
+       <a href="#" title="Linux">Linux</a>
+       .  Like many GNU utilities the name is a pun; it stands for Bourne-Again Shell, 
+       <a class="mw-redirect" href="#" title="Steve Bourne">Steve Bourne</a>
+        being the author of the original shell, 
+       <a href="#" title="Bourne shell">Bourne shell</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>
